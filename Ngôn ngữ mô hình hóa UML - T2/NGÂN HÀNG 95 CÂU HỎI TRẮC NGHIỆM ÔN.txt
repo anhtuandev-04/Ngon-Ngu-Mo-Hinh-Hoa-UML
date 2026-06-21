@@ -1,0 +1,576 @@
+NGÂN HÀNG 95 CÂU HỎI TRẮC NGHIỆM ÔN TẬP UML (DẠNG TEXT)
+Câu 1. UML là gì và nó có vai trò gì trong việc mô hình hóa các hệ thống thông tin?
+A. Là một quy trình phát triển phần mềm tuần tự giúp tự động hóa quá trình viết mã nguồn ứng dụng dựa trên các văn bản thô.
+B. Là một hệ quản trị cơ sở dữ liệu quan hệ mạnh mẽ giúp tối ưu hóa dung lượng lưu trữ của toàn bộ hệ thống máy chủ doanh nghiệp.
+*C. Là một ngôn ngữ mô hình hóa đa mục đích dùng để làm nổi bật các khía cạnh cốt lõi và loại bỏ chi tiết không liên quan của hệ thống.
+D. Là một công cụ lập trình giao diện trực quan cho phép người dùng vận hành phần mềm trực tiếp mà không cần cài đặt trình biên dịch.
+
+Câu 2. UML là viết tắt của cụm từ nào và có ý nghĩa như thế nào đối với quá trình phát triển phần mềm?
+A. Universal Model Line; đóng vai trò như một môi trường thực thi giúp tích hợp mã nguồn của nhiều ngôn ngữ lập trình hướng đối tượng.
+B. Unique Modern Architecture; giúp rút ngắn thời gian kiểm thử tự động bằng cách tự sinh ra các kịch bản kiểm thử lỗi hệ thống.
+C. Unified Modular Language; dùng để cấu hình hệ thống tường lửa bảo mật và quản lý luồng di chuyển dữ liệu giữa các máy chủ dịch vụ.
+*D. Unified Modeling Language; cung cấp một ngôn ngữ chung trực quan giúp giảm thiểu sự hiểu nhầm về yêu cầu giữa các bên tham gia dự án.
+
+Câu 3. Trình bày các đặc điểm chính của UML trong việc mô hình hóa hệ thống thông tin.
+A. Chỉ tập trung vào việc thiết kế giao diện đồ họa người dùng và tối ưu hóa tốc độ thực thi các câu lệnh truy vấn cơ sở dữ liệu.
+B. Tự động hóa hoàn toàn quy trình lập trình và loại bỏ hoàn toàn sự tham gia của con người trong các giai đoạn phát triển phần mềm.
+*C. Cho phép trực quan hóa, đặc tả, xây dựng và tài liệu hóa các thành phần cấu trúc cũng như hành vi động của hệ thống phần mềm.
+D. Ràng buộc cấu hình phần cứng vật lý và định nghĩa các giao thức kết nối internet không dây end-to-end cho toàn bộ trạm máy tính.
+
+Câu 4. UML chủ yếu được sử dụng trong giai đoạn nào của quy trình phát triển phần mềm và tại sao?
+*A. Giai đoạn phân tích và thiết kế; vì ngôn ngữ tự nhiên thường mơ hồ, dễ dẫn đến hiểu sai lệch yêu cầu giữa khách hàng và nhà phát triển.
+B. Giai đoạn cài đặt mã nguồn; vì nó giúp lập trình viên kiểm tra lỗi cú pháp của các dòng lệnh trước khi tiến hành chạy chương trình.
+C. Giai đoạn kiểm th̉ thử hệ thống; vì nó cung cấp các thuật toán tự động dò tìm lỗi rò rỉ bộ nhớ đệm khi phần mềm vận hành thực tế.
+D. Giai đoạn vận hành và bảo trì; vì nó cho phép người dùng cuối tự sửa chữa các lỗi phát sinh mà không cần đến đội ngũ kỹ thuật.
+
+Câu 5. Phân biệt các loại sơ đồ trong UML, bao gồm sơ đồ về cấu trúc, hành xử và tương tác.
+A. Sơ đồ cấu trúc dùng cho khách hàng xem, sơ đồ hành xử dành cho lập trình viên code, sơ đồ tương tác dùng cho đội ngũ kiểm thử.
+B. Sơ đồ cấu trúc thể hiện khía cạnh động, sơ đồ hành xử thể hiện khía cạnh tĩnh, sơ đồ tương tác thể hiện ranh giới hệ thống vật lý.
+C. Sơ đồ cấu trúc chỉ chứa các lớp dữ liệu, sơ đồ hành xử chỉ chứa các hoạt vụ người dùng, sơ đồ tương tác chỉ mô tả các làn bơi dọc.
+*D. Sơ đồ cấu trúc thể hiện khía cạnh tĩnh, sơ đồ hành xử mô tả cách hệ thống vận hành chung, sơ đồ tương tác đặc tả luồng thông điệp.
+
+Câu 6. Mô tả sơ đồ về cấu trúc (structure diagrams) trong UML và vai trò của nó trong thiết kế hệ thống.
+A. Mô tả chuỗi tuần tự các hành động song song của quy trình; đóng vai trò định hướng trải nghiệm người dùng trên màn hình chức năng.
+B. Mô tả chu kỳ sống và sự thay đổi trạng thái của thực thể; đóng vai trò tối ưu hóa dung lượng bộ nhớ cấp phát cho hệ thống máy chủ.
+*C. Đặc tả các thành phần cấu thành hệ thống và quan hệ tĩnh giữa chúng; đóng vai trò định hình bộ khung kiến trúc vững chắc cho phần mềm.
+D. Trực quan hóa các chức năng dưới góc nhìn của tác nhân ngoài; đóng vai trò làm căn cứ để nghiệm thu sản phẩm với đối tác khách hàng.
+
+Câu 7. Sơ đồ hành xử (behavior diagrams) trong UML được sử dụng để làm gì trong quy trình phát triển phần mềm?
+A. Để tổ chức các lớp mã nguồn vào trong các gói phân tầng logic giúp tăng tính đóng gói dữ liệu cho ứng dụng.
+B. Để thiết lập sơ đồ mạng vật lý và phân bổ các thành phần phần mềm lên trên các nút phần cứng máy chủ.
+C. Để thiết kế cấu trúc lưu trữ và các khóa chính khóa ngoại trong hệ quản trị cơ sở dữ liệu quan hệ lớn.
+*D. Để mô hình hóa cách thức hệ thống vận hành, phản hồi và thay đổi trạng thái theo thời gian hoặc sự kiện.
+
+Câu 8. Trình bày các đặc điểm và ứng dụng của sơ đồ tương tác (interaction diagrams) trong UML.
+*A. Tập trung vào luồng kiểm soát và sự trao đổi thông điệp; ứng dụng để đặc tả kịch bản thực thi chi tiết của một chức năng.
+B. Tập trung vào cấu trúc dữ liệu tĩnh trừu tượng của lớp đối tượng; ứng dụng để tạo lập các bảng lưu trữ cơ sở dữ liệu.
+C. Tập trung vào quyền hạn truy cập của các tài khoản người dùng; ứng dụng để phân rã quy trình nghiệp vụ mức doanh nghiệp.
+D. Tập trung vào các ràng buộc phần cứng và môi trường chạy ứng dụng; ứng dụng để lên kịch bản kiểm thử hiệu năng phần mềm.
+
+Câu 9. Sơ đồ lớp (Class diagram) trong UML thể hiện thông tin gì về hệ thống phần mềm?
+A. Trình tự thời gian mà các thực thể đối tượng gửi và nhận các thông điệp đồng bộ trong một kịch bản sử dụng.
+B. Các trạng thái khác nhau mà một đối tượng có thể trải qua dưới tác động của các sự kiện kích hoạt từ bên ngoài.
+C. Sự phân bổ các thành phần đóng gói lên trên các nút thiết bị phần cứng vật lý khi triển khai trong thực tế.
+*D. Cấu trúc tĩnh của hệ thống bao gồm danh sách các lớp, các thuộc tính, các phương thức và mối quan hệ giữa chúng.
+
+Câu 10. Sơ đồ đối tượng (Object diagram) khác biệt như thế nào với sơ đồ lớp trong UML?
+A. Sơ đồ đối tượng thể hiện cấu trúc động của hệ thống, trong khi sơ đồ lớp thể hiện cấu trúc tĩnh trừu tượng của phần mềm.
+B. Sơ đồ đối tượng bắt buộc phải chứa các đoạn mã lệnh thực thi, trong khi sơ đồ lớp chỉ chứa các ghi chú bằng ngôn ngữ tự nhiên.
+*C. Sơ đồ đối tượng thể hiện thực thể cụ thể tại một thời điểm xác định, trong khi sơ đồ lớp thể hiện tính chất trừu tượng tổng quát.
+D. Sơ đồ đối tượng dùng để thiết kế giao diện đồ họa, trong khi sơ đồ lớp dùng để mô hình hóa mạng lưới cáp kết nối vật lý.
+
+Câu 11. Giải thích mục đích và ứng dụng của sơ đồ cấu trúc phức (Composite structure diagram) trong UML.
+A. Mục đích là phân chia quyền hạn truy cập của người dùng; ứng dụng để vẽ ranh giới giới hạn phạm vi của phần mềm lớn.
+*B. Mục đích là mô tả cấu trúc bên trong của một bộ phận phân tầng; ứng dụng để mô hình hóa cấu trúc lồng nhau phức tạp hoặc kiến trúc dịch vụ.
+C. Mục đích là tính toán thời gian phản hồi của máy chủ dịch vụ; ứng dụng để thiết kế kịch bản thử nghiệm tải cho ứng dụng web.
+D. Mục đích là quản lý việc đóng gói các file mã nguồn thành các file nén; ứng dụng để bàn giao sản phẩm phần mềm cho khách hàng.
+
+Câu 12. Mô tả ý nghĩa của sơ đồ đóng gói (Package diagram) trong UML và ứng dụng của nó trong quá trình thiết kế hệ thống.
+A. Ý nghĩa là nén các tệp tin thiết kế kỹ thuật; ứng dụng để giảm thiểu dung lượng lưu trữ trên các nền tảng điện toán đám mây công cộng.
+B. Ý nghĩa là khai báo các kiểu dữ liệu mảng phức tạp; ứng dụng để xây dựng thuật toán tìm kiếm thông tin trên các bảng dữ liệu thô.
+*C. Ý nghĩa là nhóm các phần tử mô hình thành các tập hợp logic; ứng dụng để kiểm soát sự phụ thuộc, giảm tính kết dính giữa các phân hệ.
+D. Ý nghĩa là phân chia tiến độ làm việc của lập trình viên; ứng dụng để lên lịch trình bàn giao mã nguồn theo từng giai đoạn dự án.
+
+Câu 13. Sơ đồ triển khai (Deployment diagram) trong UML có vai trò gì đối với việc mô hình hóa hệ thống?
+A. Mô tả cấu trúc phân cấp kế thừa của các lớp dữ liệu và cách chúng cấp phát các vùng nhớ đệm trong bộ nhớ máy tính.
+B. Vẽ lại giao diện đồ họa người dùng và luồng di chuyển tuần tự giữa các màn hình chức năng của ứng dụng di động.
+*C. Mô hình hóa cấu hình các nút xử lý phần cứng vật lý và sự phân bổ các thành phần phần mềm được cài đặt trên đó.
+D. Đặc tả các bước thực hiện quy trình kiểm thử tự động mức hệ thống trước khi chính thức phát hành ra thị trường.
+
+Câu 14. Nêu vai trò của sơ đồ thành tố (Component diagram) trong việc mô hình hóa các thành phần hệ thống.
+*A. Trực quan hóa việc tổ chức và sự phụ thuộc giữa các khối phần mềm đóng gói độc lập, có khả năng thay thế được tại runtime.
+B. Định nghĩa danh sách các thuộc tính dữ liệu cùng kiểu dữ liệu tương ứng của từng bảng thực thể trong hệ quản trị quan hệ.
+C. Theo dõi chuỗi tương tác theo thời gian của các biến thành viên nhằm phát hiện các điểm nghẽn hiệu năng của mã nguồn.
+D. Xác định quyền truy cập và các thao tác chỉnh sửa dữ liệu của từng nhóm tài khoản nhân viên trong tổ chức doanh nghiệp.
+
+Câu 15. Sơ đồ hoạt vụ (Use case diagram) được sử dụng để làm gì trong UML?
+A. Thiết kế chi tiết các thuật toán xử lý logic phức tạp nằm bên trong các phương thức private của một lớp trừu tượng.
+B. Quy định cấu hình mạng nội bộ và các giao thức bảo mật an toàn truyền tải dữ liệu giữa các máy chủ dịch vụ doanh nghiệp.
+*C. Xác định các chức năng của hệ thống dưới góc nhìn của người dùng và các thực thể tương tác bên ngoài biên phần mềm.
+D. Mô tả sự di chuyển của dòng chảy dữ liệu thô qua các tiến trình xử lý của một chương trình máy tính truyền thống.
+
+Câu 16. Sơ đồ trạng thái (State diagram) giúp mô tả những khía cạnh nào trong quá trình phát triển phần mềm?
+A. Cấu trúc tổ chức thư mục của dự án và sự phụ thuộc lẫn nhau giữa các file mã nguồn khi tiến hành biên dịch ứng dụng.
+B. Tổng số lượng tài khoản người dùng đang truy cập trực tuyến vào phần mềm và trạng thái kết nối mạng của máy chủ trung tâm.
+*C. Chu kỳ sống của một đối tượng phụ thuộc hành vi, bao gồm các trạng thái và các sự kiện làm chuyển đổi giữa các trạng thái đó.
+D. Các ràng buộc phi chức năng liên quan đến độ an toàn bảo mật và thời gian phản hồi tối đa của các hàm chức năng phần mềm.
+
+Câu 17. Trình bày chức năng và ứng dụng của sơ đồ hoạt động (Activity Diagram) trong UML.
+*A. Chức năng mô tả dòng chảy kiểm soát của các hành động; ứng dụng để mô hình hóa quy trình nghiệp vụ hoặc thuật toán phức tạp.
+B. Chức năng khai báo các lớp đối tượng cấu trúc; ứng dụng để thiết lập các bảng dữ liệu cho hệ quản trị cơ sở dữ liệu quan hệ.
+C. Chức năng theo dõi các thông điệp truyền đi theo trục thời gian; ứng dụng để kiểm tra lỗi gọi hàm giữa các phân hệ phần mềm.
+D. Chức năng phân chia các file mã nguồn thành các thư mục quản lý; ứng dụng để phân công công việc cho các thành viên trong nhóm.
+
+Câu 18. Sơ đồ tổng thể về tương tác (Interaction overview diagram) có đặc điểm và ứng dụng gì trong UML?
+A. Đặc điểm là tập trung vào các công thức toán học; ứng dụng để thay thế sơ đồ lớp trong việc thiết kế cơ sở dữ liệu quan hệ.
+*B. Đặc điểm là sự kết hợp giữa sơ đồ hoạt động và sơ đồ tuần tự; ứng dụng để cung cấp cái nhìn tổng quan mức cao về luồng tương tác.
+C. Đặc điểm là khai báo cấu trúc bộ nhớ đệm máy tính; ứng dụng để theo dõi tiến độ viết code hằng ngày của nhóm lập trình viên.
+D. Đặc điểm là đóng gói các hoạt vụ vào thư mục; ứng dụng để phân chia quyền hạn truy cập giao diện đồ họa cho người dùng cuối.
+
+Câu 19. Sơ đồ truyền thông (Communication diagram) thể hiện điều gì trong một hệ thống phần mềm?
+*A. Mối quan hệ cấu trúc giữa các đối tượng tham gia tương tác và thứ tự tuần tự được đánh số của các thông điệp.
+B. Kiến trúc vật lý của hệ thống cáp truyền tải dữ liệu và vị trí đặt các thiết bị phát sóng mạng wifi trong công ty.
+C. Danh sách các kênh quảng cáo tiếp thị được tích hợp vào mã nguồn để gửi thông báo tự động cho khách hàng trực tuyến.
+D. Sự phân rã của các lớp dữ liệu tĩnh từ mức trừu tượng cao nhất xuống mức cài đặt mã lệnh chi tiết của lập trình viên.
+
+Câu 20. Sơ đồ thời gian (Timing diagram) được sử dụng để làm gì trong quá trình mô hình hóa hệ thống?
+A. Để lên lịch trình, tính toán tổng số ngày và phân chia tài chính cần thiết để hoàn thành toàn bộ dự án phần mềm.
+B. Để đo lường tốc độ xử lý câu lệnh và thời gian click chuột của người dùng khi thao tác với các chức năng trên màn hình.
+*C. Để chỉ ra chính xác thời gian và các điều kiện thay đổi trạng thái của các đối tượng thực thể theo một trục thời gian thực.
+D. Để thiết lập lịch trình sao lưu cơ sở dữ liệu tự động cho các máy chủ lưu trữ trung tâm của doanh nghiệp vào cuối ngày.
+
+Câu 21. Mô tả sự khác biệt giữa sơ đồ thể hiện khía cạnh tĩnh và động của hệ thống trong UML.
+A. Sơ đồ tĩnh dành cho lập trình viên xem để viết mã nguồn, sơ đồ động dành cho khách hàng phê duyệt kịch bản chức năng giao diện.
+B. Sơ đồ tĩnh bắt buộc phải vẽ bằng phần mềm cài đặt riêng, sơ đồ động chỉ được phép vẽ bằng các công cụ trực tuyến trên web.
+*C. Sơ đồ tĩnh mô tả cấu trúc và các thành phần cấu thành cố định, sơ đồ động mô tả sự thay đổi và tương tác theo thời gian.
+D. Sơ đồ tĩnh tập trung vào các kết nối thiết bị phần cứng, sơ đồ động tập trung vào việc tổ chức các tệp tin cơ sở dữ liệu lớn.
+
+Câu 22. Sơ đồ nào trong UML được sử dụng để thể hiện cấu trúc tĩnh của hệ thống, và tại sao?
+*A. Sơ đồ lớp (Class Diagram); vì nó định nghĩa các khuôn mẫu dữ liệu trừu tượng và các mối quan hệ sở hữu cố định bền vững.
+B. Sơ đồ tuần tự (Sequence Diagram); vì nó chỉ ra chính xác trình tự thời gian gọi hàm giữa các đối tượng khi hệ thống vận hành.
+C. Sơ đồ hoạt động (Activity Diagram); vì nó giúp phân rã các quy trình nghiệp vụ phức tạp thành các hành động chạy song song.
+D. Sơ đồ trạng thái (State Diagram); vì nó tự động lưu trữ toàn bộ các thông tin lịch sử thay đổi dữ liệu vào cơ sở dữ liệu quan hệ.
+
+Câu 23. Giải thích sự khác biệt giữa các sơ đồ về cấu trúc (structure diagrams) và sơ đồ về hành xử (behavior diagrams).
+A. Sơ đồ cấu trúc chỉ hiển thị các bảng dữ liệu, sơ đồ hành xử hiển thị luồng di chuyển dữ liệu qua các phòng ban doanh nghiệp.
+B. Sơ đồ cấu trúc dùng cho giai đoạn kiểm thử, sơ đồ hành xử dùng cho giai đoạn bàn giao sản phẩm mã nguồn cho phía khách hàng.
+*C. Sơ đồ cấu trúc đặc tả khía cạnh tĩnh và bộ khung hệ thống, sơ đồ hành xử mô hình hóa khía cạnh động và cách thức vận hành.
+D. Sơ đồ cấu trúc yêu cầu vẽ bằng nét đứt kèm từ khóa chữ, sơ đồ hành xử bắt buộc sử dụng các đường thẳng nét liền không mũi tên.
+
+Câu 24. Khi nào trong quy trình phát triển phần mềm ta sử dụng các sơ đồ tương tác (interaction diagrams) trong UML?
+*A. Giai đoạn thiết kế chi tiết; khi cần làm rõ luồng thông điệp chi tiết và thứ tự gọi hàm giữa các đối tượng trong kịch bản chức năng.
+B. Giai đoạn thu thập yêu cầu; khi bắt đầu tiếp cận khách hàng để ghi nhận các thông tin nghiệp vụ sơ khai nhất dưới dạng văn bản.
+C. Giai đoạn triển khai hạ tầng; khi cần đóng gói các tệp tin mã nguồn thành các thư mục độc lập để cài đặt lên trên hệ thống máy chủ.
+D. Giai đoạn kiểm thử hiệu năng; khi cần thiết lập các quy tắc ràng buộc toán học logic cho toàn bộ thực thể trong hệ quản trị quan hệ.
+
+Câu 25. Để mô hình hóa hành vi của hệ thống trong UML, ta sử dụng những loại sơ đồ nào và chúng có vai trò gì trong thiết kế phần mềm?
+A. Sơ đồ thực thể mối quan hệ, sơ đồ dòng dữ liệu; vai trò phân chia quyền hạn truy cập của các tài khoản người dùng cuối cùng.
+*B. Sơ đồ use case, hoạt động, trạng thái, tương tác; vai trò mô tả cách thức hệ thống vận hành, phản hồi và thực thi kịch bản động.
+C. Sơ đồ lớp, đóng gói, thành phần, cấu trúc phức; vai trò định hình bộ khung cấu trúc dữ liệu tĩnh và tổ chức các thư mục mã nguồn.
+D. Sơ đồ giao diện, kịch bản lỗi, cấu hình mạng; vai trò xác định các ràng buộc phần cứng và đo lường thời gian phản hồi máy chủ.
+
+Câu 26. Trong sơ đồ UC, mối quan hệ tổng quát hóa giữa các tác nhân được định nghĩa bằng từ nào? Giải thích mối quan hệ này có ý nghĩa gì trong quá trình phân tích hệ thống?
+A. <<include>>; có ý nghĩa bắt buộc tác nhân này phải gọi tác nhân kia hỗ trợ giải quyết công việc khi hệ thống gặp lỗi phần cứng.
+B. <<extend>>; có ý nghĩa cho phép tác nhân con tùy chọn thực hiện chức năng nâng cao của tác nhân cha khi thỏa mãn điều kiện mạng.
+*C. Không dùng từ khóa (vẽ bằng mũi tên tam giác rỗng); có ý nghĩa cho phép tác nhân con thừa kế toàn bộ quyền và use case của tác nhân cha.
+D. <<use>>; có ý nghĩa ràng buộc hai tác nhân phải cùng tham gia đăng nhập vào phần mềm tại cùng một thời điểm chạy thực tế.
+
+Câu 27. Khi sử dụng sơ đồ hoạt vụ để xác định số lượng chức năng của hệ thống, nhân viên kiểm thử phần mềm sẽ dựa vào yếu tố nào? Hãy giải thích cách sử dụng sơ đồ hoạt vụ trong kiểm thử phần mềm.
+*A. Dựa vào số lượng các use case; cách sử dụng là làm căn cứ tổng quan mức cao để thiết kế phạm vi các kịch bản kiểm thử hệ thống.
+B. Dựa vào số lượng các đường ranh giới hệ thống; cách sử dụng là để tự động kiểm tra lỗi cú pháp của các dòng mã lệnh lập trình.
+C. Dựa vào số lượng các tác nhân phụ; cách sử dụng là nhằm mục đích tính toán dung lượng bộ nhớ đệm tối đa cần cấp phát cho ứng dụng.
+D. Dựa vào số lượng mũi tên kế thừa giữa các tác nhân; cách sử dụng là nhằm định cấu hình hệ thống tường lửa bảo mật cho máy chủ.
+
+Câu 28. Trường hợp sử dụng có thể có nhiều tác nhân, nhưng liệu một tác nhân có thể chỉ tác động đến một trường hợp sử dụng duy nhất không? Giải thích lý do.
+*A. Có thể; vì trong thực tế, vai trò của tác nhân đó có thể chỉ chịu trách nhiệm kích hoạt hoặc nhận kết quả từ một chức năng đặc thù duy nhất.
+B. Có thể; nhưng đây là một lỗi thiết kế nghiêm trọng vì quy chuẩn UML bắt buộc một tác nhân phải kết nối với tất cả các use case có trong sơ đồ.
+C. Không thể; vì kiến trúc hướng đối tượng quy định một tác nhân đơn lẻ sẽ làm hệ thống bị ngắt quãng dòng kiểm soát và gây lỗi thực thi mã nguồn.
+D. Không thể; vì mọi tác nhân xuất hiện trong sơ đồ bắt buộc phải tham gia tương tác tối thiểu vào hai trường hợp sử dụng trở lên để hệ thống cân bằng.
+
+Câu 29. Mô tả bằng văn bản các trường hợp sử dụng trong sơ đồ hoạt vụ bao gồm mấy phần? Giải thích chi tiết các phần này.
+A. Gồm 2 phần chính; phần 1 chứa tên của trường hợp sử dụng và phần 2 chứa danh sách các lập trình viên chịu trách nhiệm viết mã nguồn cho hàm.
+B. Gồm 15 phần chi tiết; tập trung vào việc khai báo cấu trúc các biến toàn cục, giao diện đồ họa, thuật toán xử lý dữ liệu và cấu hình máy chủ.
+C. Gồm 5 phần cố định; chỉ chứa các công thức toán học logic lồng nhau và các sơ đồ dòng chảy dữ liệu của các phòng ban trong tổ chức công ty.
+*D. Gồm nhiều phần cốt lõi; bao gồm tên, tác nhân, tiền điều kiện, hậu điều kiện, luồng sự kiện chính mô tả bước đi và các luồng sự kiện rẽ nhánh.
+
+Câu 30. Hãy liệt kê các phần chính trong mô tả bằng văn bản của một trường hợp sử dụng và giải thích ý nghĩa của từng phần.
+*A. Tên, Tác nhân, Tiền/Hậu điều kiện, Luồng sự kiện; ý nghĩa làm rõ bối cảnh, điều kiện ràng buộc và kịch bản tương tác chi tiết của chức năng.
+B. Tên lớp, Thuộc tính, Phương thức; ý nghĩa định hình cấu trúc lưu trữ dữ liệu trừu tượng và các mối quan hệ tĩnh của toàn bộ phân hệ phần mềm.
+C. Nút khởi đầu, Hành động, Nút quyết định, Làn bơi; ý nghĩa trực quan hóa dòng chảy tuần tự của tiến trình nghiệp vụ mức tổ chức doanh nghiệp.
+D. Đường đời, Thanh kích hoạt, Thông điệp đồng bộ; ý nghĩa theo dõi trình tự thời gian và lời gọi hàm thực tế giữa các thực thể đối tượng hệ thống.
+
+Câu 31. "Ràng buộc phi chức năng" được mô tả trong phần nào của một trường hợp sử dụng? Hãy giải thích ý nghĩa của khái niệm này trong thiết kế phần mềm.
+A. Được viết trực tiếp vào bên trong ô hình oval của use case; ý nghĩa quy định màu sắc hiển thị và vị trí đặt các nút bấm trên giao diện phần mềm.
+B. Khai báo ngay trong phần đặt tên của tác nhân chính; ý nghĩa xác định cấu hình bộ nhớ tối thiểu cần thiết để cài đặt ứng dụng lên máy trạm.
+*C. Được đặt ở một mục riêng hoặc cuối tài liệu đặc tả; ý nghĩa xác định các yêu cầu về hiệu năng, độ an toàn bảo mật và tính sẵn sàng của hệ thống.
+D. Chèn vào giữa các bước của luồng sự kiện chính dưới dạng ghi chú; ý nghĩa hướng dẫn lập trình viên cách tối ưu hóa thuật toán tìm kiếm dữ liệu.
+
+Câu 32. "Ràng giao diện người - máy" thuộc phần nào trong mô tả các trường hợp sử dụng? Giải thích lý do tại sao phần này quan trọng.
+*A. Thuộc phần ràng buộc đặc biệt hoặc phụ lục đi kèm; quan trọng vì đảm bảo phần mềm xây dựng đúng trải nghiệm và thói quen thao tác của người dùng.
+B. Thuộc phần tiền điều kiện bắt buộc của chức năng; quan trọng vì giúp hệ thống tự động biên dịch mã nguồn nhanh hơn mà không xảy ra lỗi cú pháp.
+C. Thuộc phần luồng rẽ nhánh xử lý ngoại lệ kịch bản lỗi; quan trọng vì giúp chuyên gia mạng cấu hình chính xác hệ thống tường lửa bảo mật máy chủ.
+D. Thuộc phần đặt tên của thực thể tác nhân tham gia; quan trọng vì giúp giảm dung lượng của tệp tin khi tiến hành đóng gói cài đặt ứng dụng.
+
+Câu 33. Mô tả quy trình đóng gói các trường hợp sử dụng trong UML và nêu rõ lý do vì sao cần đóng gói các trường hợp sử dụng.
+A. Quy trình là kết nối tất cả các use case thành một chuỗi vòng lặp bằng nét đứt; lý do vì bắt buộc lập trình viên phải viết code vào một tệp duy nhất.
+*B. Quy trình là sử dụng ký hiệu Gói (Package) để nhóm các use case liên quan; lý do vì giúp giảm độ phức tạp của sơ đồ tổng thể và dễ quản lý dự án.
+C. Quy trình là vẽ một hình oval thật lớn chứa toàn bộ tác nhân và chức năng; lý do vì giúp hệ thống máy tính tự động dịch sơ đồ thành mã nguồn nhanh hơn.
+D. Quy trình là biến đổi tất cả hình oval thành hình chữ nhật ba phần giống sơ đồ lớp; lý do vì để che giấu các chức năng bảo mật với khách hàng ngoài.
+
+Câu 34. Mô tả một sơ đồ hoạt vụ và giải thích cách sử dụng nó trong việc phân tích các chức năng hệ thống.
+*A. Là sơ đồ gồm tác nhân, use case, mối quan hệ và ranh giới hệ thống; cách sử dụng là cung cấp cái nhìn tổng quan không phụ thuộc công nghệ về chức năng.
+B. Là chuỗi các hình hộp bo góc thể hiện hành động song song phân chia bằng làn bơi; cách sử dụng là định nghĩa chi tiết kiểu dữ liệu của các thực thể.
+C. Là tập hợp các bảng dữ liệu có sẵn các chỉ mục tối ưu hiệu năng; cách sử dụng là làm căn cứ thiết lập sơ đồ mạng vật lý kết nối các máy trạm.
+D. Là sơ đồ mô tả cấu trúc bộ nhớ và vòng đời sống của một biến thành viên; cách sử dụng là làm rõ thuật toán xử lý dữ liệu thô bên trong chương trình.
+
+--- PAGE 3 ---\n\nTại sao chúng ta cần Mô hình hóa?\n\n• Bước đầu tiên và quan trọng nhất trong phát triển phần mềm là làm rõ và\n hiểu chính xác các yêu cầu của khách hàng đối với hệ thống.\n\nGiao tiếp bằng ngôn ngữ tự nhiên thường thiếu chính xác, mơ hồ và dễ dẫn\n đến hiểu nhầm giữa các bên (ví dụ: giữa nhà khoa học máy tính và nhà quản\n lý kinh doanh).\n\nĐể giải quyết vấn đề này, chúng ta cần tạo ra một mô hình để làm nổi bật\n các khía cạnh quan trọng của phần mềm một cách rõ ràng và loại bỏ các chi\n tiết không liên quan.\n\nUML là một ngôn ngữ mô hình hóa đa mục đích được thiết kế để phục vụ\n mục tiêu này.
+
+Câu 35. Hãy giải thích khái niệm "Package" trong UML và cách các phần tử của hệ thống được tổ chức bên trong nó.
+A. Là một tệp tin nén chứa mã nguồn chương trình; các phần tử được sắp xếp hoàn toàn ngẫu nhiên và hệ thống tự phân loại khi tiến hành chạy phần mềm.
+*B. Là một cơ chế đa mục đích dùng để tổ chức các phần tử mô hình; các phần tử liên quan chặt chẽ về chức năng được gom vào nhóm để tăng tính đóng gói.
+C. Là một thiết bị phần cứng vật lý có nhiệm vụ sao lưu dữ liệu; các phần tử được đặt tên giống hệt nhau và chỉ khác chỉ số tăng dần ở cuối tên.
+D. Là một kiểu dữ liệu mảng dùng để khai báo biến; các phần tử bắt buộc phải cùng kiểu sơ đồ và tuyệt đối không được có liên kết phụ thuộc ra ngoài.
+
+Câu 36. Một use case có thể có tên như thế nào? Cho ví dụ và giải thích vì sao chọn tên đó.
+A. Đặt tên bằng một danh từ chỉ thực thể; ví dụ NhanVienBanHang; chọn vì nó giúp phản ánh chính xác vai trò của người điều hành phần mềm trên sơ đồ.
+B. Đặt bằng mã lệnh viết liền không khoảng trắng; ví dụ checkLoginSystem(); chọn vì giúp lập trình viên viết code nhanh hơn không cần biên dịch lại.
+*C. Bắt đầu bằng động từ mạnh đi kèm cụm danh từ; ví dụ CapNhatThongTinKhachHang; chọn vì thể hiện rõ ràng hành động và mục tiêu mà hoạt vụ hướng tới.
+D. Đặt theo số thứ tự ngẫu nhiên hệ thống tự sinh; ví dụ UseCase_01; chọn vì giúp giảm thiểu dung lượng lưu trữ của tệp tin thiết kế kỹ thuật nâng cao.
+
+Câu 37. Trong sơ đồ hoạt vụ, ký hiệu nào dùng để biểu diễn tác nhân? Giải thích vai trò của tác nhân trong sơ đồ này.
+*A. Ký hiệu hình người (Stickman); vai trò đại diện cho một vai trò bên ngoài kích hoạt luồng xử lý hoặc nhận kết quả đầu ra trực tiếp từ hệ thống.
+B. Ký hiệu hình chữ nhật ba phần; vai trò lưu trữ toàn bộ thông tin tài khoản đăng nhập và mật khẩu đã được mã hóa an toàn của người dùng cuối cùng.
+C. Ký hiệu hình oval có chứa văn bản; vai trò hiển thị giao diện đồ họa người dùng và luồng di chuyển giữa các màn hình chức năng trên máy trạm.
+D. Ký hiệu hình thoi rỗng; vai trò thực hiện việc kiểm th̉ thử các chức năng phần mềm trước khi tiến hành bàn giao sản phẩm cho khách hàng đối tác.
+
+Câu 38. Trình bày ý nghĩa của các ký hiệu trong sơ đồ hoạt vụ và phân tích sự khác biệt giữa các ký hiệu này.
+A. Hình tròn đặc biểu thị điểm khởi đầu tiến trình, hình chữ nhật bo góc biểu thị thuật toán xử lý; khác biệt ở cách thức phân chia các làn bơi dọc.
+B. Hình hộp chữ nhật mô tả lớp cấu trúc tĩnh, đường thẳng nét liền có mũi tên tam giác mô tả kế thừa; khác biệt ở phạm vi truy cập biến dữ liệu.
+*C. Hình người là tác nhân, hình oval là use case, hình chữ nhật là ranh giới; khác biệt ở vai trò đại diện cho thành phần trong hay ngoài hệ thống.
+D. Đường đời biểu diễn thời gian sống, thanh kích hoạt mô tả lời gọi hàm, mũi tên nét đứt biểu thị phản hồi; khác biệt ở hướng di chuyển thông điệp.
+
+Câu 39. Giải thích sự khác biệt giữa các mối quan hệ bao hàm, mở rộng và tổng quát hóa trong sơ đồ UC.
+A. Bao hàm dùng giữa các tác nhân con người, mở rộng dùng giữa các use case độc lập, tổng quát hóa bắt buộc phải đi kèm từ khóa điều kiện ràng buộc.
+B. Bao hàm là quan hệ tùy chọn, mở rộng là quan hệ bắt buộc thực hiện trong mọi kịch bản, tổng quát hóa hướng đầu mũi tên về phía tác nhân phụ.
+*C. Bao hàm là bắt buộc chạy, mở rộng là tùy chọn theo điều kiện cụ thể, tổng quát hóa thể hiện sự phân cấp thừa kế tính chất giữa các phần tử.
+D. Bao hàm hướng mũi tên về phía use case mở rộng, mở rộng hướng mũi tên về tác nhân chính, tổng quát hóa sử dụng toàn bộ đường thẳng nét đứt.
+
+Câu 40. Một tác nhân có thể liên quan đến một hoặc nhiều use case. Hãy giải thích khi nào một tác nhân sẽ liên quan đến nhiều use case và tại sao.
+*A. Khi vai trò thực tế của tác nhân đó có quyền thực hiện nhiều chức năng; tại vì quyền hạn nghiệp vụ của họ bao quát nhiều phân hệ trong phần mềm.
+B. Khi hệ thống yêu cầu tác nhân phải thực hiện tất cả các bước cùng lúc; tại vì để tránh hiện tượng máy chủ bị treo do ngắt quãng dòng điều khiển.
+C. Khi lập trình viên gộp toàn bộ mã nguồn vào một lớp duy nhất; tại vì để tiết kiệm dung lượng bộ nhớ đệm máy tính khi tiến hành cài đặt ứng dụng.
+D. Khi tác nhân đó là tác nhân phụ nhận thông báo kịch bản lỗi; tại vì hệ thống bắt buộc phải kiểm tra tất cả các điều kiện an toàn mạng nội bộ.
+
+Câu 41. Hãy mô tả các tính chất của use case và giải thích vì sao use case là công cụ quan trọng trong phân tích yêu cầu.
+A. Tính chất chứa mã nguồn thực thi và tự sinh giao diện; quan trọng vì giúp loại bỏ hoàn toàn sự tham gia của lập trình viên trong dự án phần mềm.
+B. Tính chất định cấu hình phần cứng vật lý và đo lường băng thông mạng; quan trọng vì giúp chuyên gia mạng thiết lập hệ thống tường lửa an toàn dữ liệu.
+*C. Tính chất mô tả cái hệ thống làm và mang lại giá trị cho tác nhân; quan trọng vì giúp nắm bắt yêu cầu chức năng từ góc nhìn người dùng trực quan.
+D. Tính chất tối ưu hóa các bảng dữ liệu thô và các khóa ngoại; quan trọng vì cung cấp kịch bản kiểm thử tự động mức câu lệnh cho nhân viên kiểm thử.
+
+Câu 42. Ranh giới hệ thống trong sơ đồ hoạt vụ được mô tả bằng hình nào? Giải thích ý nghĩa của ranh giới hệ thống trong sơ đồ này.
+*A. Hình chữ nhật bao quanh các use case; ý nghĩa xác định rõ phạm vi giới hạn của phần mềm, phân định cái gì thuộc hệ thống và cái gì thuộc môi trường ngoài.
+B. Hình oval lớn bao gồm tất cả tác nhân; ý nghĩa tính toán dung lượng bộ nhớ tối đa cần thiết để lưu trữ các tệp thiết kế kỹ thuật nâng cao trên đám mây.
+C. Hình thoi rỗng có các mũi tên nét đứt hướng vào trong; ý nghĩa quy định số lượng tài khoản người dùng tối đa được phép đăng nhập tại một thời điểm chạy.
+D. Hình tròn có tâm gạch chéo nối trực tiếp với các khối; ý nghĩa phân chia quyền hạn chỉnh sửa cấu trúc sơ đồ giữa các thành viên trong nhóm phát triển.
+
+Câu 43. Các chức năng trong sơ đồ hoạt vụ được mô tả bằng hình nào? Hãy phân tích ý nghĩa của hình vẽ này trong quá trình mô hình hóa.
+A. Hình người (Stickman); ý nghĩa mô tả cấu trúc vật lý của màn hình trạm máy tính hiển thị thông tin xử lý dữ liệu cho nhân viên vận hành phần mềm.
+B. Hình chữ nhật ba thành phần; ý nghĩa đặc tả danh sách các kiểu dữ liệu nguyên thủy của thuộc tính và phương thức lưu trữ bên trong bộ nhớ máy tính.
+*C. Hình oval (Bầu dục); ý nghĩa đại diện cho một trường hợp sử dụng, một mục tiêu chức năng hoàn chỉnh mang lại giá trị đo lường được cho tác nhân.
+D. Hình hộp bo tròn bốn góc; ý nghĩa thể hiện thuật toán xử lý dữ liệu thô của các câu lệnh truy vấn thông tin trong hệ quản trị cơ sở dữ liệu lớn.
+
+Câu 44. Trình bày các mối quan hệ giữa các use case trong sơ đồ và giải thích vai trò của các mối quan hệ này trong phân tích hệ thống.
+*A. Bao hàm (<<include>>), Mở rộng (<<extend>>), Kế thừa; vai trò phân rã chức năng, tái sử dụng mô-đun và mô tả kịch bản nghiệp vụ chuẩn xác.
+B. Kết hợp (Association), Phụ thuộc (Dependency), Kết tập; vai trò định cấu hình hệ thống mạng vật lý và phân chia các làn bơi dọc cho sơ đồ hoạt động.
+C. Khóa chính, Khóa ngoại, Chỉ mục tối ưu hóa; vai trò thiết lập cấu trúc lưu trữ và tăng tốc độ xử lý thông tin cho hệ quản trị cơ sở dữ liệu quan hệ.
+D. Đồng bộ, Bất đồng bộ, Phản hồi kết quả; vai trò xác định trình tự trục thời gian gọi phương thức giữa các lớp đối tượng khi chương trình chạy thực tế.
+
+Câu 45. Sử dụng sơ đồ hoạt vụ để mô tả chuỗi các hành động giữa các tác nhân và use case. Hãy giải thích cách sơ đồ này giúp mô hình hóa hành vi của hệ thống.
+A. Bằng cách định nghĩa các biến thành viên dữ liệu và các câu lệnh kích hoạt tự động bảng; giúp tối ưu hóa dung lượng lưu trữ của máy chủ dịch vụ.
+B. Bằng cách ép buộc các tác nhân phải thực hiện tuần tự tất cả chức năng; giúp tự động tạo ra giao diện đồ họa cho ứng dụng mà không cần code.
+*C. Bằng cách vẽ các đường kết hợp biểu diễn tương tác giao tiếp hai chiều; giúp trực quan hóa phạm vi chức năng tổng thể từ góc nhìn thực tế bên ngoài.
+D. Bằng cách chèn các công thức toán học logic phức tạp vào giữa mối quan hệ nối; giúp nhân viên kiểm thử tự động sinh ra các kịch bản dò lỗi mã lệnh.
+
+Câu 46. Hãy giải thích sự khác biệt giữa các mối quan hệ include, extend và generalization trong sơ đồ use case.
+*A. Include là bắt buộc thực hiện, extend là tùy chọn theo điều kiện, generalization thể hiện sự phân cấp thừa kế quyền hạn giữa các thành phần.
+B. Include dùng giữa hai tác nhân, extend dùng giữa tác nhân và chức năng, generalization bắt buộc phải chứa các đoạn mã nguồn lập trình thực tế của hàm.
+C. Include có mũi tên hướng về tác nhân phụ, extend hướng về tác nhân chính, generalization sử dụng toàn bộ đường thẳng nét đứt có chữ kèm theo.
+D. Include là mối quan hệ tùy chọn, extend là mối quan hệ bắt buộc phải chạy trong mọi kịch bản, generalization ký hiệu bằng hình thoi rỗng ở đầu.
+
+Câu 47. Trong UML, sự đóng gói là gì? Làm thế nào đóng gói giúp tổ chức và quản lý các phần tử trong một hệ thống phần mềm?
+A. Là việc nén toàn bộ mã nguồn thành một file zip; giúp hệ thống chạy nhanh hơn nhờ bỏ qua các bước kiểm tra quyền hạn hệ điều hành của máy tính.
+B. Là việc hiển thị tất cả chi tiết thuật toán ra màn hình giao diện; giúp khách hàng dễ dàng chỉnh sửa cấu trúc của các lớp mà không cần lập trình viên.
+*C. Là việc che giấu chi tiết cài đặt và thuộc tính bên trong lớp; giúp giảm tính phụ thuộc phức tạp, tăng khả năng bảo trì và tái sử dụng mã nguồn.
+D. Là việc tự động chia sẻ toàn bộ cơ sở dữ liệu nội bộ lên môi trường internet mạng; giúp tối ưu hóa dung lượng của các tệp tin lưu trữ dự án.
+
+Câu 48. Đối tượng nào có thể đóng vai trò là tác nhân trong hệ thống? Giải thích vai trò của tác nhân trong sơ đồ use case.
+*A. Người dùng cuối, hệ thống phần mềm bên ngoài hoặc thiết bị phần cứng ngoại vi; vai trò kích hoạt luồng xử lý hoặc nhận kết quả từ phần mềm.
+B. Các biến thành viên dữ liệu kiểu chuỗi ký tự được lưu giữ cố định bên trong lớp; vai trò định nghĩa cấu trúc lưu trữ cho hệ quản trị quan hệ.
+C. Các lập trình viên tham gia trực tiếp vào việc viết mã lệnh lập trình cho dự án; vai trò kiểm thử tự động các chức năng giao diện đồ họa người dùng.
+D. Các phân hệ máy chủ dịch vụ và hệ thống cáp truyền tải thông tin mạng nội bộ; vai trò cấu hình hệ thống tường lửa bảo mật an toàn dữ liệu.
+
+Câu 49. Hãy liệt kê các thành phần trong sơ đồ hoạt vụ và giải thích chức năng của mỗi thành phần này.
+A. Tên lớp, thuộc tính dữ liệu và phương thức xử lý; chức năng định hình bộ khung kiến trúc tĩnh và mô tả kiểu dữ liệu lưu trữ bền vững của phần mềm.
+B. Đường đời sinh tuyến, thanh kích hoạt và thông điệp gửi nhận; chức năng đặc tả luồng lời gọi hàm chi tiết theo trục thời gian thực chạy chương trình.
+*C. Tác nhân, trường hợp sử dụng, quan hệ liên kết và đường biên; chức năng trực quan hóa các chức năng phần mềm dưới góc nhìn từ môi trường ngoài.
+D. Hộp trạng thái, điều kiện bảo vệ và sự kiện kích hoạt chuyển đổi; chức năng mô tả chu kỳ sống và sự thay đổi hành vi động của một thực thể cụ thể.
+
+Câu 50. Trong sơ đồ use case, mối quan hệ nào là bắt buộc và tại sao? Hãy phân tích các trường hợp sử dụng các mối quan hệ bắt buộc trong sơ đồ này.
+*A. Quan hệ <<include>>; tại vì hành vi của use case được bao hàm là một phần không thể tách rời của use case nền; sử dụng khi muốn tái sử dụng tính năng chung.
+B. Quan hệ <<extend>>; tại vì chức năng mở rộng bắt buộc phải được thực thi trong mọi hoàn cảnh kịch bản; sử dụng khi hệ thống xảy ra lỗi phần cứng mạng.
+C. Quan hệ kết hợp lỏng lẻo (Association); tại vì tác nhân bắt buộc phải bấm nút tất cả use case cùng lúc; sử dụng khi phân chia quyền hạn tài khoản.
+D. Quan hệ phụ thuộc tạm thời (Dependency); tại vì giúp tự động sinh ra giao diện đồ họa ứng dụng di động; sử dụng khi thiết kế sơ đồ cơ sở dữ liệu.
+
+Câu 51. Trong UML, bạn cần dùng ký tự nào để biểu diễn phạm vi protected cho thuộc tính và phương thức trong một lớp? Giải thích ý nghĩa của ký tự đó.
+A. Ký tự dấu gạch ngang (-); ý nghĩa chỉ cho phép các phương thức được định nghĩa nội bộ bên trong bản thân lớp chứa thuộc tính đó gọi xử lý dữ liệu.
+*B. Ký tự dấu thăng (#); ý nghĩa chỉ cho phép các phương thức bên trong lớp đó và các lớp con có quan hệ kế thừa với nó được quyền truy cập trực tiếp.
+C. Ký tự dấu cộng (+); ý nghĩa cho phép tất cả các đối tượng của các lớp khác nằm ngoài hệ thống có thể gọi thực thi tự do không cần điều kiện.
+D. Ký tự dấu gạch chéo (/); ý nghĩa biểu thị thuộc tính đó là thuộc tính dẫn xuất và giá trị luôn được tính toán tự động bằng biểu thức logic.
+
+Câu 52. Trong UML, ký hiệu nào được dùng để biểu diễn phạm vi private cho thuộc tính và phương thức của một lớp? Hãy mô tả phạm vi của các thành phần này.
+A. Ký tự dấu thăng (#); phạm vi giới hạn chỉ cho phép các phân hệ máy chủ nằm trong cùng một phòng ban vật lý của doanh nghiệp truy cập thông tin.
+B. Ký tự dấu cộng (+); phạm vi công khai rộng rãi cho phép toàn bộ các lớp con kế thừa được quyền định nghĩa lại thuật toán xử lý dữ liệu của hàm.
+*C. Ký tự dấu gạch ngang (-); phạm vi riêng tư nghiêm ngặt chỉ cho phép các phương thức khai báo bên trong chính lớp đó có quyền đọc và chỉnh sửa.
+D. Ký tự dấu ngã (~); phạm vi đóng gói nội bộ gói cho phép mảng dữ liệu tự động thay đổi kiểu dữ liệu liên tục theo trục thời gian thực chạy.
+
+Câu 53. Ký hiệu nào trong UML được sử dụng để biểu diễn phạm vi public cho thuộc tính và phương thức trong một lớp? Trình bày cách sử dụng và ý nghĩa của ký hiệu đó.
+*A. Ký tự dấu cộng (+); cách sử dụng là đặt ngay trước tên thành phần; ý nghĩa biểu thị phạm vi công khai, cho phép mọi đối tượng bên ngoài gọi sử dụng.
+B. Ký tự dấu thăng (#); cách sử dụng là đặt bên trong cặp dấu ngoặc nhọn; ý nghĩa biểu thị phạm vi bảo vệ, chỉ dành riêng cho các lớp con kế thừa cấu trúc.
+C. Ký tự dấu sao (*); cách sử dụng là đặt ở cuối tên phương thức; ý nghĩa biểu thị hàm đó sẽ tự động chạy lặp đi lặp lại vô hạn lần khi khởi động máy.
+D. Ký tự dấu hỏi (?); cách sử dụng là đặt ở vùng trên cùng của hình chữ nhật; ý nghĩa biểu thị thuộc tính đó đang bị lỗi cú pháp lập trình cần chỉnh sửa.
+
+Câu 54. Khi một thuộc tính hoặc phương thức trong UML được đánh dấu bằng ký hiệu "#", phạm vi của nó là gì? Giải thích tại sao lại có phạm vi như vậy.
+A. Phạm vi riêng tư (Private); có phạm vi như vậy nhằm che giấu hoàn toàn các thuật toán phức tạp khỏi tầm nhìn của đội ngũ phát triển phần mềm ứng dụng.
+B. Phạm vi đóng gói (Package); có phạm vi như vậy nhằm bắt buộc lập trình viên phải đặt tất cả các lớp liên quan vào trong cùng một file mã nguồn duy nhất.
+*C. Phạm vi bảo vệ (Protected); có phạm vi như vậy nhằm hỗ trợ cơ chế kế thừa, giúp lớp con mở rộng tính năng mà vẫn bảo mật dữ liệu với môi trường ngoài.
+D. Phạm vi công khai (Public); có phạm vi như vậy nhằm tự động hiển thị giá trị của biến lên trên màn hình giao diện đồ họa người dùng mà không cần lập trình.
+
+Câu 55. Nếu một thuộc tính hoặc phương thức trong UML được đánh dấu bằng ký hiệu "+", phạm vi truy cập của nó là gì? Giải thích cách sử dụng và ý nghĩa của ký hiệu này.
+*A. Phạm vi công khai (Public); sử dụng bằng cách đặt trước tên gọi; ý nghĩa cung cấp các dịch vụ, chức năng mở rộng giao tiếp cho đối tượng khác gọi đến.
+B. Phạm vi riêng tư (Private); sử dụng bằng cách viết hoa toàn bộ cụm từ; ý nghĩa ngăn chặn tuyệt đối các lớp khác không được phép tái sử dụng mã nguồn.
+C. Phạm vi bảo vệ (Protected); sử dụng bằng cách gạch chân toàn bộ cụm chữ; ý nghĩa ràng buộc giá trị của biến lưu trữ phải là hằng số cố định bền vững.
+D. Phạm vi dẫn xuất (Derived); sử dụng bằng cách chèn vào giữa danh sách tham số; ý nghĩa tự động tính toán biểu thức toán học logic khi hệ thống chạy.
+
+Câu 56. Ký hiệu "-" trong UML dùng để biểu diễn phạm vi gì cho thuộc tính và phương thức? Giải thích ý nghĩa của phạm vi đó.
+A. Phạm vi bảo vệ (Protected); ý nghĩa cho phép các thực thể phần cứng bên ngoài hệ thống có quyền chỉnh sửa cấu trúc lưu trữ của các bảng dữ liệu thô.
+B. Phạm vi công khai (Public); ý nghĩa giúp cho đội ngũ kiểm thử phần mềm tự động sinh ra các kịch bản dò lỗi mức câu lệnh truy vấn cơ sở dữ liệu quan hệ.
+*C. Phạm vi riêng tư (Private); ý nghĩa hiện thực hóa nguyên lý đóng gói, che giấu chi tiết cấu trúc bên trong đối tượng để tăng tính an toàn cho phần mềm.
+D. Phạm vi nội bộ (Package); ý nghĩa ràng buộc các phương thức bắt buộc phải được thực thi chính xác một lần duy nhất khi máy chủ khởi động hệ thống.
+
+Câu 57. Sơ đồ nào trong UML thể hiện mối quan hệ giữa các đối tượng trong hệ thống? Bạn có thể nêu các đặc điểm của sơ đồ đó không?
+A. Use Case Diagram; đặc điểm chứa các hình oval chức năng lồng chéo mối quan hệ include và extend bao quanh bởi đường ranh giới giới hạn hệ thống lớn.
+B. Activity Diagram; đặc điểm chứa các hình chữ nhật bo góc biểu diễn hành động song song được phân chia vị trí rõ ràng bằng các làn bơi dọc nghiệp vụ.
+*C. Object Diagram (Sơ đồ đối tượng); đặc điểm thể hiện các thực thể đối tượng cụ thể cùng giá trị thuộc tính thực tế của chúng tại một thời điểm chạy xác định.
+D. Deployment Diagram; đặc điểm mô hình hóa các nút xử lý phần cứng vật lý và cấu hình mạng internet cáp quang kết nối các máy trạm của doanh nghiệp.
+
+Câu 58. Trong sơ đồ UML, làm thế nào để xác định tên lớp của một lớp cụ thể từ sơ đồ? Hãy cho ví dụ minh họa.
+*A. Nhìn vào văn bản đặt ở ô (vùng) trên cùng của hình chữ nhật biểu diễn lớp; ví dụ hộp trên cùng ghi chữ KhachHang thì đó chính là tên gọi của lớp.
+B. Nhìn vào từ khóa nằm bên trong cặp dấu ngoặc nhọn gán cạnh đường mũi tên nét đứt; ví dụ <<entity>> chính là tên của lớp dữ liệu tĩnh hệ thống.
+C. Nhìn vào chuỗi ký tự được gạch chân toàn bộ và đặt ở vùng dưới cùng của hình; ví dụ + tinhTongTien() chính là tên lớp trừu tượng hướng đối tượng.
+D. Nhìn vào danh từ riêng đặt ở trung tâm của đường thẳng nét liền nối giữa hai thực thể; ví dụ từ Sở hữu chính là tên gọi của lớp con kế thừa cấu trúc.
+
+Câu 59. Cách xác định tên phương thức của một lớp trong sơ đồ UML là gì? Hãy mô tả chi tiết cách nhận diện.
+A. Nhìn vào chuỗi text có dấu gạch chéo đặt ở ô trên cùng; chi tiết nhận diện là toàn bộ cụm chữ phải được viết hoa theo quy tắc đặt tên snake_case dữ liệu.
+B. Nhìn vào danh từ chỉ thực thể nằm ở vùng giữa của hình chữ nhật; chi tiết nhận diện là nó luôn đi kèm kiểu dữ liệu nguyên thủy như String hoặc Integer.
+*C. Nhìn vào vùng dưới cùng của hình chữ nhật cấu trúc lớp; chi tiết nhận diện là chuỗi ký tự thường bắt đầu bằng động từ và luôn đi kèm cặp dấu ngoặc đơn ().
+D. Nhìn vào text nằm ngoài biên ranh giới bao quanh khối chức năng; chi tiết nhận diện là nó mô tả hành động bấm nút của người điều hành phần mềm ứng dụng.
+
+Câu 60. Phạm vi của thuộc tính trong một lớp được thể hiện như thế nào trong sơ đồ UML? Hãy giải thích rõ hơn về từng loại phạm vi.
+*A. Thể hiện bằng các ký hiệu đứng trước tên biến; giải thích rõ là + cho phép truy cập tự do, - giới hạn nội tại lớp, # hỗ trợ lớp con kế thừa dữ liệu.
+B. Thể hiện bằng màu sắc tô lên hình chữ nhật; giải thích rõ là màu đỏ biểu thị dữ liệu bí mật, màu xanh biểu thị dữ liệu công khai cho tất cả mọi người xem.
+C. Thể hiện bằng độ dày của đường biên hình hộp; giải thích rõ là biên dày đại diện cho thuộc tính tĩnh hằng số, biên mỏng đại diện cho mảng dữ liệu động biến đổi.
+D. Thể hiện bằng vị trí đặt biến ở các vùng; giải thích rõ là đặt ở vùng trên cùng là thuộc tính công khai, đặt ở vùng dưới cùng là thuộc tính riêng tư tuyệt đối.
+
+Câu 61. Tên lớp trong UML cần đáp ứng những yêu cầu gì? Hãy trình bày những quy tắc và đặc điểm cần lưu ý khi đặt tên lớp.
+A. Yêu cầu viết thường toàn bộ và dùng dấu gạch dưới; quy tắc đặt tên bằng động từ mạnh và đặc điểm lưu ý là không được chứa ký tự chữ cái viết hoa hệ thống.
+*B. Yêu cầu dùng danh từ hoặc cụm danh từ; quy tắc viết hoa chữ cái đầu của mỗi từ (PascalCase) và đặc điểm lưu ý là phản ánh đúng bản chất nhóm thực thể.
+C. Yêu cầu viết bằng mã nguồn ngôn ngữ lập trình viết liền; quy tắc camelCase và đặc điểm lưu ý là phải chứa các ký hiệu toán học số học nguyên thủy của hàm.
+D. Yêu cầu đặt theo số thứ tự do công cụ tự sinh; quy tắc tăng dần từ 1 và đặc điểm lưu ý là bắt buộc phải trùng khớp với tên gọi của tác nhân chính ngoài biên.
+
+Câu 62. UML Class Diagram thuộc kiểu kiến trúc nào? Hãy giải thích tại sao sơ đồ lớp lại thuộc vào kiến trúc đó.
+A. Khung nhìn triển khai (Deployment View); tại vì nó xác định mạng lưới cáp kết nối vật lý và cấu hình phần cứng tối thiểu để cài đặt phần mềm máy tính.
+B. Khung nhìn tiến trình (Process View); tại vì nó quản lý việc xử lý các luồng dữ liệu song song và tránh hiện tượng xung đột tài nguyên bộ nhớ đệm máy chủ.
+*C. Khung nhìn logic (Logical View); tại vì nó tập trung mô tả cấu trúc dữ liệu trừu tượng, các thực thể mô hình và mối quan hệ tĩnh bền vững của ứng dụng.
+D. Khung nhìn kịch bản (Use Case View); tại vì nó trực quan hóa toàn bộ phạm vi chức năng của hệ thống dưới góc nhìn thực tế của đối tác khách hàng ngoài.
+
+Câu 63. Tên lớp trong sơ đồ UML có thể được sử dụng như thế nào? Hãy nêu ví dụ về các tên lớp trong một hệ thống thực tế.
+*A. Sử dụng làm khuôn mẫu để khởi tạo đối tượng hoặc thiết lập bảng cơ sở dữ liệu; ví dụ các tên lớp thực tế: NhanVien, SanPham, HoaDonThanhToan.
+B. Sử dụng để đặt tên cho các nút bấm và màu sắc trên giao diện ứng dụng di động; ví dụ các tên lớp thực tế: NutBam_HuyBo, MauNen_Xanh_ManHinh.
+C. Sử dụng để khai báo tên các hàm xử lý dữ liệu thô trong chương trình mã nguồn; ví dụ các tên lớp thực tế: tinhLuong(), capNhatMatKhauHeThong().
+D. Sử dụng để định danh các thiết bị phần cứng kết nối mạng nội bộ của công ty; ví dụ các tên lớp thực tế: MayChu_LuuTruDB, ThietBi_DinhTuyen_Wifi.
+
+Câu 64. Tên phương thức trong sơ đồ UML thường sử dụng danh từ hay động từ? Hãy giải thích lý do vì sao lại chọn kiểu từ đó.
+A. Sử dụng danh từ; lý do vì phương thức đại diện cho một thuộc tính dữ liệu tĩnh lưu giữ các giá trị số học cố định bền vững bên trong bộ nhớ đệm máy tính.
+*B. Sử dụng động từ; lý do vì phương thức đại diện cho một hành động, một hành vi xử lý, một công việc hoặc một dịch vụ mà đối tượng thực hiện hệ thống.
+C. Sử dụng tính từ; lý do vì phương thức có nhiệm vụ mô tả trạng thái hiển thị màu sắc và kích thước của các khung màn hình chức năng giao diện ứng dụng.
+D. Sử dụng đại từ; lý do vì phương thức giúp cho đội ngũ kiểm th̉ thử phần mềm tự động sinh ra các kịch bản dò lỗi mã lệnh lập trình hướng đối tượng.
+
+Câu 65. Sơ đồ lớp trong UML có những thành phần nào? Trình bày chi tiết về các thành phần chính của sơ đồ lớp.
+*A. Các lớp đối tượng, các giao diện và mối quan hệ; chi tiết là các hình chữ nhật ba vùng kết nối với nhau bằng các đường liên kết dữ liệu, bản số hai đầu.
+B. Các đường đời sinh tuyến, thanh kích hoạt và mũi tên thông điệp; chi tiết là các đường thẳng đứng nét đứt biểu diễn tương tác gọi hàm theo trục thời gian.
+C. Các hộp trạng thái, điều kiện bảo vệ và sự kiện chuyển đổi; chi tiết là các khối bo góc mô tả chu kỳ sống và sự thay đổi hành vi động của một thực thể.
+D. Các làn bơi dọc, nút khởi đầu, nút quyết định hình thoi; chi tiết là mô tả dòng chảy tuần tự của các tiến trình nghiệp vụ trải qua các phòng ban tổ chức.
+
+Câu 66. Lớp trong UML có vai trò gì trong việc mô tả hệ thống? Hãy giải thích cách lớp được định nghĩa và sử dụng trong UML.
+A. Vai trò là một biến tạm thời lưu trữ dữ liệu thô; được định nghĩa bằng hình oval chức năng và sử dụng để vẽ đường ranh giới giới hạn phạm vi phần mềm.
+B. Vai trò cấu hình hệ thống tường lửa bảo mật mạng nội bộ; được định nghĩa bằng hình hộp khối và sử dụng để phân bổ các file mã nguồn lên trên máy chủ.
+*C. Vai trò làm khuôn mẫu trừu tượng; được định nghĩa bằng hình chữ nhật ba vùng (tên, thuộc tính, phương thức) và sử dụng để khởi tạo đối tượng thực tế.
+D. Vai trò đo lường thời gian xử lý lời gọi hàm; được định nghĩa bằng thanh kích hoạt đứng và sử dụng để lên kịch bản kiểm thử hiệu năng cho ứng dụng web.
+
+Câu 67. Khái niệm sơ đồ lớp đối tượng trong UML là gì? Mô tả các yếu tố cấu thành sơ đồ lớp đối tượng và ứng dụng của nó trong việc thiết kế hệ thống.
+*A. Sơ đồ kết hợp cả lớp cấu trúc lồng khuôn và thực thể thực tế; cấu thành gồm lớp trừu tượng và đối tượng có giá trị; ứng dụng để kiểm chứng thiết kế logic.
+B. Sơ đồ chuyên dùng để vẽ giao diện đồ họa người dùng di động; cấu thành gồm các mẫu màn hình, nút bấm và màu sắc; ứng dụng để lập trình ứng dụng web nhanh.
+C. Sơ đồ đặc tả cấu hình phần cứng của trạm máy tính; cấu thành gồm các thiết bị định tuyến, cáp truyền và máy chủ; ứng dụng để bảo mật an toàn dữ liệu mạng.
+D. Sơ đồ mô tả dòng chảy kiểm soát tiến trình nghiệp vụ; cấu thành gồm làn bơi dọc, nút quyết định hình thoi và hoạt động; ứng dụng để phân rã phòng ban.
+
+Câu 68. Các ràng buộc trong sơ đồ lớp UML có thể được biểu diễn như thế nào? Hãy trình bày các hình thức biểu diễn khác nhau.
+A. Biểu diễn bằng cách tô màu đỏ đậm cho toàn bộ hình chữ nhật của lớp đối tượng; hình thức khác là vẽ các mũi tên nét đứt hướng thẳng vào tác nhân phụ ngoài.
+*B. Biểu diễn bằng cách đặt văn bản mô tả quy tắc logic trong cặp dấu ngoặc nhọn { }; hình thức khác là ghi rõ công thức toán học ở phần ghi chú của sơ đồ.
+C. Biểu diễn bằng cách chèn thêm một hình oval chức năng vào giữa đường liên kết nối; hình thức khác là gạch chân toàn bộ cụm từ định danh của thuộc tính.
+D. Biểu diễn bằng cách viết các đoạn mã lệnh lập trình thực tế vào bên trong ô hiển thị phương thức; hình thức khác là sử dụng các làn bơi dọc phân chia.
+
+Câu 69. OCL trong UML là gì và có vai trò gì trong việc mô tả các ràng buộc đối tượng trong hệ thống? Hãy giải thích chi tiết về ngôn ngữ này.
+*A. Là ngôn ngữ đặc tả ràng buộc đối tượng; vai trò cung cấp biểu thức logic chính xác, không mơ hồ; chi tiết là ngôn ngữ thuần biểu thức, không đổi mô hình.
+B. Là một ngôn ngữ lập trình hướng đối tượng mới; vai trò thay thế Java hoặc C# khi viết mã nguồn; chi tiết là tự động biên dịch trực tiếp trên phần cứng máy.
+C. Là công cụ thiết kế giao diện đồ họa tự động; vai trò định nghĩa tọa độ hiển thị của các nút bấm; chi tiết là sử dụng màu sắc để phân chia quyền hạn.
+D. Là giao thức truyền tải dữ liệu không dây; vai trò cấu hình các thông số bảo mật an toàn cho máy chủ; chi tiết là mã hóa end-to-end các tệp tin lưu trữ.
+
+Câu 70. Trong UML, nếu một đối tượng A tham chiếu đến đối tượng B, thì cách diễn tả sự tham chiếu này như thế nào trong sơ đồ lớp?
+A. Diễn tả bằng một đường thẳng nét đứt có chữ kèm theo gán cạnh đầu mũi tên hình tam giác rỗng hướng thẳng về phía lớp đóng vai trò là thực thể cha.
+B. Diễn tả bằng một hình oval chức năng chứa từ khóa <<reference>> bao bọc bởi một đường ranh giới giới hạn phạm vi ranh giới của phân hệ phần mềm.
+*C. Diễn tả bằng một mối quan hệ kết hợp (Association), thể hiện dưới dạng một đường thẳng nét liền kết nối nối trực tiếp giữa hai lớp hình chữ nhật.
+D. Diễn tả bằng một đường mũi tên hình thoi đặc đặt tại vị trí của thực thể lớp B để biểu diễn mối quan hệ sở hữu kế thừa đa hình cấu trúc dữ liệu.
+
+Câu 71. Mối quan hệ giữa các đối tượng trong sơ đồ UML có thể có bản số nào? Hãy trình bày chi tiết các loại mối quan hệ với ví dụ minh họa.
+*A. Các bản số số học (0..1, 1..1, 1..*, *); chi tiết quan hệ kèm ví dụ: quan hệ ngang hàng (Bác sĩ - Bệnh nhân), quan hệ sở hữu (Đơn hàng - Chi tiết món).
+B. Các ký hiệu biến mảng động ([n], [array]); chi tiết quan hệ kèm ví dụ: quan hệ kết nối mạng phần cứng giữa máy chủ trung tâm và các thiết bị ngoại vi trạm.
+C. Các địa chỉ phân bổ vùng nhớ dạng chuỗi ký tự hexa; chi tiết quan hệ kèm ví dụ: quan hệ gọi hàm lập trình giữa giao diện người dùng và cơ sở dữ liệu thô.
+D. Các số thứ tự tự sinh tăng dần từ 1 đến vô hạn; chi tiết quan hệ kèm ví dụ: quan hệ phân chia tiến độ công việc giữa các lập trình viên viết code hằng ngày.
+
+Câu 72. Trong UML, bản số của liên kết giữa các đối tượng có thể có những giá trị nào? Giải thích ý nghĩa của các bản số đó.
+A. Giá trị [x, y] hình học; giải thích ý nghĩa là xác định tọa độ hiển thị vị trí đặt các nút bấm chức năng trên màn hình giao diện đồ họa phần mềm ứng dụng.
+B. Giá trị chuỗi ký tự đuôi .cfg; giải thích ý nghĩa là định nghĩa các kiểu dữ liệu mảng phức tạp phục vụ cho thuật toán tìm kiếm thông tin trên các bảng dữ liệu.
+*C. Giá trị cụ thể hoặc khoảng biến thiên (0..1, 1..*, *); giải thích ý nghĩa là quy định số lượng thực thể của lớp này liên kết với một thực thể lớp kia.
+D. Giá trị số dòng code tối đa MAX_LINE; giải thích ý nghĩa là giới hạn độ dài của các câu lệnh truy vấn dữ liệu thô trong hệ quản trị cơ sở dữ liệu quan hệ.
+
+Câu 73. Các loại liên kết trong sơ đồ lớp UML là gì? Hãy phân tích và giải thích các loại liên kết với ví dụ cụ thể.
+*A. Association, Dependency, Aggregation, Composition; phân tích giải thích: Association ngang hàng (Sách - Tác giả), Composition sinh tử (Cơ thể - Con tim).
+B. Include, Extend, Generalization, Realization; phân tích giải thích: Include là bắt buộc gọi chức năng chung (Đăng nhập), Extend là chức năng tùy chọn thêm.
+C. Synchronous, Asynchronous, Reply, Create; phân tích giải thích: Synchronous dừng chờ phản hồi hàm, Asynchronous gửi đi và chạy tiếp không dừng luồng.
+D. Initial, Final, Decision, Fork, Join; phân tích giải thích: Initial bắt đầu quy trình nghiệp vụ, Decision hình thoi rẽ nhánh dòng kiểm soát theo điều kiện.
+
+Câu 74. Các ràng buộc trong OCL có thể biểu diễn dưới dạng nào? Hãy mô tả các dạng ràng buộc và cách chúng được áp dụng trong UML.
+A. Dạng mã nguồn chương trình hướng đối tượng thực thi; mô tả là chứa các vòng lặp lồng nhau; áp dụng bằng cách chạy trực tiếp trên hệ điều hành máy chủ.
+B. Dạng sơ đồ dòng dữ liệu thô mức phòng ban; mô tả là hiển thị luồng di chuyển văn bản giấy; áp dụng bằng cách vẽ ranh giới giới hạn phạm vi chức năng ngoài.
+*C. Dạng Invariant, Precondition, Postcondition; mô tả là các biểu thức logic định giá đúng/sai; áp dụng bằng cách gắn với lớp hoặc phương thức cấu trúc.
+D. Dạng làn bơi dọc và nút quyết định hình thoi; mô tả là phân chia trách nhiệm xử lý công việc; áp dụng bằng cách chèn vào giữa mối quan hệ liên kết dữ liệu.
+
+Câu 75. Mối quan hệ nào trong UML biểu diễn một lớp phải có lớp khác mới có thể tồn tại? Hãy giải thích sự khác biệt giữa các mối quan hệ như kết tập, thừa kế, và cấu thành trong UML.
+*A. Composition (Cấu thành); giải thích khác biệt: cấu thành là quan hệ sở hữu mạnh có ràng buộc sinh tử, kết tập là lỏng lẻo, thừa kế là phân cấp cha con.
+B. Aggregation (Kết tập); giải thích khác biệt: kết tập bắt buộc các lớp phải xóa cùng nhau, cấu thành cho phép thực thể con tự do tồn tại độc lập ngoài hệ thống.
+C. Generalization (Thừa kế); giải thích khác biệt: thừa kế ký hiệu bằng hình thoi màu đen đậm đặt ở vị trí lớp cha, kết tập sử dụng mũi tên tam giác rỗng hướng lên.
+D. Dependency (Phụ thuộc); giải thích khác biệt: phụ thuộc ràng buộc hai lớp phải viết chung một file mã nguồn, cấu thành sử dụng toàn bộ đường thẳng nét đứt.
+
+Câu 76. Giải thích ý nghĩa của ký hiệu biểu diễn một sinh tuyến trong sơ đồ UML.
+A. Biểu diễn thuật toán xử lý dữ liệu thô của câu lệnh truy vấn cơ sở dữ liệu; ý nghĩa quy định số lượng tham số đầu vào tối đa của một hàm hướng đối tượng.
+B. Biểu diễn giao diện màn hình đồ họa chức năng của ứng dụng di động; ý nghĩa hướng dẫn khách hàng cách thức thao tác click chuột để nhập liệu thông tin.
+*C. Biểu diễn một đường thẳng đứng nét đứt kéo dài từ hộp tên đối tượng; ý nghĩa thể hiện sự tồn tại của thực thể đối tượng theo trục thời gian kịch bản.
+D. Biểu diễn cấu hình phần cứng vật lý của trạm máy tính doanh nghiệp; ý nghĩa xác định vị trí lắp đặt các thiết bị phát sóng mạng internet không dây nội bộ.
+
+Câu 77. Ký hiệu nào trong sơ đồ UML biểu diễn đối tượng của lớp và có vai trò gì trong quá trình mô hình hóa hệ thống?
+*A. Hình chữ nhật chứa văn bản gạch chân dạng đốiTượng : Lớp; vai trò tham gia trao đổi thông điệp để làm rõ khía cạnh hành vi động của một kịch bản sử dụng.
+B. Hình oval dẹt bo góc chứa động từ mạnh viết liền; vai trò định hình bộ khung cấu trúc dữ liệu tĩnh trừu tượng và các mối quan hệ sở hữu cho phân hệ phần mềm.
+C. Hình người gắn liền với một đường thẳng nét liền nét liền; vai trò che giấu chi tiết cài đặt và thuộc tính bên trong lớp để tăng tính an toàn bảo mật dữ liệu.
+D. Hình thoi rỗng đặt ở đầu mối quan hệ kết hợp liên kết dữ liệu; vai trò tự động tạo ra giao diện đồ họa người dùng mà không cần lập trình viên viết mã nguồn.
+
+Câu 78. Mô tả sự khác biệt giữa sơ đồ lớp và sơ đồ hoạt động trong UML, và cho ví dụ ứng dụng của từng loại sơ đồ.
+A. Sơ đồ lớp dùng vẽ mạng vật lý vật lý (ví dụ: cấu hình máy chủ), sơ đồ hoạt động dùng thiết kế cơ sở dữ liệu (ví dụ: tạo bảng dữ liệu thô hệ quản trị quan hệ).
+B. Sơ đồ lớp mô tả trục thời gian gọi hàm (ví dụ: đăng nhập), sơ đồ hoạt động mô tả chu kỳ sống của biến (ví dụ: thay đổi giá trị thuộc tính dẫn xuất trong bộ nhớ).
+*C. Sơ đồ lớp đặc tả cấu trúc dữ liệu tĩnh (ví dụ: lớp KhachHang), sơ đồ hoạt động mô tả tiến trình tuần tự (ví dụ: quy trình duyệt đơn hàng của công ty).
+D. Sơ đồ lớp bắt buộc phải chứa các đoạn mã lệnh code thực tế, sơ đồ hoạt động sử dụng toàn bộ đường thẳng nét đứt kèm từ khóa chữ viết hoa hệ thống.
+
+Câu 79. Ứng dụng của sơ đồ tương tác trong UML là gì? Hãy nêu các trường hợp sử dụng và lợi ích của việc sử dụng sơ đồ này.
+*A. Đặc tả khía cạnh động hệ thống; trường hợp sử dụng khi thiết kế chi tiết lời gọi hàm chức năng; lợi ích giúp làm rõ trách nhiệm gọi phương thức giữa các lớp.
+B. Tổ chức các thư mục mã nguồn; trường hợp sử dụng khi phân công công việc trong nhóm; lợi ích giúp nén dung lượng các tệp tin thiết kế kỹ thuật nâng cao.
+C. Thiết lập cấu hình phần cứng mạng; trường hợp sử dụng khi cài đặt hệ thống tường lửa; lợi ích giúp đo lường chính xác các rủi ro bảo mật an toàn internet ngoài.
+D. Xây dựng sơ đồ thực thể mối quan hệ; trường hợp sử dụng khi tạo lập các bảng lưu trữ; lợi ích giúp tự động hóa hoàn toàn quy trình lập trình viết code ứng dụng.
+
+Câu 80. Trong sơ đồ tuần tự, các thông điệp giữa các đối tượng được gọi là gì và chúng có vai trò như thế nào trong mô hình hóa hệ thống?
+A. Gọi là các biến thành viên dữ liệu tĩnh; vai trò lưu trữ toàn bộ các thông tin đăng nhập và mật khẩu được mã hóa an toàn của tài khoản người dùng cuối cùng.
+B. Gọi là các kịch bản kiểm thử lỗi phần mềm; vai trò cung cấp căn cứ tổng quan mức cao hỗ trợ nhân viên kiểm thử tự động sinh ra các kịch bản dò tìm lỗi.
+*C. Gọi là các thông điệp (Messages); vai trò đại diện cho các lời gọi phương thức (hàm) hoặc tín hiệu giao tiếp giữa các thực thể khi chương trình thực thi.
+D. Gọi là các ranh giới ranh giới giới hạn; vai trò định nghĩa chi tiết tọa độ hiển thị của các nút bấm và màu sắc chủ đạo của các màn hình giao diện đồ họa.
+
+Câu 81. Hãy liệt kê và giải thích các loại thông điệp phổ biến trong sơ đồ tuần tự của UML.
+*A. Đồng bộ, Bất đồng bộ, Phản hồi, Khởi tạo, Hủy bỏ; giải thích: thể hiện các hình thức gọi phương thức, truyền tín hiệu hoặc quản lý vòng đời đối tượng.
+B. Include, Extend, Generalization, Realization; giải thích: thể hiện mối quan hệ bắt buộc, tùy chọn hoặc phân cấp thừa kế quyền hạn giữa các khối chức năng oval.
+C. Khóa chính, Khóa ngoại, Kiểm tra điều kiện, Chỉ mục; giải thích: thể hiện các ràng buộc dữ liệu thô phục vụ việc lưu trữ bảng trong hệ quản trị quan hệ.
+D. Nút khởi đầu, Hành động, Nút quyết định, Thanh đồng bộ; giải thích: thể hiện dòng chảy kiểm soát tuần tự hoặc song song của các tiến trình nghiệp vụ tổ chức.
+
+Câu 82. Khi biểu diễn thông điệp đồng bộ trong sơ đồ tuần tự, ký hiệu nào được sử dụng? Hãy giải thích cách ký hiệu này hoạt động.
+A. Mũi tên nét đứt đầu hở hướng sang trái; cách hoạt động là đối tượng nhận sẽ tự động nhân bản cấu trúc dữ liệu thành nhiều phiên bản độc lập nhau khi chạy.
+*B. Mũi tên nét liền đầu tam giác đặc hướng sang phải; cách hoạt động là đối tượng gửi sẽ tạm dừng luồng chạy để chờ đối tượng nhận xử lý xong và phản hồi kết quả.
+C. Mũi tên nét liền đầu hở tạo bởi hai nét xiên ngắn; cách hoạt động là đối tượng gửi truyền tín hiệu đi và tiếp tục thực hiện ngay công việc của mình không dừng lại.
+D. Đường thẳng nằm ngang không đầu mũi tên có chữ đi kèm; cách hoạt động là hệ thống tự động ngắt kết nối mạng internet máy trạm nếu máy chủ xử lý quá lâu.
+
+Câu 83. Giải thích ký hiệu biểu diễn thông điệp không đồng bộ trong sơ đồ tuần tự và sự khác biệt giữa thông điệp đồng bộ và không đồng bộ.
+*A. Ký hiệu mũi tên nét liền đầu hở; khác biệt là không đồng bộ cho phép đối tượng gửi tiếp tục thực hiện việc khác ngay lập tức mà không cần chờ phản hồi hàm.
+B. Ký hiệu mũi tên nét đứt đầu hở; khác biệt là thông điệp đồng bộ bắt buộc phải đi kèm từ khóa điều kiện ràng buộc toán học logic đặt bên trong dấu ngoặc vuông.
+C. Ký hiệu hộp hình chữ nhật nằm đè lên sinh tuyến; khác biệt là không đồng bộ chỉ áp dụng cho tác nhân con người tương tác trực tiếp giao diện đồ họa ứng dụng.
+D. Ký hiệu đường thẳng nối có hình thoi màu đen đặc; khác biệt là thông điệp đồng bộ tự động giải phóng toàn bộ vùng nhớ cấp phát cho lớp dữ liệu tĩnh hệ thống.
+
+Câu 84. Ký hiệu nào được sử dụng trong sơ đồ tuần tự để biểu diễn việc hủy một đối tượng, và lý do tại sao việc này lại quan trọng trong mô hình hóa hệ thống?
+A. Ký hiệu dấu hỏi chấm đặt bên cạnh thanh kích hoạt; quan trọng vì giúp tự động tối ưu hóa tốc độ thực thi câu lệnh của ngôn ngữ lập trình hướng đối tượng.
+B. Ký hiệu hình oval dẹt bo góc gạch chéo; quan trọng vì giúp nhà quản lý dự án theo dõi sát sao tiến độ hoàn thành mã nguồn hằng ngày của nhóm phát triển.
+*C. Ký hiệu dấu chữ X đặt ở cuối đường sinh tuyến; quan trọng vì giải phóng vùng nhớ đệm, quản lý tối ưu tài nguyên và tránh hiện tượng rò rỉ bộ nhớ (Memory Leak).
+D. Ký hiệu hình thoi rỗng đặt ở ranh giới biên; quan trọng vì ngăn chặn tuyệt đối không cho người dùng cuối bấm nút xóa lịch sử giao dịch bán hàng trên máy trạm.
+
+Câu 85. Mô tả ký hiệu dùng để biểu diễn việc tạo một đối tượng trong sơ đồ tuần tự và ý nghĩa của nó đối với hệ thống.
+*A. Mũi tên thông điệp hướng thẳng vào chính giữa hộp tên đối tượng; ý nghĩa thể hiện hành động khởi tạo một thực thể đối tượng hoàn toàn mới tại runtime hệ thống.
+B. Đường nét đứt kết nối nối trực tiếp giữa hai tác nhân con người; ý nghĩa thể hiện việc hệ thống tự động tải lại toàn bộ giao diện màn hình đồ họa chức năng ứng dụng.
+C. Khối hình hộp chữ nhật có chữ chứa các công thức toán học; ý nghĩa thể hiện việc tính toán tự động giá trị của các thuộc tính dẫn xuất trong sơ đồ cấu trúc tĩnh.
+D. Đường thẳng đứng nét liền nét liền có mũi tên tam giác rỗng hướng lên; ý nghĩa thể hiện việc nhân bản cấu trúc bảng dữ liệu trong hệ quản trị cơ sở dữ liệu quan hệ.
+
+Câu 86. Mô tả các loại sơ đồ UML khác nhau và nêu ví dụ cụ thể về trường hợp sử dụng mỗi loại sơ đồ.
+A. Sơ đồ toán học logic, sơ đồ giao thức mạng vật lý, sơ đồ kịch bản kiểm thử hiệu năng; ví dụ cụ thể: trường hợp sử dụng khi cấu hình hệ thống tường lửa bảo mật.
+*B. Sơ đồ cấu trúc (Lớp, Thành phần) và sơ đồ hành vi (Use case, Tuần tự, Hoạt động); ví dụ cụ thể: dùng sơ đồ lớp để thiết kế cơ sở dữ liệu bán hàng cho phần mềm.
+C. Sơ đồ bảng dữ liệu thô, sơ đồ dòng chảy văn bản giấy, sơ đồ phân chia phòng ban; ví dụ cụ thể: trường hợp sử dụng khi tính toán chi phí tài chính dự án công ty.
+D. Sơ đồ giao diện người dùng, sơ đồ mã nguồn hàm private, sơ đồ nén tệp tin thiết kế; ví dụ cụ thể: dùng sơ đồ nén để gửi tệp tin qua mạng internet trực tuyến.
+
+Câu 87. Trong một sơ đồ UML, các đường thẳng đứt đoạn thường biểu diễn đối tượng nào? Giải thích tại sao việc thể hiện đối tượng theo cách này lại quan trọng.
+*A. Biểu diễn đường đời sinh tuyến hoặc mối quan hệ phụ thuộc/phản hồi; quan trọng vì thể hiện các yếu tố mang tính tạm thời, luồng thông điệp hoặc trục thời gian động.
+B. Biểu diễn các lớp cấu trúc tĩnh hằng số không thể thay đổi giá trị; quan trọng vì bắt buộc lập trình viên phải khai báo kiểu dữ liệu nguyên thủy cố định trong bộ nhớ.
+C. Biểu diễn ranh giới giới hạn phạm vi ranh giới của phân hệ phần mềm; quan trọng vì giúp hệ thống tự động sinh ra kịch bản kiểm thử lỗi giao diện người dùng ứng dụng.
+D. Biểu diễn các thiết bị phần cứng vật lý máy chủ trung tâm; quan trọng vì định hình cấu hình đường truyền cáp quang kết nối các trạm máy tính của doanh nghiệp tổ chức.
+
+Câu 88. Trong sơ đồ tuần tự, hình chữ nhật có chữ "loop" ở góc trên bên trái có ý nghĩa gì? Hãy giải thích khi nào và tại sao nó được sử dụng trong mô hình hóa.
+A. Ý nghĩa là khung bảo mật mạng; sử dụng khi hệ thống mất kết nối internet; tại vì để ngăn chặn các cuộc tấn công mã độc từ môi trường ngoài biên hệ thống.
+B. Ý nghĩa là thuộc tính dẫn xuất; sử dụng khi tính toán công thức toán học; tại vì để tự động cập nhật giá trị tổng tiền hóa đơn vào hệ quản trị quan hệ cơ sở dữ liệu.
+*C. Ý nghĩa là khung kết hợp vòng lặp; sử dụng khi một nhóm thông điệp cần chạy lặp đi lặp lại; tại vì để mô hình hóa cấu trúc lặp dựa trên điều kiện dừng bảo vệ.
+D. Ý nghĩa là phân chia làn bơi dọc; sử dụng khi có nhiều đối tượng tham gia gọi hàm cùng lúc; tại vì để theo dõi sát sao tiến độ viết code hằng ngày của lập trình viên.
+
+--- PAGE 183 ---\n\nConcurrency and Order: Operator assert\n ● Chỉ định rằng tương tác là bắt buộc (mandatory)\n ● Bất kỳ sai lệch nào không được tính đến trong biểu đồ, nhưng xảy ra trong thực tế, đều \n không được phép => Yêu cầu ánh xạ chuẩn xác (true mapping) trong quá trình triển \n khai (implementation)\n ● 1 Operand
+
+Câu 89. Ký hiệu "assert" trong sơ đồ UML biểu diễn điều gì? Bạn sẽ sử dụng nó trong trường hợp nào khi mô hình hóa một hệ thống?
+*A. Biểu diễn tương tác là bắt buộc (mandatory); sử dụng khi muốn đặc tả quy trình nghiêm ngặt, cấm sai lệch; đòi hỏi ánh xạ chuẩn xác (true mapping) khi viết code.
+B. Biểu diễn quy trình không hợp lệ (invalid); sử dụng khi muốn chỉ ra các kịch bản lỗi phổ biến; đòi hỏi lập trình viên phải viết thêm hàm xử lý ngoại lệ phần cứng.
+C. Biểu diễn luồng chạy song song đồng thời; sử dụng khi hệ thống máy chủ cần xử lý đa luồng dữ liệu; đòi hỏi cấu hình tối ưu hiệu năng băng thông mạng nội bộ.
+D. Biểu diễn lời gọi một sơ đồ hoạt động độc lập lồng nhau; sử dụng khi muốn phân rã cấu trúc lớp trừu tượng; đòi hỏi tạo lập các bảng lưu trữ trong cơ sở dữ liệu.
+
+--- PAGE 184 ---\n\nConcurrency and Order: Operator neg\n ● Minh họa một quy trình tương tác không hợp lệ (invalid interaction process)\n ● Các tình huống dưới hình thức này không được phép xảy ra\n ● Chính xác 1 Operand\n ● Mục đích\n ○ Chỉ ra rõ ràng các lỗi phổ biến\n ○ Ánh xạ các quy trình có liên quan nhưng không chính xác (incorrect processes)
+
+Câu 90. Giải thích ý nghĩa của các ký hiệu "alt", "opt", và "ref" trong sơ đồ UML. Hãy mô tả cách các ký hiệu này ảnh hưởng đến dòng chảy của một hệ thống trong sơ đồ.
+*A. Alt rẽ nhánh loại trừ, opt là tùy chọn, ref là viện dẫn sơ đồ khác; ảnh hưởng bằng cách điều khiển luồng kiểm soát, phân nhánh hoặc tái sử dụng kịch bản kịch bản tương tác.
+B. Alt dùng vẽ giao diện, opt dùng cấu hình phần cứng, ref dùng tạo bảng cơ sở dữ liệu; ảnh hưởng bằng cách tự động sinh ra mã nguồn ứng dụng di động mà không cần code.
+C. Alt bắt buộc thực hiện, opt là lỗi cú pháp lập trình, ref là hằng số vùng nhớ đệm; ảnh hưởng bằng cách làm ngắt quãng toàn bộ đường di chuyển dữ liệu thô của máy chủ.
+D. Alt hướng mũi tên về tác nhân chính, opt hướng về tác nhân phụ, ref gán cạnh đường ranh giới; ảnh hưởng bằng cách tăng dung lượng tệp tin thiết kế kỹ thuật nâng cao.
+
+Câu 91. Trong sơ đồ hoạt động (Activity Diagram), ký hiệu hình tròn với một điểm nhỏ bên trong có ý nghĩa gì? Hãy giải thích chức năng của ký hiệu này trong một hoạt động.
+A. Ý nghĩa là nút khởi đầu tiến trình; chức năng kích hoạt dòng chảy logic đầu tiên ngay khi người dùng cuối điều hành click chuột mở chức năng trên giao diện phần mềm.
+B. Ý nghĩa là nút phân nhánh song song; chức năng chia tách một dòng kiểm soát ban đầu thành nhiều luồng chạy cùng một thời điểm trục thời gian thực máy tính máy chủ.
+*C. Ý nghĩa là nút kết thúc hoạt động (Activity Final Node); chức năng chấm dứt, dừng toàn bộ tất cả các luồng di chuyển điều khiển đang chạy có trong sơ đồ hoạt động.
+D. Ý nghĩa là nút gọi một hoạt động con lồng nhau; chức năng tự động cập nhật dữ liệu của thuộc tính dẫn xuất vào các bảng lưu trữ của hệ quản trị quan hệ cơ sở dữ liệu.
+
+Câu 92. Ký hiệu hình thoi trong sơ đồ hoạt động (Activity Diagram) được sử dụng để thể hiện loại sự kiện nào? Giải thích ý nghĩa và vai trò của nó trong việc điều phối luồng hoạt động.
+*A. Thể hiện điểm quyết định (Decision) hoặc hợp nhất (Merge); ý nghĩa rẽ nhánh dòng chảy dựa trên điều kiện bảo vệ hoặc gom luồng kiểm soát về một dòng duy nhất.
+B. Thể hiện mối quan hệ sở hữu kế thừa đa hình cấu trúc lớp; ý nghĩa ràng buộc lớp con bắt buộc phải có lớp cha tồn tại mới có thể cấp phát bộ nhớ đệm trong máy.
+C. Thể hiện ranh giới biên giới hạn phạm vi chức năng của phân hệ phần mềm; ý nghĩa xác định danh sách các tác nhân phụ nhận thông báo phản hồi từ phía ứng dụng.
+D. Thể hiện một bước xử lý dữ liệu thô nguyên tử không thể phân rã nhỏ hơn; ý nghĩa cung cấp thuật toán lập trình chi tiết cho lập trình viên tiến hành viết mã nguồn.
+
+Câu 93. Trong sơ đồ hoạt động (Activity Diagram), ký hiệu hình chữ nhật bo góc thường biểu thị điều gì? Hãy mô tả cách thức ký hiệu này giúp mô phỏng hoạt động trong hệ thống.
+A. Biểu thị một biến thành viên lưu trữ dữ liệu tĩnh hằng số; mô phỏng bằng cách hiển thị kiểu dữ liệu tương ứng của thực thể trong hệ quản trị cơ sở dữ liệu quan hệ.
+B. Biểu thị một thiết bị phần cứng vật lý trạm máy tính; mô phỏng bằng cách vẽ sơ đồ cấu hình mạng internet cáp quang kết nối an toàn bảo mật giữa các phòng ban công ty.
+*C. Biểu thị một Hành động (Action) hoặc Hoạt động (Activity); mô phỏng bằng cách chỉ ra một công việc, một bước xử lý cụ thể trong chuỗi tiến trình logic quy trình.
+D. Biểu thị một kịch bản kiểm th̉ thử lỗi hệ thống tự động; mô phỏng bằng cách liệt kê danh sách các lỗi cú pháp lập trình hướng đối tượng giúp nhân viên kiểm thử dò lỗi.
+
+Câu 94. Khi nào ký hiệu "nút quyết định" trong sơ đồ hoạt động (Activity Diagram) được sử dụng? Hãy nêu rõ cách thức nó ảnh hưởng đến luồng hoạt động và các quyết định trong hệ thống.
+*A. Sử dụng khi quy trình xuất hiện các lựa chọn phụ thuộc điều kiện; ảnh hưởng bằng cách ép luồng kiểm soát đi vào nhánh hợp lệ có điều kiện bảo vệ [ ] đúng.
+B. Sử dụng khi lập trình viên muốn gộp toàn bộ mã nguồn của các phân hệ vào một file; ảnh hưởng bằng cách tự động biên dịch trực tiếp chương trình trên máy chủ dịch vụ.
+C. Sử dụng khi cần giải phóng toàn bộ vùng nhớ cấp phát cho đối tượng thực thể; ảnh hưởng bằng cách chèn ký hiệu dấu gạch chéo chữ X vào cuối đường đời sinh tuyến.
+D. Sử dụng khi hệ thống máy tính cần kích hoạt đồng thời hàng loạt hành động song song; ảnh hưởng bằng cách phân chia quy trình thành các làn bơi dọc phòng ban.
+
+Câu 95. Hãy phân biệt sự khác nhau giữa các ký hiệu "nút gọi một sơ đồ hoạt động khác" và "nút đối tượng" trong sơ đồ hoạt động (Activity Diagram). Cung cấp ví dụ minh họa về việc sử dụng chúng trong các tình huống cụ thể.
+A. Nút gọi sơ đồ khác dùng hình tròn đặc (ví dụ: bắt đầu duyệt đơn), nút đối tượng sử dụng hình tâm tròn đen có vòng mảnh bao quanh (ví dụ: kết thúc quy trình kho hàng).
+B. Nút gọi sơ đồ khác dùng đường mũi tên nét đứt có chữ (ví dụ: <<include>>), nút đối tượng sử dụng mũi tên tam giác rỗng hướng lên lớp cha (ví dụ: kế thừa lớp dữ liệu).
+*C. Nút gọi sơ đồ khác biểu diễn quy trình con lồng nhau có hình ba chạc ở góc (ví dụ: Tính thuế), nút đối tượng dùng hình chữ nhật góc vuông chứa dữ liệu (ví dụ: Đơn hàng [Mới]).
+D. Nút gọi sơ đồ khác dùng thanh ngang đen đậm nhận một dòng vào (ví dụ: phân nhánh song song), nút đối tượng sử dụng thanh dọc nhận nhiều dòng vào (ví dụ: đồng bộ hóa luồng).

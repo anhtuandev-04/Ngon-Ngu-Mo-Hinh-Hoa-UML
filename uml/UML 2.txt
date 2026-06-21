@@ -1,0 +1,650 @@
+1
+Điểm khác biệt cốt lõi giữa khía cạnh tĩnh và khía cạnh động của một hệ thống trong UML là gì?
+
+✓ Đúng
+A.
+Khía cạnh tĩnh được vẽ bằng công cụ trực tuyến, khía cạnh động bắt buộc phải vẽ bằng các phần mềm cài đặt riêng.
+B.
+Khía cạnh tĩnh dành cho giai đoạn thử nghiệm kiểm thử, khía cạnh động chỉ dùng khi bàn giao mã nguồn cho khách hàng.
+C.
+Khía cạnh tĩnh mô tả cấu trúc và các thành phần cấu thành, khía cạnh động mô tả sự thay đổi và tương tác theo thời gian.
+Đáp án đúng
+D.
+Khía cạnh tĩnh tập trung vào các kết nối mạng phần cứng, khía cạnh động tập trung vào việc lưu trữ các tệp cơ sở dữ liệu.
+2
+Tại sao sơ đồ lớp (Class Diagram) được lựa chọn phổ biến nhất để thể hiện cấu trúc tĩnh của hệ thống?
+
+✓ Đúng
+A.
+Vì nó mô tả chính xác thời gian phản hồi của máy chủ khi nhận thông điệp từ người dùng.
+B.
+Vì nó giúp người thiết kế phân rã quy trình nghiệp vụ thành các hành động song song độc lập.
+C.
+Vì nó định nghĩa các khuôn mẫu dữ liệu trừu tượng và các mối quan hệ sở hữu cố định bền vững.
+Đáp án đúng
+D.
+Vì nó tự động tạo ra giao diện đồ họa cho ứng dụng mà không cần lập trình viên can thiệp.
+3
+Sơ đồ nào sau đây được sử dụng để thể hiện khía cạnh động (hành xử) của một hệ thống thông tin?
+
+✓ Đúng
+A.
+Object Diagram (Sơ đồ đối tượng).
+B.
+Package Diagram (Sơ đồ đóng gói).
+C.
+State Machine Diagram (Sơ đồ trạng thái).
+Đáp án đúng
+D.
+Composite Structure Diagram (Sơ đồ cấu trúc phức).
+4
+Trong quy trình phát triển phần mềm, sơ đồ tương tác (Interaction Diagrams) thường được sử dụng khi nào?
+
+✓ Đúng
+A.
+Khi cần làm rõ luồng thông điệp chi tiết và thứ tự gọi hàm giữa các đối tượng trong một kịch bản chức năng.
+Đáp án đúng
+B.
+Khi cần đóng gói các tệp tin mã nguồn thành các thư mục độc lập để bàn giao cho đội ngũ triển khai hạ tầng.
+C.
+Khi bắt đầu tiếp cận khách hàng để thu thập các yêu cầu nghiệp vụ sơ khai nhất dưới dạng văn bản mô tả.
+D.
+Khi cần thiết lập các quy tắc ràng buộc logic toán học cho toàn bộ các thực thể dữ liệu trong hệ quản trị.
+5
+Nhóm sơ đồ tương tác đóng vai trò gì trong việc thiết kế chi tiết mã nguồn phần mềm?
+
+✓ Đúng
+A.
+Trực quan hóa cấu hình phần cứng của các trạm máy tính và hệ thống tường lửa bảo mật của doanh nghiệp.
+B.
+Định nghĩa danh sách toàn bộ các biến thành viên cùng kiểu dữ liệu nguyên thủy lưu trữ trong bộ nhớ đệm.
+C.
+Ánh xạ trực tiếp các thông điệp thành các lời gọi phương thức thực tế giữa các lớp khi cài đặt mã nguồn.
+Đáp án đúng
+D.
+Phân nhóm các chức năng hệ thống theo quyền hạn truy cập của từng nhóm đối tượng người dùng cuối cùng.
+6
+Để mô hình hóa hành vi tổng thể của hệ thống, UML cung cấp những loại sơ đồ chủ đạo nào?
+
+— Bỏ qua
+A.
+Sơ đồ thực thể mối quan hệ, sơ đồ dòng dữ liệu, sơ đồ cấu trúc chương trình và sơ đồ kiến trúc mạng.
+B.
+Sơ đồ use case, sơ đồ hoạt động, sơ đồ trạng thái và các sơ đồ thuộc nhóm sơ đồ tương tác hệ thống.
+Đáp án đúng
+C.
+Sơ đồ lớp, sơ đồ đóng gói, sơ đồ thành phần, sơ đồ đối tượng và sơ đồ cấu trúc phức hợp lồng nhau.
+D.
+Sơ đồ bảng dữ liệu, sơ đồ giao thức truyền thông, sơ đồ kịch bản kiểm thử và sơ đồ giao diện người dùng.
+7
+Trong sơ đồ Use Case, mối quan hệ tổng quát hóa (Generalization) giữa các tác nhân được ký hiệu như thế nào?
+
+— Bỏ qua
+A.
+Đường nét đứt có mũi tên hở hướng từ tác nhân cụ thể đến tác nhân tổng quát.
+B.
+Đường nét liền có mũi tên hình thoi đặc đặt tại vị trí tác nhân tổng quát.
+C.
+Đường nét liền có đầu mũi tên hình tam giác rỗng hướng về tác nhân tổng quát.
+Đáp án đúng
+D.
+Đường nét đứt có chữ kèm theo hướng về phía tác nhân cụ thể.
+8
+Mối quan hệ tổng quát hóa giữa các Actor (Tác nhân) có ý nghĩa gì trong quá trình phân tích hệ thống?
+
+— Bỏ qua
+A.
+Cho phép tác nhân con thừa kế toàn bộ các quyền và khả năng tương tác với các use case của tác nhân cha.
+Đáp án đúng
+B.
+Ràng buộc hai tác nhân phải cùng tham gia thực hiện một chức năng tại cùng một thời điểm trong hệ thống.
+C.
+Ngăn chặn tác nhân con truy cập vào các chức năng bảo mật mà tác nhân cha đã thực hiện trước đó.
+D.
+Đóng gói các tác nhân vào một phân hệ phần cứng để tối ưu hóa tốc độ truyền tải thông tin mạng nội bộ.
+9
+Khi nhân viên kiểm thử phần mềm dựa vào sơ đồ Use Case để xác định số lượng kịch bản kiểm thử (Test Cases), họ sẽ căn cứ chủ yếu vào yếu tố nào?
+
+— Bỏ qua
+A.
+Số lượng các đường ranh giới hệ thống được vẽ xung quanh các khối chức năng.
+B.
+Số lượng các tác nhân phụ tham gia nhận thông tin phản hồi từ phía phần mềm.
+C.
+Số lượng các use case và các nhánh mở rộng, nhánh bao hàm có trong sơ đồ.
+Đáp án đúng
+D.
+Số lượng các mũi tên kết hợp trực tiếp giữa các tác nhân con với tác nhân cha.
+10
+Sơ đồ Use Case hỗ trợ đội ngũ kiểm thử phần mềm (Tester) như thế nào trong dự án?
+
+— Bỏ qua
+A.
+Tự động kiểm tra cú pháp của các dòng mã lệnh để phát hiện lỗi rò rỉ bộ nhớ khi thực thi.
+B.
+Cung cấp phạm vi chức năng tổng thể để thiết kế các kịch bản kiểm thử mức hệ thống (System Test).
+Đáp án đúng
+C.
+Xác định cấu hình máy chủ tối thiểu để chạy các chương trình kiểm thử hiệu năng và tải giới hạn.
+D.
+Đo lường thời gian xử lý chính xác của từng câu lệnh truy vấn dữ liệu trong hệ quản trị cơ sở dữ liệu.
+11
+Một trường hợp sử dụng (Use Case) có thể có nhiều tác nhân tương tác, điều này thể hiện bản chất gì của hệ thống?
+
+— Bỏ qua
+A.
+Chức năng đó quá phức tạp và bắt buộc phải có nhiều người cùng bấm nút thì hệ thống mới xử lý dữ liệu.
+B.
+Hệ thống đang bị thiết kế sai quy chuẩn và cần phải phân rã thành các lớp dữ liệu độc lập ngay lập tức.
+C.
+Chức năng đó cung cấp một giá trị sử dụng chung cho nhiều vai trò người dùng khác nhau trong thực tế.
+Đáp án đúng
+D.
+Các tác nhân bắt buộc phải có mối quan hệ kế thừa sinh tử với nhau thì mới truy cập được vào chức năng.
+12
+Một tác nhân (Actor) có thể chỉ tương tác duy nhất với một Use Case trong toàn bộ sơ đồ không? Tại sao?
+
+— Bỏ qua
+A.
+Có thể, nếu vai trò của tác nhân đó trong thực tế chỉ chịu trách nhiệm thực hiện một chức năng đặc thù duy nhất.
+Đáp án đúng
+B.
+Có thể, nhưng đây là lỗi thiết kế nghiêm trọng vì một tác nhân bắt buộc phải tham gia vào tất cả chức năng.
+C.
+Không thể, vì quy chuẩn UML bắt buộc một tác nhân phải kết nối tối thiểu với hai trường hợp sử dụng trở lên.
+D.
+Không thể, vì tác nhân đơn lẻ sẽ làm hệ thống bị ngắt quãng dòng kiểm soát và gây ra lỗi thực thi mã nguồn.
+13
+Một tài liệu mô tả bằng văn bản cho một trường hợp sử dụng (Use Case Specification) thường bao gồm bao nhiêu phần chính theo chuẩn phân tích thiết kế?
+
+— Bỏ qua
+A.
+Gồm 2 phần chính: Tên của trường hợp sử dụng và danh sách các lập trình viên chịu trách nhiệm viết mã nguồn.
+B.
+Gồm 15 phần chi tiết: Khai báo toàn bộ cấu trúc biến, hàm, giao diện đồ họa và cấu hình máy chủ vận hành.
+C.
+Gồm 5 phần cố định: Chỉ tập trung vào các công thức toán học và các sơ đồ luồng dữ liệu của các phòng ban.
+D.
+Gồm các phần cốt lõi: Tên, Tác nhân, Tiền điều kiện, Hậu điều kiện, Luồng sự kiện chính và Luồng rẽ nhánh.
+Đáp án đúng
+14
+Thành phần "Precondition" (Tiền điều kiện) trong mô tả văn bản Use Case có ý nghĩa gì?
+
+— Bỏ qua
+A.
+Trạng thái của toàn bộ dữ liệu hệ thống sau khi trường hợp sử dụng đã được thực hiện thành công.
+B.
+Điều kiện bắt buộc hệ thống phải thỏa mãn trước khi trường hợp sử dụng này được phép kích hoạt.
+Đáp án đúng
+C.
+Danh sách các lỗi phần cứng có thể xảy ra trong quá trình người dùng click chuột trên màn hình.
+D.
+Thời gian tối đa mà hệ thống được phép xử lý kịch bản chức năng trước khi tự động ngắt kết nối.
+15
+Thành phần "Postcondition" (Hậu điều kiện) trong mô tả văn bản Use Case dùng để xác định điều gì?
+
+— Bỏ qua
+A.
+Trạng thái hoặc những thay đổi bền vững của hệ thống sau khi kịch bản kết thúc thành công.
+Đáp án đúng
+B.
+Giao diện đồ họa tiếp theo mà người dùng sẽ nhìn thấy sau khi bấm nút hủy bỏ thao tác hiện tại.
+C.
+Các điều kiện bảo mật mạng cần phải kiểm tra trước khi cho phép người dùng nhập dữ liệu đầu vào.
+D.
+Danh sách các tài khoản người dùng có quyền xóa bỏ lịch sử thực hiện của chức năng này trong cơ sở dữ liệu.
+16
+Khái niệm "Ràng buộc phi chức năng" (Non-functional Requirements) trong mô tả Use Case thường nói về khía cạnh nào?
+
+— Bỏ qua
+A.
+Danh sách các nút bấm và màu sắc chủ đạo của giao diện đồ họa hiển thị trên màn hình máy tính.
+B.
+Thứ tự các bước thực hiện của lập trình viên khi tiến hành biên dịch mã nguồn ra tệp tin thực thi.
+C.
+Các yêu cầu về hiệu năng, độ an toàn bảo mật, tính sẵn sàng và khả năng mở rộng của chức năng.
+Đáp án đúng
+D.
+Các câu lệnh truy vấn dữ liệu dùng để trích xuất thông tin từ các bảng trong hệ quản trị quan hệ.
+17
+"Ràng buộc phi chức năng" thường được đặt ở vị trí nào trong cấu trúc mô tả văn bản Use Case?
+
+— Bỏ qua
+A.
+Được đặt trong một mục riêng biệt hoặc đính kèm ở phần cuối của tài liệu đặc tả trường hợp sử dụng.
+Đáp án đúng
+B.
+Được viết trực tiếp vào bên trong ô hình oval biểu diễn chức năng trên sơ đồ trực quan của hệ thống.
+C.
+Được khai báo ngay trong phần đặt tên của tác nhân chính để người đọc nhận biết ngay từ đầu sơ đồ.
+D.
+Được chèn vào giữa các bước xử lý của luồng sự kiện chính dưới dạng các ghi chú mã nguồn lập trình.
+18
+Khái niệm "Ràng buộc giao diện người - máy" (GUI/UI Constraints) trong đặc tả Use Case có vai trò gì?
+
+— Bỏ qua
+A.
+Định nghĩa cấu trúc phần cứng của màn hình máy tính và độ phân giải tối đa của các thiết bị hiển thị.
+B.
+Chỉ ra các nguyên tắc bố trí thông tin, luồng nhập liệu và các mẫu màn hình gắn liền với chức năng.
+Đáp án đúng
+C.
+Xác định các giao thức truyền tải dữ liệu không dây giữa thiết bị cầm tay và hệ thống máy chủ mạng.
+D.
+Đếm số lượng pixel hiển thị trên giao diện phần mềm để tính toán dung lượng bộ nhớ đệm cần cấp phát.
+19
+Tại sao phần mô tả "Ràng buộc giao diện người - máy" lại cực kỳ quan trọng đối với đội ngũ phát triển phần mềm?
+
+— Bỏ qua
+A.
+Giúp lập trình viên biết cách tối ưu hóa thuật toán tìm kiếm dữ liệu trên các bảng quan hệ lớn.
+B.
+Giúp chuyên gia mạng cấu hình chính xác hệ thống tường lửa để ngăn chặn các cuộc tấn công từ xa.
+C.
+Đảm bảo phần mềm được xây dựng đúng với trải nghiệm mong muốn và thói quen thao tác của người dùng.
+Đáp án đúng
+D.
+Giúp giảm thiểu dung lượng của các tệp tin cài đặt khi tiến hành đóng gói sản phẩm phần mềm để bán.
+20
+Quy trình đóng gói các trường hợp sử dụng (Use Case Packaging) trong UML được thực hiện bằng cách nào?
+
+— Bỏ qua
+A.
+Sử dụng ký hiệu Gói (Package) để nhóm các use case có sự liên quan logic hoặc cùng phân hệ lại với nhau.
+Đáp án đúng
+B.
+Sử dụng các đường nét đứt kèm theo chữ để liên kết tất cả các use case thành một chuỗi vòng lặp kín.
+C.
+Vẽ một hình ranh giới hệ thống thật lớn chứa toàn bộ các tác nhân và các trường hợp sử dụng của sơ đồ.
+D.
+Chuyển đổi toàn bộ các hình oval chức năng thành các hình chữ nhật ba phần giống như trong sơ đồ lớp.
+21
+Lý do chủ yếu của việc cần phải đóng gói các trường hợp sử dụng trong các hệ thống lớn là gì?
+
+— Bỏ qua
+A.
+Để hệ thống máy tính tự động biên dịch mã nguồn nhanh hơn nhờ giảm số lượng tệp tin lưu trữ.
+B.
+Giúp giảm độ phức tạp của sơ đồ tổng thể, tăng tính dễ đọc và quản lý dự án theo từng phân hệ logic.
+Đáp án đúng
+C.
+Ngăn chặn việc khách hàng có thể nhìn thấy các chức năng bảo mật chuyên sâu bên trong của phần mềm.
+D.
+Bắt buộc các lập trình viên phải viết code tập trung vào một tệp tin duy nhất để dễ dàng tìm kiếm lỗi.
+22
+Một sơ đồ Use Case (Hoạt vụ) chuẩn chỉnh được định nghĩa bao gồm những yếu tố nào?
+
+— Bỏ qua
+A.
+Là một tập hợp các bảng dữ liệu, các chỉ mục tối ưu hóa tốc độ và các câu lệnh kích hoạt tự động.
+B.
+Là một chuỗi các hình hộp bo góc thể hiện hành động song song được phân chia bằng các làn bơi dọc.
+C.
+Là sơ đồ gồm các tác nhân, các use case, mối quan hệ giữa chúng và đường ranh giới hệ thống.
+Đáp án đúng
+D.
+Là sơ đồ mô tả cấu trúc bộ nhớ và vòng đời sống của một đối tượng cụ thể từ lúc sinh ra đến khi hủy.
+23
+Khi phân tích chức năng hệ thống, sơ đồ Use Case giúp ích gì cho kiến trúc sư hệ thống?
+
+— Bỏ qua
+A.
+Cung cấp một cái nhìn tổng quan, không phụ thuộc vào công nghệ, về những gì hệ thống phải thực hiện.
+Đáp án đúng
+B.
+Xác định chính xác các kiểu dữ liệu và độ dài tối đa của các trường thông tin lưu trong cơ sở dữ liệu.
+C.
+Đưa ra các thuật toán chi tiết để lập trình viên tiến hành viết mã nguồn cho các hàm xử lý dữ liệu.
+D.
+Thiết lập bản đồ mạng vật lý nối giữa các máy trạm của nhân viên và trung tâm dữ liệu của công ty.
+24
+Khái niệm "Package" (Gói) trong UML được định nghĩa chính xác là gì?
+
+— Bỏ qua
+A.
+Là một tệp tin nén chứa toàn bộ mã nguồn chương trình sau khi đã hoàn thành giai đoạn viết code.
+B.
+Là một cơ chế đa mục đích dùng để tổ chức các phần tử mô hình thành các nhóm có cấu trúc phân cấp.
+Đáp án đúng
+C.
+Là một thiết bị phần cứng lưu trữ dữ liệu có nhiệm vụ sao lưu thông tin tự động cho hệ thống mạng.
+D.
+Là một kiểu dữ liệu đặc biệt dùng để khai báo các biến mảng trong các ngôn ngữ lập trình hướng đối tượng.
+25
+Cách các phần tử của hệ thống được tổ chức bên trong một Package tuân theo nguyên tắc nào?
+
+— Bỏ qua
+A.
+Các phần tử bắt buộc phải cùng kiểu sơ đồ và không được phép có mối quan hệ phụ thuộc ra ngoài gói.
+B.
+Các phần tử được sắp xếp ngẫu nhiên và hệ thống sẽ tự động phân loại khi tiến hành chạy chương trình.
+C.
+Các phần tử có tính chất liên quan chặt chẽ về mặt chức năng được gom nhóm để tăng tính đóng gói.
+Đáp án đúng
+D.
+Các phần tử phải được đặt tên giống nhau và chỉ khác nhau ở chỉ số thứ tự tăng dần ở cuối tên phần tử.
+26
+Theo chuẩn UML, tên của một trường hợp sử dụng (Use Case) nên được đặt như thế nào là đúng quy cách?
+
+— Bỏ qua
+A.
+Bắt đầu bằng một danh từ chỉ thực thể dữ liệu và kết thúc bằng một tính từ mô tả màu sắc giao diện.
+B.
+Viết bằng mã lệnh của ngôn ngữ lập trình và không được phép chứa các khoảng trắng giữa các từ.
+C.
+Bắt đầu bằng một động từ mạnh đi kèm với một cụm danh từ làm mục tiêu để thể hiện rõ hành động.
+Đáp án đúng
+D.
+Đặt tên theo số thứ tự ngẫu nhiên do hệ thống tự sinh ra trong quá trình thiết kế sơ đồ trực quan.
+27
+Ví dụ nào sau đây là cách đặt tên Use Case chuẩn chỉnh và chính xác nhất trong thực tế phân tích?
+
+— Bỏ qua
+A.
+`NhanVienBanHang` (Nhân viên bán hàng).
+B.
+`ManHinhDangNhapHeThong` (Màn hình đăng nhập hệ thống).
+C.
+`CapNhatThongTinKhachHang` (Cập nhật thông tin khách hàng).
+Đáp án đúng
+D.
+`DuLieuHoaDonThanhToan.sql` (Dữ liệu hóa đơn thanh toán .sql).
+28
+Trong sơ đồ Use Case, ký hiệu hình người (Stickman) được dùng để biểu diễn thành phần nào?
+
+— Bỏ qua
+A.
+Actor (Tác nhân) của hệ thống.
+Đáp án đúng
+B.
+Use Case (Trường hợp sử dụng).
+C.
+Boundary (Ranh giới hệ thống).
+D.
+Package (Gói chức năng).
+29
+Vai trò cốt lõi của tác nhân (Actor) khi xuất hiện trong sơ đồ Use Case là gì?
+
+— Bỏ qua
+A.
+Lưu trữ toàn bộ thông tin đăng nhập và mật khẩu được mã hóa của người dùng trong cơ sở dữ liệu.
+B.
+Định nghĩa các giao diện đồ họa hiển thị thông tin lên màn hình cho người điều hành hệ thống phần mềm.
+C.
+Đại diện cho một vai trò thực thể bên ngoài kích hoạt luồng xử lý hoặc nhận kết quả từ hệ thống.
+Đáp án đúng
+D.
+Thực hiện việc kiểm thử các chức năng của phần mềm trước khi bàn giao sản phẩm cho phía đối tác.
+30
+Ký hiệu hình Oval (Bầu dục) trong sơ đồ Use Case dùng để biểu diễn thành phần nào sau đây?
+
+— Bỏ qua
+A.
+Tác nhân chính (Primary Actor).
+B.
+Trường hợp sử dụng (Use Case).
+Đáp án đúng
+C.
+Đường biên hệ thống (System Boundary).
+D.
+Mối quan hệ phụ thuộc (Dependency).
+31
+Trong sơ đồ Use Case, đường ranh giới hệ thống (System Boundary) thường được vẽ bằng hình gì?
+
+— Bỏ qua
+A.
+Hình tròn có tâm gạch chéo nối trực tiếp với các tác nhân phụ bên ngoài.
+B.
+Hình thoi rỗng có các mũi tên nét đứt hướng vào bên trong các khối chức năng.
+C.
+Hình chữ nhật bao quanh các use case và đặt các tác nhân nằm bên ngoài hình.
+Đáp án đúng
+D.
+Hình oval lớn chứa đựng tất cả các thành phần cấu thành tĩnh của toàn bộ hệ thống.
+32
+Ý nghĩa quan trọng nhất của đường ranh giới hệ thống (System Boundary) trong sơ đồ Use Case là gì?
+
+— Bỏ qua
+A.
+Xác định rõ phạm vi giới hạn của phần mềm, cái gì thuộc về hệ thống và cái gì thuộc về môi trường ngoài.
+Đáp án đúng
+B.
+Tính toán dung lượng bộ nhớ tối đa cần thiết để lưu trữ các tệp tin mã nguồn khi triển khai ứng dụng.
+C.
+Quy định số lượng tài khoản người dùng tối đa được phép đăng nhập vào hệ thống tại một thời điểm.
+D.
+Phân chia quyền hạn chỉnh sửa sơ đồ thiết kế kỹ thuật giữa các thành viên trong nhóm phát triển dự án.
+33
+Điểm khác biệt lớn nhất giữa mối quan hệ Bao hàm (`<<include>>`) và mối quan hệ Mở rộng (`<<extend>>`) là gì?
+
+— Bỏ qua
+A.
+Quan hệ include dùng giữa hai tác nhân, quan hệ extend dùng giữa hai trường hợp sử dụng độc lập trên sơ đồ.
+B.
+Quan hệ include là mối quan hệ tùy chọn, quan hệ extend là mối quan hệ bắt buộc phải thực hiện trong mọi kịch bản.
+C.
+Quan hệ include là bắt buộc thực hiện, quan hệ extend là tùy chọn và chỉ xảy ra khi thỏa mãn một điều kiện cụ thể.
+Đáp án đúng
+D.
+Quan hệ include hướng mũi tên về phía tác nhân chính, quan hệ extend hướng mũi tên về phía tác nhân phụ.
+34
+Khi nào ta nên áp dụng mối quan hệ Tổng quát hóa (Generalization) giữa các Use Case?
+
+— Bỏ qua
+A.
+Khi một use case này cần gọi một use case khác để hoàn thành một phần công việc nhỏ mang tính chất kỹ thuật.
+B.
+Khi có nhiều use case có cùng hành vi cơ bản nhưng có cách thức thực hiện chi tiết khác nhau trong thực tế.
+Đáp án đúng
+C.
+Khi muốn ngăn chặn người dùng không được phép truy cập vào một chức năng cụ thể nào đó của hệ thống phần mềm.
+D.
+Khi cần đóng gói các khối chức năng vào một thư mục logic để bàn giao cho đội ngũ kiểm thử hệ thống nâng cao.
+35
+Chiều mũi tên của mối quan hệ Bao hàm (`<<include>>`) trong sơ đồ Use Case được quy định như thế nào?
+
+— Bỏ qua
+A.
+Hướng từ Use Case nền tảng (Base Use Case) sang Use Case được bao hàm (Included Use Case).
+Đáp án đúng
+B.
+Hướng từ Use Case được bao hàm (Included Use Case) quay trở lại Use Case nền tảng (Base Use Case).
+C.
+Hướng từ Tác nhân chính (Primary Actor) chỉ thẳng vào Use Case được bao hàm để biểu diễn hành động.
+D.
+Hướng từ Use Case được bao hàm chỉ thẳng vào Tác nhân phụ (Secondary Actor) nằm ngoài biên hệ thống.
+36
+Chiều mũi tên của mối quan hệ Mở rộng (`<<extend>>`) trong sơ đồ Use Case được quy định như thế nào?
+
+— Bỏ qua
+A.
+Hướng từ Use Case nền tảng (Base Use Case) sang Use Case mở rộng (Extension Use Case) để kích hoạt hành động.
+B.
+Hướng từ Use Case mở rộng (Extension Use Case) quay trở lại Use Case nền tảng (Base Use Case).
+Đáp án đúng
+C.
+Hướng từ Tác nhân phụ (Secondary Actor) chỉ thẳng vào vị trí của điểm mở rộng (Extension Point).
+D.
+Hướng từ cả hai Use Case chỉ thẳng vào nhau tạo thành một mối quan hệ hai chiều đối xứng bền vững.
+37
+Điểm mở rộng (Extension Point) trong mối quan hệ Mở rộng (`<<extend>>`) có vai trò gì?
+
+— Bỏ qua
+A.
+Là vị trí phần cứng trên máy chủ vật lý dùng để kết nối thêm các thiết bị ngoại vi ngoài hệ thống.
+B.
+Là vị trí được định danh bên trong use case nền tảng nơi hành vi mở rộng có thể được chèn vào.
+Đáp án đúng
+C.
+Là một hàm xử lý lỗi được viết bằng ngôn ngữ lập trình dùng để bắt các ngoại lệ khi chương trình chạy.
+D.
+Là ô nhập liệu trên giao diện màn hình giúp người dùng gõ thêm các thông tin tìm kiếm nâng cao.
+38
+Một tác nhân (Actor) liên quan đến nhiều Use Case trong sơ đồ, điều này thường xảy ra khi nào?
+
+— Bỏ qua
+A.
+Khi vai trò thực tế của tác nhân đó có quyền hạn thực hiện nhiều chức năng khác nhau trong hệ thống.
+Đáp án đúng
+B.
+Khi hệ thống máy tính yêu cầu tác nhân phải thực hiện tất cả chức năng cùng một lúc để tránh bị treo máy.
+C.
+Khi lập trình viên muốn gộp tất cả mã nguồn của các chức năng vào một lớp duy nhất để dễ quản lý.
+D.
+Khi tác nhân đó là tác nhân phụ và chỉ có nhiệm vụ nhận thông báo từ phía phần mềm sau khi kịch bản lỗi.
+39
+Tại sao Use Case được coi là công cụ cực kỳ quan trọng trong giai đoạn phân tích yêu cầu phần mềm?
+
+— Bỏ qua
+A.
+Vì nó giúp tính toán chính xác số lượng dòng code mà lập trình viên cần phải viết trong dự án.
+B.
+Vì nó tự động tối ưu hóa cấu trúc của các bảng dữ liệu để đạt tốc độ truy vấn thông tin nhanh nhất.
+C.
+Vì nó giúp nắm bắt các yêu cầu chức năng từ góc nhìn của người dùng một cách trực quan, dễ hiểu.
+Đáp án đúng
+D.
+Vì nó cung cấp các giao thức bảo mật mạng an toàn để bảo vệ hệ thống trước các cuộc tấn công từ bên ngoài.
+40
+Tính chất nào sau đây KHÔNG phải là đặc điểm của một Use Case chuẩn trong UML?
+
+— Bỏ qua
+A.
+Luôn được kích hoạt bởi một tác nhân hoặc bởi một sự kiện nội tại của hệ thống.
+B.
+Mang lại một giá trị có thể đo lường được cho một hoặc nhiều tác nhân cụ thể.
+C.
+Mô tả những gì hệ thống làm (What) chứ không mô tả hệ thống làm như thế nào (How).
+D.
+Bắt buộc phải chứa các đoạn mã lệnh thực thi chi tiết của một ngôn ngữ lập trình cụ thể.
+Đáp án đúng
+41
+Khi sử dụng sơ đồ Use Case để mô tả chuỗi hành động giữa tác nhân và hệ thống, sơ đồ này giúp ích gì cho việc giao tiếp với khách hàng?
+
+— Bỏ qua
+A.
+Giúp khách hàng dễ dàng xác nhận xem hệ thống có đáp ứng đúng và đủ các mục tiêu nghiệp vụ của họ hay không.
+Đáp án đúng
+B.
+Giúp khách hàng hiểu rõ cấu trúc bộ nhớ đệm và cách thức cấp phát tài nguyên của hệ thống máy chủ dịch vụ.
+C.
+Cung cấp cho khách hàng danh sách các lỗi cú pháp mã nguồn có thể phát sinh trong quá trình lập trình phần mềm.
+D.
+Hướng dẫn khách hàng cách thức cài đặt các trình điều khiển phần cứng cho các thiết bị ngoại vi của máy tính.
+42
+Trong UML, khái niệm "Sự đóng gói" (Encapsulation) giúp ích gì cho việc quản lý hệ thống phần mềm?
+
+— Bỏ qua
+A.
+Giúp tăng dung lượng lưu trữ của các tệp tin để hệ thống chạy ổn định hơn trên các máy tính cấu hình yếu.
+B.
+Bắt buộc người dùng phải học thuộc toàn bộ cấu trúc mã nguồn bên trong trước khi sử dụng phần mềm.
+C.
+Che giấu chi tiết cài đặt bên trong, chỉ lộ diện các giao diện tương tác để giảm tính phụ thuộc phức tạp.
+Đáp án đúng
+D.
+Tự động chia sẻ toàn bộ dữ liệu bí mật của doanh nghiệp lên các nền tảng lưu trữ trực tuyến công cộng.
+43
+Đối tượng nào sau đây KHÔNG thể đóng vai trò là một tác nhân (Actor) trong sơ đồ Use Case?
+
+— Bỏ qua
+A.
+Một người dùng cuối tương tác trực tiếp với giao diện của phần mềm để xử lý công việc.
+B.
+An external system (Một hệ thống phần mềm bên ngoài) cần trao đổi dữ liệu với hệ thống hiện tại.
+C.
+Một thiết bị phần cứng ngoại vi tự động gửi tín hiệu số liệu về cho phần mềm theo thời gian thực.
+D.
+Một thuộc tính dữ liệu kiểu chuỗi ký tự được lưu giữ cố định bên trong một lớp trừu tượng hệ thống.
+Đáp án đúng
+44
+Thành phần nào sau đây đóng vai trò là mối quan hệ bắt buộc phải thực hiện khi Use Case nền tảng chạy thành công?
+
+— Bỏ qua
+A.
+Quan hệ mở rộng (`<<extend>>`) vì nó bổ sung thêm các tính năng nâng cao cho người dùng cuối cùng.
+B.
+Quan hệ kết hợp lỏng lẻo (Association) giữa hai trường hợp sử dụng nằm ở hai phân hệ khác nhau.
+C.
+Quan hệ bao hàm (`<<include>>`) vì hành vi của use case được bao hàm là một phần không thể thiếu của use case nền.
+Đáp án đúng
+D.
+Quan hệ phụ thuộc tạm thời (Dependency) giữa một tác nhân chính và một tác nhân phụ ở ngoài biên hệ thống.
+45
+Khi vẽ mối quan hệ kết hợp (Association) giữa Actor và Use Case trên draw.io, ta nên sử dụng loại đường nào?
+
+— Bỏ qua
+A.
+Một đường thẳng nét liền không có đầu mũi tên (hoặc có mũi tên hở hướng về phía use case).
+Đáp án đúng
+B.
+Một đường nét đứt có chữ kèm theo hướng về phía tác nhân để biểu diễn luồng kiểm soát.
+C.
+Một đường nét liền có đầu mũi tên hình tam giác đặc hướng về phía ranh giới của toàn hệ thống.
+D.
+Một đường thẳng nét đứt có hình thoi rỗng ở điểm đầu để biểu diễn mối quan hệ sở hữu sinh tử.
+46
+Tại sao mối quan hệ kết hợp giữa Actor và Use Case thông thường không sử dụng các mũi tên đặc như quan hệ kế thừa?
+
+— Bỏ qua
+A.
+Vì tác nhân và trường hợp sử dụng không bao giờ được phép trao đổi thông tin với nhau khi hệ thống chạy thực tế.
+B.
+Vì đây là quy định bắt buộc của các hệ quản trị cơ sở dữ liệu quan hệ khi tiến hành tạo lập các bảng dữ liệu.
+C.
+Vì mối quan hệ này chỉ biểu diễn sự tương tác hai chiều, không mang tính chất phân cấp hay thừa kế cấu trúc lớp.
+Đáp án đúng
+D.
+Để tiết kiệm mực in khi người thiết kế tiến hành xuất bản sơ đồ ra các tài liệu đặc tả bằng giấy cho dự án.
+47
+Trong đặc tả Use Case, luồng sự kiện chính (Main Flow / Happy Path) mô tả điều gì?
+
+— Bỏ qua
+A.
+Kịch bản lý tưởng nhất khi mọi bước xử lý đều diễn ra suôn sẻ và người dùng đạt được mục tiêu mà không gặp lỗi.
+Đáp án đúng
+B.
+Chuỗi các hành động xử lý lỗi phần cứng khi hệ thống đột ngột bị mất kết nối mạng Internet toàn cầu.
+C.
+Danh sách các tài khoản lập trình viên có đóng góp nhiều nhất vào việc xây dựng mã nguồn cho chức năng này.
+D.
+Quy trình cấu hình các thông số bảo mật cho hệ thống máy chủ trước khi chính thức phát hành phần mềm.
+48
+Luồng rẽ nhánh (Alternative Flow / Exception Flow) trong mô tả văn bản Use Case dùng để làm gì?
+
+— Bỏ qua
+A.
+Khai báo thêm các kiểu dữ liệu mới cho các thuộc tính tĩnh của lớp đối tượng trong sơ đồ cấu trúc.
+B.
+Mô tả các bước mà người quản lý dự án cần thực hiện để kiểm tra tiến độ làm việc của nhân viên trong nhóm.
+C.
+Đặc tả các kịch bản phụ, các tình huống xử lý lỗi hoặc các lựa chọn khác ngoài luồng sự kiện chính.
+Đáp án đúng
+D.
+Tự động sinh ra giao diện đồ họa thay thế khi người dùng không muốn sử dụng màn hình mặc định của phần mềm.
+49
+Một sơ đồ Use Case có quá nhiều use case lồng chéo mối quan hệ `<<extend>>` và `<<include>>` sẽ gây ra hậu quả gì?
+
+— Bỏ qua
+A.
+Hệ thống phần mềm sẽ chạy nhanh hơn rất nhiều do cấu trúc chức năng được phân chia cực kỳ chi tiết.
+B.
+Lập trình viên không thể viết được mã nguồn vì các ngôn ngữ lập trình không hỗ trợ các mối quan hệ này.
+C.
+Sơ đồ trở nên rối rắm, khó đọc, mất đi tính trực quan và gây khó khăn cho việc giao tiếp với khách hàng.
+Đáp án đúng
+D.
+Cơ sở dữ liệu sẽ tự động xóa bỏ các bảng dữ liệu có liên quan đến các mối quan hệ lồng chéo này.
+50
+Vai trò chính của Khung nhìn trường hợp sử dụng (Use Case View) trong kiến trúc 4+1 View là gì?
+
+— Bỏ qua
+A.
+Định hướng, kiểm chứng và kết nối tất cả các khung nhìn còn lại của hệ thống thông qua các kịch bản thực tế.
+Đáp án đúng
+B.
+Thay thế hoàn toàn việc viết mã nguồn bằng cách tự động dịch các hình oval thành các câu lệnh thực thi.
+C.
+Quản lý việc phân bổ các thiết bị phần cứng vật lý tại các phòng ban khác nhau của toàn bộ tổ chức doanh nghiệp.
+D.
+Thiết kế chi tiết cấu trúc lưu trữ và các chỉ mục tối ưu hóa hiệu năng cho hệ quản trị cơ sở dữ liệu lớn.

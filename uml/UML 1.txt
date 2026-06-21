@@ -1,0 +1,650 @@
+1
+Khái niệm UML (Unified Modeling Language) được định nghĩa chính xác là gì?
+
+✓ Đúng
+A.
+Là một ngôn ngữ lập trình hướng đối tượng dùng để xây dựng và thực thi các mã nguồn phần mềm.
+B.
+Là một hệ quản trị cơ sở dữ liệu dùng để thiết kế cấu trúc lưu trữ dữ liệu cho hệ thống lớn.
+C.
+Là một ngôn ngữ mô hình hóa đa mục đích dùng để đặc tả, trực quan hóa và tài liệu hóa phần mềm.
+Đáp án đúng
+D.
+Là một quy trình phát triển phần mềm tuần tự gồm các bước kiểm thử khép kín cho doanh nghiệp.
+2
+Vai trò cốt lõi của UML trong việc mô hình hóa các hệ thống thông tin là gì?
+
+✓ Đúng
+A.
+Tự động hóa hoàn toàn quy trình viết mã nguồn từ các yêu cầu thô ban đầu của khách hàng.
+B.
+Giúp làm nổi bật các khía cạnh quan trọng của phần mềm và loại bỏ đi các chi tiết không liên quan.
+Đáp án đúng
+C.
+Tối ưu hóa hiệu năng thực thi của mã nguồn và giảm thiểu dung lượng lưu trữ trên hệ thống.
+D.
+Thay thế hoàn toàn các biên bản đặc tả yêu cầu bằng văn bản truyền thống giữa các bên liên quan.
+3
+Cụm từ viết tắt UML có tên tiếng Anh đầy đủ là gì?
+
+✓ Đúng
+A.
+Universal Model Line.
+B.
+Unified Modular Language.
+C.
+Unified Modeling Language.
+Đáp án đúng
+D.
+Unique Modern Architecture.
+4
+Trong quá trình phát triển phần mềm, ý nghĩa quan trọng nhất của việc sử dụng UML là gì?
+
+✓ Đúng
+A.
+Loại bỏ hoàn toàn sự tham gia của lập trình viên trong giai đoạn xây dựng mã nguồn.
+B.
+Tạo ra một công cụ lập trình trực quan giúp hệ thống chạy trực tiếp không cần biên dịch.
+C.
+Rút ngắn thời gian kiểm thử tự động bằng cách tự sinh ra các kịch bản kiểm thử lỗi.
+D.
+Cung cấp một ngôn ngữ chung giúp giảm thiểu sự hiểu nhầm giữa khách hàng và nhà phát triển.
+Đáp án đúng
+5
+Theo lý thuyết của Herbert Stachowiak (1973), đặc điểm "Ánh xạ" (Mapping) của một mô hình nghĩa là gì?
+
+✓ Đúng
+A.
+Mô hình luôn có khả năng thay thế hoàn toàn thực tế trong mọi điều kiện vận hành.
+B.
+Mô hình phải chứa đựng tất cả các thuộc tính chi tiết từ lớn đến bé của thực thể gốc.
+C.
+Mô hình luôn là hình ảnh đại diện hoặc sự mô phỏng cho một bản gốc thực tế nào đó.
+Đáp án đúng
+D.
+Mô hình phải được xây dựng dựa trên các thuật toán bản đồ hóa cấu trúc của hệ thống.
+6
+Đặc điểm "Rút gọn" (Reduction) theo Herbert Stachowiak giúp ích gì cho người thiết kế hệ thống?
+
+— Bỏ qua
+A.
+Giúp người thiết kế chỉ tập trung vào các thuộc tính có liên quan đến mục đích của người dùng.
+Đáp án đúng
+B.
+Giúp giảm thiểu số lượng lập trình viên tham gia vào dự án nhằm tối ưu hóa chi phí nhân sự.
+C.
+Giúp nén dung lượng các tệp tin thiết kế để dễ dàng chia sẻ qua các nền tảng trực tuyến.
+D.
+Giúp xóa bỏ các chức năng phức tạp mà hệ thống máy tính hiện tại chưa thể đáp ứng được.
+7
+Đặc điểm "Thực dụng" (Pragmatism) của mô hình hóa theo lý thuyết hệ thống được hiểu như thế nào?
+
+— Bỏ qua
+A.
+Mô hình bắt buộc phải áp dụng được cho mọi đối tượng người dùng mà không cần chỉnh sửa.
+B.
+Mô hình phải có giá trị thương mại cao và mang lại lợi nhuận trực tiếp cho doanh nghiệp.
+C.
+Mô hình cần được hoàn thiện ngay lập tức trong một khoảng thời gian ngắn nhất có thể.
+D.
+Mô hình phục vụ cho một chức năng, một khoảng thời gian và một nhóm đối tượng cụ thể.
+Đáp án đúng
+8
+Công cụ UML chủ yếu được sử dụng bắt đầu từ giai đoạn nào là quan trọng nhất trong quy trình phần mềm?
+
+— Bỏ qua
+A.
+Giai đoạn cài đặt mã nguồn (Implementation) vì nó giúp lập trình viên viết code nhanh hơn.
+B.
+Giai đoạn kiểm thử (Testing) vì nó cung cấp các công cụ dò lỗi tự động cho kiểm thử viên.
+C.
+Giai đoạn phân tích và thiết kế (Analysis & Design) nhằm làm rõ yêu cầu và cấu trúc hệ thống.
+Đáp án đúng
+D.
+Giai đoạn vận hành và bảo trì (Maintenance) nhằm sửa chữa các lỗi phát sinh từ người dùng.
+9
+Tại sao UML lại đóng vai trò quyết định trong giai đoạn Phân tích và Thiết kế hệ thống?
+
+— Bỏ qua
+A.
+Vì nó giúp lập trình viên kiểm tra cú pháp của các ngôn ngữ lập trình trước khi chạy.
+B.
+Vì ngôn ngữ tự nhiên thường mơ hồ, dễ dẫn đến hiểu nhầm về yêu cầu giữa các bên tham gia.
+Đáp án đúng
+C.
+Vì nó cung cấp các thuật toán tối ưu hóa cơ sở dữ liệu quan hệ cho các hệ thống lớn.
+D.
+Vì khách hàng chỉ có thể đọc hiểu các sơ đồ kỹ thuật thay vì đọc các văn bản tiếng Việt.
+10
+Trong UML, các khối xây dựng cơ bản (Building Blocks) bao gồm những thành phần nào?
+
+— Bỏ qua
+A.
+Các hàm toán học, các cấu trúc điều khiển rẽ nhánh và các biến lưu trữ dữ liệu toàn cục.
+B.
+Các bảng dữ liệu, các mối quan hệ khóa ngoại và các chỉ mục tối ưu hóa tốc độ truy vấn.
+C.
+Các phần tử (Things), các mối quan hệ (Relationships) và các biểu đồ (Diagrams).
+Đáp án đúng
+D.
+Các giao diện người dùng, các tệp tin cấu hình hệ thống và các đoạn mã lệnh thực thi.
+11
+Các sơ đồ trong UML 2.x được chia thành các nhóm lớn nào sau đây?
+
+— Bỏ qua
+A.
+Sơ đồ cấu trúc (Structure Diagrams) và Sơ đồ hành xử (Behavior Diagrams).
+Đáp án đúng
+B.
+Sơ đồ dữ liệu (Data Diagrams) và Sơ đồ thuật toán (Algorithm Diagrams).
+C.
+Sơ đồ giao diện (Interface Diagrams) và Sơ đồ điều khiển (Control Diagrams).
+D.
+Sơ đồ logic (Logic Diagrams) và Sơ đồ vật lý (Physical Diagrams).
+12
+Điểm khác biệt cốt lõi giữa Sơ đồ cấu trúc và Sơ đồ hành xử trong UML là gì?
+
+— Bỏ qua
+A.
+Sơ đồ cấu trúc dùng cho lập trình viên code, sơ đồ hành xử dành cho khách hàng xem và duyệt.
+B.
+Sơ đồ cấu trúc thể hiện khía cạnh động, sơ đồ hành xử thể hiện khía cạnh tĩnh của hệ thống.
+C.
+Sơ đồ cấu trúc thể hiện khía cạnh tĩnh, sơ đồ hành xử thể hiện khía cạnh động của hệ thống.
+Đáp án đúng
+D.
+Sơ đồ cấu trúc chỉ dùng cho cơ sở dữ liệu, sơ đồ hành xử chỉ dùng cho giao diện người dùng.
+13
+Sơ đồ tương tác (Interaction Diagrams) có vị trí như thế nào trong phân loại của UML?
+
+— Bỏ qua
+A.
+Là một nhóm biểu đồ hoàn toàn độc lập và không có mối liên hệ nào với các nhóm biểu đồ khác.
+B.
+Là một nhánh con thuộc sơ đồ cấu trúc nhằm mô tả sự sắp xếp vị trí của các phần cứng.
+C.
+Là một phân nhóm đặc biệt thuộc sơ đồ hành xử, tập trung vào việc trao đổi các thông điệp.
+Đáp án đúng
+D.
+Là sơ đồ trung gian dùng để kết nối giữa mã nguồn phần mềm và hệ quản trị cơ sở dữ liệu.
+14
+Nhóm Sơ đồ cấu trúc (Structure Diagrams) trong UML nhằm mục đích gì?
+
+— Bỏ qua
+A.
+Mô tả sự thay đổi trạng thái của một đối tượng theo thời gian thực khi có sự kiện kích hoạt.
+B.
+Mô tả trình tự các bước thực hiện của một quy trình nghiệp vụ từ lúc bắt đầu đến kết thúc.
+C.
+Mô tả cách thức người dùng tương tác với các chức năng trên giao diện của phần mềm.
+D.
+Đặc tả các thành phần cấu thành hệ thống và các mối quan hệ tĩnh giữa các thành phần đó.
+Đáp án đúng
+15
+Vai trò của sơ đồ cấu trúc trong việc thiết kế hệ thống thông tin là gì?
+
+— Bỏ qua
+A.
+Tạo ra khung kiến trúc vững chắc, định hình các lớp, đối tượng và cách chúng kết nối.
+Đáp án đúng
+B.
+Giúp mô phỏng dòng chảy dữ liệu giữa các phòng ban trong một tổ chức một cách trực quan.
+C.
+Xác định thời gian phản hồi chính xác của các máy chủ khi có hàng triệu người truy cập.
+D.
+Liệt kê danh sách các lỗi bảo mật có thể xảy ra khi triển khai hệ thống lên môi trường mạng.
+16
+Nhóm Sơ đồ hành xử (Behavior Diagrams) trong UML được sử dụng nhằm mục đích gì?
+
+— Bỏ qua
+A.
+Xác định các ràng buộc về mặt phần cứng và dung lượng bộ nhớ lưu trữ của hệ thống máy chủ.
+B.
+Tổ chức các lớp vào trong các gói để quản lý mã nguồn một cách khoa học và dễ bảo trì hơn.
+C.
+Mô hình hóa cách thức hệ thống vận hành, phản hồi và thay đổi theo thời gian hoặc sự kiện.
+Đáp án đúng
+D.
+Thiết kế sơ đồ thực thể mối quan hệ phục vụ cho việc tạo lập các bảng trong cơ sở dữ liệu.
+17
+Sơ đồ nào dưới đây KHÔNG thuộc nhóm Sơ đồ cấu trúc (Structure Diagrams)?
+
+— Bỏ qua
+A.
+Class Diagram (Sơ đồ lớp).
+B.
+Component Diagram (Sơ đồ thành phần).
+C.
+Activity Diagram (Sơ đồ hoạt động).
+Đáp án đúng
+D.
+Deployment Diagram (Sơ đồ triển khai).
+18
+Sơ đồ nào dưới đây thuộc nhóm Sơ đồ hành xử (Behavior Diagrams)?
+
+— Bỏ qua
+A.
+Object Diagram (Sơ đồ đối tượng).
+B.
+State Machine Diagram (Sơ đồ trạng thái).
+Đáp án đúng
+C.
+Package Diagram (Sơ đồ đóng gói).
+D.
+Composite Structure Diagram (Sơ đồ cấu trúc phức).
+19
+Đặc điểm nổi bật nhất của các Sơ đồ tương tác (Interaction Diagrams) là gì?
+
+— Bỏ qua
+A.
+Tập trung vào việc mô tả luồng kiểm soát và sự trao đổi thông điệp giữa các đối tượng.
+Đáp án đúng
+B.
+Tập trung vào việc mô tả cấu trúc dữ liệu bên trong của từng lớp đối tượng độc lập.
+C.
+Tập trung vào việc phân chia các chức năng của hệ thống theo quyền hạn của người dùng.
+D.
+Tập trung vào việc mô hình hóa các thiết bị phần cứng vật lý và các kết nối mạng.
+20
+Sơ đồ nào sau đây là một loại sơ đồ tương tác (Interaction Diagram) trong UML?
+
+— Bỏ qua
+A.
+Use Case Diagram (Sơ đồ hoạt vụ).
+B.
+Class Diagram (Sơ đồ lớp).
+C.
+Sequence Diagram (Sơ đồ tuần tự).
+Đáp án đúng
+D.
+Activity Diagram (Sơ đồ hoạt động).
+21
+Sơ đồ lớp (Class Diagram) trong UML thể hiện thông tin cốt lõi nào về hệ thống?
+
+— Bỏ qua
+A.
+Trình tự thời gian mà các đối tượng gửi và nhận thông điệp trong một kịch bản cụ thể.
+B.
+Cấu trúc tĩnh của hệ thống bao gồm các lớp, thuộc tính, phương thức và mối quan hệ của chúng.
+Đáp án đúng
+C.
+Các trạng thái khác nhau mà một đối tượng có thể trải qua dưới tác động của sự kiện bên ngoài.
+D.
+Sự phân bổ các thành phần phần mềm lên trên các nút phần cứng vật lý trong thực tế triển khai.
+22
+Trong sơ đồ lớp, một thuộc tính của lớp chứa đựng thông tin gì?
+
+— Bỏ qua
+A.
+Các hành động hoặc hành vi mà đối tượng thuộc lớp đó có thể thực hiện để xử lý dữ liệu.
+B.
+Các ràng buộc về mặt thời gian thực thi của một hàm khi hệ thống chạy trong môi trường thật.
+C.
+Các đặc điểm, tính chất hoặc dữ liệu dữ trữ mà các đối tượng thuộc lớp đó sẽ sở hữu.
+Đáp án đúng
+D.
+Các kết nối mạng giữa máy tính của người dùng và hệ thống máy chủ lưu trữ cơ sở dữ liệu.
+23
+Thành phần "Operation" (Phương thức) trong sơ đồ lớp dùng để mô tả điều gì?
+
+— Bỏ qua
+A.
+Các hành vi, chức năng hoặc dịch vụ mà một lớp cung cấp cho các đối tượng khác sử dụng.
+Đáp án đúng
+B.
+Các kiểu dữ liệu nguyên thủy được lưu trữ cố định bên trong bộ nhớ đệm của máy tính.
+C.
+Danh sách các tài khoản người dùng có quyền truy cập vào chỉnh sửa cấu trúc của lớp đó.
+D.
+Các ghi chú bằng ngôn ngữ tự nhiên của lập trình viên nhằm giải thích thuật toán xử lý dữ liệu.
+24
+Sơ đồ đối tượng (Object Diagram) khác biệt cơ bản như thế nào so với sơ đồ lớp?
+
+— Bỏ qua
+A.
+Sơ đồ đối tượng dùng để mô tả các chức năng, sơ đồ lớp dùng để mô tả giao diện người dùng.
+B.
+Sơ đồ đối tượng thể hiện cấu trúc động, sơ đồ lớp thể hiện cấu trúc tĩnh của hệ thống thông tin.
+C.
+Sơ đồ đối tượng thể hiện một trường hợp cụ thể tại một thời điểm, sơ đồ lớp thể hiện tính trừu tượng.
+Đáp án đúng
+D.
+Sơ đồ đối tượng chỉ dùng cho giai đoạn kiểm thử, sơ đồ lớp chỉ dùng cho giai đoạn viết mã nguồn.
+25
+Để phân biệt tên đối tượng và tên lớp trong sơ đồ đối tượng, UML quy định cách viết như thế nào?
+
+— Bỏ qua
+A.
+Tên đối tượng phải được viết bằng chữ in hoa toàn bộ và đặt bên trong dấu ngoặc nhọn.
+B.
+Tên đối tượng phải được ký hiệu bằng dấu gạch chéo phía trước giống thuộc tính dẫn xuất.
+C.
+Tên đối tượng và tên lớp được ngăn cách bằng dấu hai chấm và toàn bộ cụm tên phải được gạch chân.
+Đáp án đúng
+D.
+Tên đối tượng phải được đặt trong dấu ngoặc kép dạng các thẻ định danh đặc biệt của hệ thống.
+26
+Mục đích chính của Sơ đồ cấu trúc phức hợp (Composite Structure Diagram) là gì?
+
+— Bỏ qua
+A.
+Mô tả quy trình nghiệp vụ kéo dài qua nhiều phòng ban khác nhau của một tổ chức lớn.
+B.
+Mô tả cấu trúc bên trong của một bộ phận phân tầng, bao gồm các cổng (Ports) và các đầu nối.
+Đáp án đúng
+C.
+Quản lý việc đóng gói các tệp tin mã nguồn thành các thư mục để chuẩn bị đưa lên máy chủ.
+D.
+Xác định các kịch bản tương tác giữa người dùng cuối và các thực thể nằm ngoài biên hệ thống.
+27
+Ứng dụng phổ biến nhất của Sơ đồ cấu trúc phức hợp trong thiết kế hệ thống là gì?
+
+— Bỏ qua
+A.
+Thiết kế cấu trúc các bảng và mối quan hệ khóa chính, khóa ngoại trong cơ sở dữ liệu quan hệ.
+B.
+Mô hình hóa các luồng công việc song song đòi hỏi sự đồng bộ hóa cao về mặt thời gian thực thi.
+C.
+Mô hình hóa các thành phần có cấu trúc lồng nhau phức tạp hoặc các kiến trúc hướng dịch vụ.
+Đáp án đúng
+D.
+Liệt kê các yêu cầu phi chức năng liên quan đến hiệu năng và tính bảo mật của phần mềm nâng cao.
+28
+Ý nghĩa quan trọng nhất của Sơ đồ đóng gói (Package Diagram) trong UML là gì?
+
+— Bỏ qua
+A.
+Giúp tổ chức, phân nhóm các phần tử mô hình thành các tập hợp logic để dễ dàng quản lý cấu trúc.
+Đáp án đúng
+B.
+Giúp nén các tệp tin thiết kế thành một tệp duy nhất để thuận tiện cho việc chuyển giao công nghệ.
+C.
+Giúp định nghĩa các kiểu dữ liệu phức tạp được sử dụng chung trong toàn bộ hệ thống phần mềm.
+D.
+Giúp mô tả cách thức đóng gói các sản phẩm phần mềm để phân phối tới tay người tiêu dùng cuối.
+29
+Ứng dụng thực tế của Sơ đồ đóng gói trong quá trình thiết kế hệ thống lớn là gì?
+
+— Bỏ qua
+A.
+Định nghĩa các thuật toán mã hóa dữ liệu đầu cuối để bảo vệ thông tin cá nhân của khách hàng.
+B.
+Tạo lập các kết nối mạng an toàn giữa các phân hệ phần cứng nằm ở các vị trí địa lý khác nhau.
+C.
+Kiểm soát sự phụ thuộc giữa các phân hệ, giúp hệ thống giảm tính kết dính và tăng tính mô-đun.
+Đáp án đúng
+D.
+Theo dõi tiến độ hoàn thành công việc của từng lập trình viên trong nhóm phát triển dự án.
+30
+Sơ đồ triển khai (Deployment Diagram) trong UML có vai trò cốt lõi là gì?
+
+— Bỏ qua
+A.
+Mô tả cấu trúc của các lớp đối tượng và cách chúng kế thừa lẫn nhau trong bộ nhớ máy tính.
+B.
+Mô tả giao diện đồ họa của người dùng và luồng di chuyển giữa các màn hình chức năng phần mềm.
+C.
+Mô hình hóa cấu hình các nút xử lý phần cứng vật lý và các thành phần phần mềm được phân bổ trên đó.
+Đáp án đúng
+D.
+Đặc tả các quy trình kiểm thử hệ thống tự động trước khi chính thức phát hành ra thị trường.
+31
+Trong sơ đồ triển khai, khái niệm "Node" (Nút) được dùng để đại diện cho thành phần nào?
+
+— Bỏ qua
+A.
+Một tài nguyên phần cứng vật lý hoặc một môi trường thực thi phần mềm có năng lực tính toán.
+Đáp án đúng
+B.
+Một hàm chức năng xử lý dữ liệu được viết bằng các ngôn ngữ lập trình hướng đối tượng.
+C.
+Một sự kiện kích hoạt làm thay đổi trạng thái hoạt động bên trong của một lớp đối tượng.
+D.
+Một ô lưu trữ dữ liệu tạm thời trong bộ nhớ đệm của hệ thống máy chủ cơ sở dữ liệu lớn.
+32
+Vai trò của Sơ đồ thành phần (Component Diagram) trong việc mô hình hóa hệ thống là gì?
+
+— Bỏ qua
+A.
+Xác định các quyền truy cập của người dùng đối với từng chức năng cụ thể trên hệ thống phần mềm.
+B.
+Trực quan hóa việc tổ chức và sự phụ thuộc giữa các thành phần phần mềm có tính chất thực thi độc lập.
+Đáp án đúng
+C.
+Mô tả chi tiết các thuộc tính dữ liệu và kiểu dữ liệu tương ứng của từng thực thể trong hệ thống.
+D.
+Theo dõi chuỗi tương tác theo thời gian giữa các đối tượng để phát hiện các điểm nghẽn hệ thống.
+33
+Trong sơ đồ thành phần, một "Component" được hiểu chính xác là gì?
+
+— Bỏ qua
+A.
+Là một đoạn mã lệnh ngắn thực hiện một phép tính toán logic hoặc số học đơn giản trong chương trình.
+B.
+Là một thiết bị phần cứng vật lý như máy chủ, máy in hoặc thiết bị định tuyến mạng trong hệ thống.
+C.
+Là một phần đóng gói độc lập, có tính chất mô-đun của hệ thống và có thể thay thế được dễ dàng.
+Đáp án đúng
+D.
+Là một tài liệu hướng dẫn sử dụng phần mềm được viết dành riêng cho đối tượng khách hàng cuối.
+34
+Sơ đồ hoạt vụ (Use Case Diagram) được sử dụng chủ yếu để làm gì trong UML?
+
+— Bỏ qua
+A.
+Xác định các chức năng của hệ thống dưới góc nhìn của người dùng và các tác nhân tương tác bên ngoài.
+Đáp án đúng
+B.
+Thiết kế chi tiết các thuật toán xử lý dữ liệu phức tạp bên trong các phương thức của một lớp.
+C.
+Quy định kiến trúc phần cứng và sơ đồ mạng kết nối giữa các máy trạm và hệ thống máy chủ trung tâm.
+D.
+Mô tả sự di chuyển của các luồng dữ liệu giữa các tiến trình xử lý của một phần mềm máy tính.
+35
+Thành phần "Actor" trong sơ đồ Use Case đại diện cho đối tượng nào sau đây?
+
+— Bỏ qua
+A.
+Là các biến thành viên lưu trữ thông tin về quyền hạn truy cập của người dùng trong cơ sở dữ liệu.
+B.
+Là các lớp đối tượng chịu trách nhiệm hiển thị giao diện đồ họa lên màn hình máy tính của người dùng.
+C.
+Là bất kỳ thực thể nào bên ngoài (con người hoặc hệ thống khác) tương tác trực tiếp với hệ thống.
+Đáp án đúng
+D.
+Là những lập trình viên tham gia trực tiếp vào quá trình viết mã nguồn và kiểm thử cho phần mềm.
+36
+Sơ đồ trạng thái (State Machine Diagram) giúp mô tả khía cạnh nào trong quá trình phát triển?
+
+— Bỏ qua
+A.
+Cấu trúc tổ chức thư mục mã nguồn của dự án trên các công cụ quản lý phiên bản phần mềm.
+B.
+Sự phụ thuộc lẫn nhau giữa các mô-đun phần mềm khi tiến hành biên dịch hệ thống ra tệp thực thi.
+C.
+Chu kỳ sống của một đối tượng, bao gồm các trạng thái và các sự kiện làm chuyển đổi trạng thái đó.
+Đáp án đúng
+D.
+Tổng số lượng tài khoản người dùng đang đăng nhập vào hệ thống tại một thời điểm cụ thể.
+37
+Sơ đồ trạng thái thường được áp dụng hiệu quả nhất cho những đối tượng có đặc điểm gì?
+
+— Bỏ qua
+A.
+Những đối tượng có hành vi phụ thuộc nhiều vào trạng thái hiện tại và có phản hồi phức tạp với sự kiện.
+Đáp án đúng
+B.
+Những đối tượng chỉ đóng vai trò chứa dữ liệu thuần túy và không có bất kỳ phương thức xử lý nào.
+C.
+Những đối tượng giao diện người dùng có cấu trúc cố định và không bao giờ thay đổi theo thời gian.
+D.
+Những thực thể phần cứng bên ngoài hệ thống và không chịu sự kiểm soát của mã nguồn phần mềm.
+38
+Chức năng chính của Sơ đồ hoạt động (Activity Diagram) trong UML là gì?
+
+— Bỏ qua
+A.
+Khai báo danh sách các lớp đối tượng và các kiểu dữ liệu của các thuộc tính trong hệ thống.
+B.
+Định nghĩa cấu hình mạng và các giao thức truyền tải dữ liệu an toàn giữa các máy chủ dịch vụ.
+C.
+Mô tả dòng chảy tuần tự hoặc song song của các hoạt động và các hành động trong một quy trình.
+Đáp án đúng
+D.
+Theo dõi các thông điệp được truyền đi giữa các đường đời của các đối tượng theo trục thời gian.
+39
+Sơ đồ hoạt động (Activity Diagram) thường được ứng dụng mạnh mẽ nhất trong việc gì?
+
+— Bỏ qua
+A.
+Mô hình hóa các quy trình nghiệp vụ của doanh nghiệp hoặc thuật toán xử lý của một chức năng phức tạp.
+Đáp án đúng
+B.
+Phân chia cấu trúc hệ thống thành các gói logic để thuận tiện cho việc phân công công việc trong nhóm.
+C.
+Xác định vị trí lắp đặt các thiết bị phần cứng như máy chủ lưu trữ hoặc các thiết bị định tuyến.
+D.
+Liệt kê các điều kiện ràng buộc về mặt dữ liệu đối với các thuộc tính lưu trữ trong cơ sở dữ liệu.
+40
+Sơ đồ tổng thể về tương tác (Interaction Overview Diagram) có đặc điểm nổi bật là gì?
+
+— Bỏ qua
+A.
+Là sơ đồ chuyên dùng để khai báo cấu trúc bộ nhớ và cách thức cấp phát vùng nhớ cho các đối tượng.
+B.
+Là sự kết hợp giữa sơ đồ hoạt động và sơ đồ tuần tự, sử dụng các khung tương tác làm các nút.
+Đáp án đúng
+C.
+Là sơ đồ tập trung vào việc mô tả chi tiết các thuộc tính dẫn xuất và các công thức toán học logic.
+D.
+Là sơ đồ thay thế hoàn toàn sơ đồ lớp trong việc thiết kế cơ sở dữ liệu quan hệ cho phần mềm lớn.
+41
+Ứng dụng quan trọng nhất của Sơ đồ tổng thể về tương tác trong UML là gì?
+
+— Bỏ qua
+A.
+Giúp lập trình viên theo dõi chi tiết cấu trúc mã nguồn của từng hàm xử lý dữ liệu nguyên thủy độc lập.
+B.
+Xác định chính xác các địa chỉ IP của các máy chủ tham gia vào hệ thống mạng nội bộ của doanh nghiệp.
+C.
+Cung cấp một cái nhìn tổng quan ở mức cao về luồng điều khiển giữa các tương tác khác nhau của hệ thống.
+Đáp án đúng
+D.
+Đóng gói các trường hợp sử dụng vào các thư mục để phân chia quyền hạn truy cập cho người dùng cuối.
+42
+Sơ đồ truyền thông (Communication Diagram) thể hiện điều gì trong một hệ thống phần mềm?
+
+— Bỏ qua
+A.
+Mối quan hệ cấu trúc giữa các đối tượng tham gia tương tác và thứ tự tuần tự của các thông điệp.
+Đáp án đúng
+B.
+Kiến trúc vật lý của các đường truyền cáp quang và các thiết bị phát sóng wifi trong hệ thống mạng.
+C.
+Danh sách các kênh truyền thông tiếp thị được tích hợp vào phần mềm để gửi thông báo cho khách hàng.
+D.
+Sự phân rã của các lớp đối tượng từ mức trừu tượng cao xuống mức cài đặt mã nguồn chi tiết nhất.
+43
+Điểm khác biệt lớn nhất về mặt biểu diễn giữa Sơ đồ truyền thông và Sơ đồ tuần tự là gì?
+
+— Bỏ qua
+A.
+Sơ đồ truyền thông thể hiện khía cạnh tĩnh, sơ đồ tuần tự thể hiện khía cạnh động của phần mềm.
+B.
+Sơ đồ truyền thông chỉ dùng cho lập trình viên, sơ đồ tuần tự chỉ dùng cho đối tượng khách hàng.
+C.
+Sơ đồ truyền thông tập trung vào mối quan hệ không gian, sơ đồ tuần tự tập trung vào trục thời gian.
+Đáp án đúng
+D.
+Sơ đồ truyền thông bắt buộc phải có các làn bơi, sơ đồ tuần tự bắt buộc phải có các nút quyết định.
+44
+Sơ đồ thời gian (Timing Diagram) trong UML được sử dụng nhằm mục đích chính là gì?
+
+— Bỏ qua
+A.
+Tính toán tổng số ngày cần thiết để hoàn thành toàn bộ dự án phát triển phần mềm theo kế hoạch.
+B.
+Đo lường tốc độ gõ bàn phím của người dùng khi tương tác với các chức năng trên màn hình hệ thống.
+C.
+Chỉ ra chính xác thời gian và các điều kiện thay đổi trạng thái của các đối tượng theo trục thời gian.
+Đáp án đúng
+D.
+Lên lịch trình sao lưu dữ liệu tự động cho các hệ thống máy chủ cơ sở dữ liệu vào cuối mỗi ngày.
+45
+Sơ đồ thời gian thường được ứng dụng phổ biến nhất trong loại hệ thống nào?
+
+— Bỏ qua
+A.
+Các hệ thống nhúng, hệ thống thời gian thực hoặc các hệ thống đòi hỏi độ chính xác cao về mặt thời gian.
+Đáp án đúng
+B.
+Các trang web tin tức đơn giản không có sự tương tác phức tạp hoặc không lưu trữ dữ liệu người dùng.
+C.
+Các ứng dụng văn phòng thông thường như quản lý văn bản, in ấn tài liệu hoặc tính toán bảng lương.
+D.
+Các trò chơi điện tử trực tuyến không yêu cầu sự đồng bộ hóa dữ liệu giữa các người chơi với nhau.
+46
+Kiến trúc "4+1 View" trong mô hình hóa hệ thống bao gồm những khung nhìn nào?
+
+— Bỏ qua
+A.
+Khung nhìn dữ liệu, khung nhìn thuật toán, khung nhìn giao diện, khung nhìn kiểm thử và khung nhìn lõi.
+B.
+Khung nhìn người dùng, khung nhìn lập trình viên, khung nhìn quản lý, khung nhìn vận hành và khung nhìn tổng.
+C.
+Khung nhìn logic, khung nhìn triển khai, khung nhìn tiến trình, khung nhìn thực thi và khung nhìn use case.
+Đáp án đúng
+D.
+Khung nhìn cấu trúc, khung nhìn hành xử, khung nhìn tương tác, khung nhìn thời gian và khung nhìn đóng gói.
+47
+Khung nhìn nào đóng vai trò trung tâm (+1) trong kiến trúc "4+1 View" và kết nối các khung nhìn còn lại?
+
+— Bỏ qua
+A.
+Use Case View (Khung nhìn trường hợp sử dụng) vì nó định hướng cho toàn bộ kiến trúc và thiết kế.
+Đáp án đúng
+B.
+Logical View (Khung nhìn logic) vì nó chứa đựng toàn bộ sơ đồ lớp và sơ đồ đối tượng của hệ thống.
+C.
+Deployment View (Khung nhìn triển khai) vì nó xác định cấu hình phần cứng tối thiểu để chạy phần mềm.
+D.
+Process View (Khung nhìn tiến trình) vì nó đảm bảo hệ thống không bị xung đột khi chạy đa luồng dữ liệu.
+48
+Sơ đồ Use Case thuộc khung nhìn nào trong kiến trúc "4+1 View"?
+
+— Bỏ qua
+A.
+Implementation View (Khung nhìn thực thi).
+B.
+Process View (Khung nhìn tiến trình).
+C.
+Deployment View (Khung nhìn triển khai).
+D.
+Scenarios / Use Case View (Khung nhìn kịch bản).
+Đáp án đúng
+49
+Mối quan hệ giữa Sơ đồ lớp và Khung nhìn logic (Logical View) trong kiến trúc 4+1 là gì?
+
+— Bỏ qua
+A.
+Sơ đồ lớp là công cụ chính được sử dụng bên trong Khung nhìn logic để mô tả cấu trúc dữ liệu trừu tượng.
+Đáp án đúng
+B.
+Sơ đồ lớp hoàn toàn độc lập và không có bất kỳ mối liên hệ nào đối với Khung nhìn logic của kiến trúc.
+C.
+Sơ đồ lớp đóng vai trò kiểm thử tính đúng đắn của Khung nhìn logic trước khi tiến hành viết mã nguồn.
+D.
+Sơ đồ lớp được sinh ra tự động sau khi Khung nhìn logic đã được các chuyên gia phê duyệt hoàn toàn.
+50
+Để mô hình hóa khía cạnh phân bổ vật lý của phần mềm lên phần cứng, kiến trúc 4+1 sử dụng khung nhìn nào?
+
+— Bỏ qua
+A.
+Logical View (Khung nhìn logic).
+B.
+Process View (Khung nhìn tiến trình).
+C.
+Deployment View (Khung nhìn triển khai).
+Đáp án đúng
+D.
+Implementation View (Khung nhìn thực thi).

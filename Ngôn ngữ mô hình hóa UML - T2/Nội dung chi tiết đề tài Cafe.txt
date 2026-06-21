@@ -1,0 +1,375 @@
+TRƯỜNG ĐẠI HỌC NAM CẦN THƠ
+KHOA CÔNG NGHỆ THÔNG TIN
+NGUYỄN VĂN A
+TRẦN THỊ B
+LÊ VĂN C
+PHẠM THỊ D
+HOÀNG VĂN E
+HỆ THỐNG QUẢN LÝ BÁN HÀNG TẠI QUÁN CAFÉ
+BÁO CÁO MÔN HỌC
+Ngành công nghệ thông tin
+Mã số ngành: 7480201
+Tháng 04 – 2026
+ 
+TRƯỜNG ĐẠI HỌC NAM CẦN THƠ
+KHOA CÔNG NGHỆ THÔNG TIN
+NGUYỄN VĂN A
+225001
+TRẦN THỊ B
+225002
+LÊ VĂN C
+225003
+PHẠM THỊ D
+225004
+HOÀNG VĂN E
+225005
+
+HỆ THỐNG QUẢN LÝ BÁN HÀNG TẠI QUÁN CAFÉ
+BÁO CÁO MÔN HỌC
+NGÀNH CÔNG NGHỆ THÔNG TIN
+GIÁO VIÊN HƯỚNG DẪN
+ĐẶNG MẠNH HUY
+Tháng 04 – 2026
+ 
+LỜI CẢM TẠ
+Trong suốt quá trình thực hiện dự án, chúng em đã nhận được sự giúp đỡ, động viên và hướng dẫn tận tình từ nhiều cá nhân và tổ chức. Nhân dịp này, chúng em xin gửi lời tri ân chân thành đến những người đã hỗ trợ, góp ý và tạo điều kiện thuận lợi để chúng em có thể hoàn thành tốt đồ án này.
+
+Trước hết, chúng em xin bày tỏ lòng biết ơn sâu sắc đến Thầy Đặng Mạnh Huy, giảng viên hướng dẫn, Trường Đại học Nam Cần Thơ. Thầy không chỉ tận tình hướng dẫn, góp ý mà còn truyền đạt cho chúng em những kinh nghiệm quý báu trong việc mô hình hóa hệ thống thực tế.
+
+Chúng em cũng xin chân thành cảm ơn quý thầy cô trong Khoa Công Nghệ Thông Tin, Trường Đại học Nam Cần Thơ, những người đã truyền đạt kiến thức nền tảng vững chắc để chúng em hoàn thành đồ án.
+
+Dù đã dành nhiều tâm huyết và nỗ lực, đồ án vẫn không thể tránh khỏi những thiếu sót. Chúng em kính mong nhận được những góp ý từ quý thầy cô và bạn bè để hoàn thiện hơn trong tương lai.
+
+Cần Thơ, ngày .... tháng .... năm ....
+Người thực hiện
+(Ký và ghi rõ họ tên)
+ 
+TRANG CAM KẾT
+Chúng em xin cam kết báo cáo này được hoàn thành dựa trên các kết quả nghiên cứu của chúng em trong khuôn khổ của đề tài hệ thống quản lý bán hàng tại quán café và các kết quả của dự án này chưa được dùng cho bất cứ dự án cùng cấp nào khác.
+
+Cần Thơ, ngày .... tháng .... năm ....
+Người thực hiện
+(Ký và ghi rõ họ tên)
+ 
+NHẬN XÉT CỦA GIẢNG VIÊN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cần Thơ, … tháng … năm 2026
+Giảng viên hướng dẫn
+ 
+CHƯƠNG 1 ĐẶC TẢ HỆ THỐNG
+1.1 Đặc tả dữ liệu
+Hệ thống Quản lý Bán hàng tại Quán Café được xây dựng nhằm số hóa toàn bộ quy trình vận hành tại quầy (Point of Sale) của một quán café theo mô hình bán hàng truyền thống tại Việt Nam. Hệ thống bao quát các nghiệp vụ từ lập đơn hàng, tùy chỉnh món, xử lý thanh toán đa phương thức đến phối hợp với bộ phận pha chế và báo cáo doanh thu cho chủ quán.
+
+Hệ thống phục vụ hai vai trò người dùng chính: Nhân viên thu ngân – người trực tiếp vận hành máy POS tại quầy để lập đơn và thu tiền, và Chủ quán – người đăng nhập định kỳ để giám sát báo cáo kinh doanh. Ngoài ra, hệ thống tương tác với các tác nhân phụ gồm Khách hàng (cung cấp yêu cầu, không chạm máy), Bộ phận pha chế (nhận lệnh chế biến) và Hệ thống Ngân hàng/Ví điện tử (xử lý thanh toán trực tuyến).
+
+Thực thể trung tâm của hệ thống là Đơn hàng (Order). Mỗi đơn hàng được gắn với một phiên bán hàng cụ thể, lưu trữ thời gian tạo, danh sách chi tiết món đã chọn, tổng tiền, phương thức thanh toán và trạng thái đơn (đang xử lý / đã thanh toán / đã hủy). Mỗi dòng chi tiết đơn hàng lưu tên món, đơn giá tại thời điểm đặt, số lượng và các tùy chọn thêm (topping, mức đường/đá).
+
+Danh mục sản phẩm lưu trữ toàn bộ thông tin về các món đồ uống, bao gồm tên món, mô tả, giá bán, danh mục (cà phê/trà/sinh tố...), ảnh minh họa và trạng thái kinh doanh (đang bán/ngừng bán). Khi một món hết nguyên liệu, hệ thống hỗ trợ ẩn khỏi danh sách để tránh nhân viên đặt nhầm.
+
+Thanh toán được quản lý theo từng đơn hàng. Hệ thống hỗ trợ hai phương thức: Tiền mặt (nhân viên xử lý tại quầy, ghi nhận số tiền nhận và tiền thừa) và Thanh toán điện tử (kết nối Hệ thống Ngân hàng/Ví điện tử qua QR hoặc cà thẻ). Thông tin thanh toán gồm phương thức, trạng thái (thành công/thất bại/chờ xử lý), mã giao dịch và thời điểm thanh toán.
+
+Sau khi thanh toán thành công, hệ thống tự động gửi Lệnh pha chế đến màn hình của bộ phận pha chế, bao gồm số thứ tự đơn, danh sách món và các tùy chọn đặc biệt. Đồng thời, hệ thống in Hóa đơn tại quầy để giao cho khách. Mọi giao dịch được lưu trữ để phục vụ chức năng báo cáo doanh thu cho chủ quán.
+
+Toàn bộ nhật ký giao dịch, bao gồm thời gian tạo đơn, nhân viên thực hiện và kết quả thanh toán, được lưu trữ tối thiểu 1 năm để phục vụ công tác đối soát tài chính và kiểm tra khi cần thiết.
+
+1.2 CÁC YÊU CẦU CHỨC NĂNG
+Hệ thống hỗ trợ quán café tự động hóa quy trình bán hàng tại quầy, quản lý tập trung thực đơn, đơn hàng và báo cáo doanh thu, giúp tối ưu vận hành và phục vụ khách hàng nhanh chóng, chính xác.
+1.2.1 Quản lý thông tin cá nhân
+Hệ thống cho phép tất cả người dùng (Nhân viên thu ngân, Chủ quán) xem và cập nhật thông tin hồ sơ cá nhân. Hệ thống hiển thị đầy đủ họ tên, tên đăng nhập, số điện thoại, email và vai trò hiện tại.
+
+Khi người dùng thay đổi mật khẩu, hệ thống bắt buộc xác thực mật khẩu hiện tại trước khi ghi nhận. Mật khẩu mới được mã hóa bằng thuật toán băm an toàn ngay sau khi xác thực thành công.
+1.2.2 Lập đơn hàng
+Hệ thống cho phép nhân viên thu ngân tạo đơn hàng mới bằng cách chọn món từ thực đơn theo yêu cầu của khách. Nhân viên có thể chọn nhiều món, điều chỉnh số lượng và thêm các tùy chọn đặc biệt cho từng món.
+
+Trong quá trình lập đơn, hệ thống tự động tính toán thành tiền từng dòng và tổng giá trị đơn hàng theo thời gian thực. Nhân viên có thể xem lại toàn bộ đơn trước khi xác nhận chốt.
+1.2.3 Tùy chọn thêm
+Hệ thống hỗ trợ nhân viên thêm các tùy chỉnh đặc biệt vào từng món trong đơn hàng, bao gồm topping (thêm trân châu, thạch, kem...), mức đường (không đường/ít đường/bình thường/nhiều đường) và mức đá (không đá/ít đá/bình thường). Tùy chọn này chỉ xuất hiện khi khách có yêu cầu riêng biệt.
+
+Mỗi tùy chọn thêm có thể phát sinh phí bổ sung (ví dụ: thêm topping). Hệ thống tự động cộng phí tùy chọn vào thành tiền của món tương ứng và cập nhật tổng đơn hàng ngay lập tức.
+1.2.4 Thanh toán
+Hệ thống xử lý bước thanh toán bắt buộc sau khi nhân viên chốt đơn hàng. Hệ thống hiển thị tổng tiền cần thanh toán và cung cấp hai phương thức để nhân viên lựa chọn: Tiền mặt hoặc Thanh toán điện tử.
+
+Sau khi xác nhận thanh toán thành công, hệ thống ghi nhận doanh thu, cập nhật trạng thái đơn hàng và tự động kích hoạt các bước hoàn tất (in hóa đơn, gửi lệnh pha chế).
+1.2.5 Thanh toán tiền mặt
+Hệ thống hỗ trợ nhân viên xử lý giao dịch tiền mặt tại quầy. Nhân viên nhập số tiền khách đưa, hệ thống tự động tính số tiền thừa cần trả lại và hiển thị cho nhân viên. Giao dịch được ghi nhận ngay sau khi nhân viên xác nhận.
+1.2.6 Thanh toán điện tử
+Hệ thống kết nối với Hệ thống Ngân hàng/Ví điện tử để xử lý các giao dịch không dùng tiền mặt qua mã QR hoặc cà thẻ. Hệ thống hiển thị mã QR tương ứng với tổng tiền đơn hàng, chờ xác nhận giao dịch từ cổng thanh toán trung gian.
+
+Khi cổng thanh toán phản hồi thành công, hệ thống ghi nhận mã giao dịch và thời điểm thanh toán. Nếu giao dịch thất bại hoặc hết thời gian chờ, hệ thống thông báo lỗi và cho phép nhân viên thử lại hoặc chuyển sang tiền mặt.
+1.2.7 In hóa đơn & Gửi lệnh pha chế
+Sau khi thanh toán thành công, hệ thống tự động thực hiện hai hành động song song: in hóa đơn tại máy in quầy (bao gồm danh sách món, tổng tiền, phương thức thanh toán, thời gian) và gửi lệnh pha chế đến màn hình hiển thị tại khu vực pha chế (số thứ tự đơn, danh sách món và tùy chọn đặc biệt của từng món).
+
+Bộ phận pha chế xem lệnh trên màn hình và thực hiện chế biến theo đúng thứ tự. Khi hoàn tất, nhân viên pha chế có thể đánh dấu đơn là đã hoàn thành trên hệ thống.
+1.2.8 Quản lý thực đơn
+Hệ thống cho phép chủ quán hoặc nhân viên được ủy quyền quản lý danh mục món đồ uống, bao gồm: thêm món mới, cập nhật giá/mô tả, thay đổi ảnh minh họa và ẩn/hiển thị món tùy theo tình trạng nguyên liệu. Mỗi món phải thuộc về đúng một danh mục để duy trì cấu trúc thực đơn rõ ràng.
+1.2.9 Xem báo cáo doanh thu
+Hệ thống cung cấp chức năng báo cáo dành riêng cho chủ quán, bao gồm doanh thu theo ca/ngày/tháng, số lượng đơn hàng, món bán chạy nhất và tỷ lệ phương thức thanh toán. Chủ quán có thể lọc theo khoảng thời gian và xuất báo cáo ra file.
+
+1.3 Các yêu cầu phi chức năng
+Hệ thống quản lý bán hàng tại quán café không chỉ cần đáp ứng các yêu cầu chức năng mà còn phải đảm bảo các yêu cầu phi chức năng để vận hành ổn định trong môi trường bán hàng thực tế.
+
+Về tính bảo mật, hệ thống phân quyền truy cập theo vai trò (RBAC): nhân viên thu ngân chỉ có quyền lập đơn và xử lý thanh toán, chủ quán có toàn quyền bao gồm xem báo cáo và quản lý thực đơn. Mật khẩu được mã hóa bằng thuật toán băm, dữ liệu giao dịch thanh toán điện tử được truyền qua kênh bảo mật.
+
+Về tính hiệu năng, thao tác lập đơn và xử lý thanh toán phải hoàn tất trong vòng 2 giây. Lệnh pha chế phải được gửi đến màn hình bộ phận pha chế trong vòng 3 giây sau khi thanh toán thành công. Hệ thống phải hoạt động ổn định trong suốt ca làm việc (8-12 tiếng liên tục).
+
+Về tính dễ sử dụng, giao diện nhân viên tại quầy phải được thiết kế tối giản, thao tác nhanh, phù hợp với màn hình cảm ứng. Nhân viên mới có thể thành thạo các chức năng cơ bản sau 30 phút hướng dẫn.
+
+Về tính ổn định, hệ thống phải vận hành liên tục trong giờ kinh doanh, tự động lưu trạng thái đơn hàng khi mất điện đột ngột và khôi phục phiên làm việc khi khởi động lại. Dữ liệu giao dịch được sao lưu tự động hàng ngày và lưu trữ tối thiểu 1 năm.
+ 
+CHƯƠNG 2 THIẾT KẾ THÀNH PHẦN CHỨC NĂNG
+2.1 Sơ đồ UseCase
+2.1.1 Sơ đồ UseCase Tổng Quát
+Hình 2.1 Sơ đồ UseCase Tổng quát
+Bảng 2.1 Đặc tả UseCase Đăng nhập
+Name	Đăng nhập
+Short description	Xác thực danh tính người dùng (Nhân viên thu ngân, Chủ quán) để cấp quyền truy cập vào hệ thống POS.
+Precondition	1. Người dùng đã có tài khoản trong hệ thống.
+Postcondition	1. Người dùng được chuyển đến giao diện chính phù hợp với vai trò. 2. Session được khởi tạo và lưu thông tin định danh. 3. Menu chức năng hiển thị đúng theo quyền hạn.
+Error situations	1. Sai tên đăng nhập hoặc mật khẩu. 2. Tài khoản đang bị khóa/ngừng kích hoạt.
+System state in the event of an error	1. Từ chối truy cập, không tạo session. 2. Hiển thị thông báo lỗi chung. 3. Giữ nguyên form đăng nhập để người dùng nhập lại.
+Actors	Nhân viên thu ngân, Chủ quán
+Trigger	Người dùng mở ứng dụng và chọn nút "Đăng nhập".
+Standard process	(1) Người dùng nhập Username và Password (2) Hệ thống kiểm tra định dạng dữ liệu (3) c thực Password (so sánh mã băm) (5) Hệ thống kiểm tra trạHệ thống truy vấn CSDL tìm tài khoản khớp (4) Hệ thống xáng thái tài khoản (6) Hệ thống xác định vai trò và cấp quyền (7) Chuyển hướng giao diện chính theo vai trò
+Alternative processes	(2') Dữ liệu trống/sai định dạng → Highlight trường lỗi (3') Không tìm thấy Username → "Tên đăng nhập hoặc mật khẩu không đúng" (5') Tài khoản bị khóa → "Tài khoản đã bị vô hiệu hóa, vui lòng liên hệ Chủ quán"
+
+Bảng 2.2 Đặc tả UseCase Quản lý thông tin cá nhân
+Name	Quản lý thông tin cá nhân
+Short description	Cho phép người dùng xem và cập nhật hồ sơ cá nhân (họ tên, SĐT, email) cùng mật khẩu.
+Precondition	1. Người dùng đã đăng nhập thành công. 2. Tài khoản đang ở trạng thái kích hoạt.
+Postcondition	1. Thông tin cá nhân mới được lưu vào CSDL. 2. Mật khẩu được mã hóa và cập nhật.
+Error situations	1. Mật khẩu mới không đủ mạnh hoặc không khớp xác nhận. 2. Sai mật khẩu hiện tại khi thực hiện đổi mật khẩu.
+System state in the event of an error	1. Từ chối cập nhật, giữ nguyên dữ liệu cũ. 2. Hiển thị lỗi chi tiết tại trường nhập liệu tương ứng.
+Actors	Nhân viên thu ngân, Chủ quán
+Trigger	Người dùng chọn menu "Thông tin cá nhân".
+Standard process	(1) Hệ thống hiển thị form thông tin hiện tại (2) Người dùng chỉnh sửa thông tin mong muốn (3) Hệ thống kiểm tra tính hợp lệ dữ liệu mới (4) Hệ thống cập nhật vào CSDL (5) Thông báo thành công và làm mới giao diện
+Alternative processes	(2') Đổi mật khẩu → Yêu cầu nhập MK cũ → Xác thực → Mã hóa và lưu MK mới
+
+Bảng 2.3 Đặc tả UseCase Xem báo cáo doanh thu
+Name	Xem báo cáo doanh thu
+Short description	Cho phép Chủ quán xem báo cáo doanh thu, số lượng đơn hàng, món bán chạy và xuất dữ liệu ra file.
+Precondition	1. Chủ quán đã đăng nhập và có quyền xem báo cáo. 2. Có dữ liệu giao dịch đủ điều kiện tổng hợp.
+Postcondition	1. Báo cáo được hiển thị chính xác theo bộ lọc đã chọn. 2. Dữ liệu có thể xuất file thành công.
+Error situations	1. Khoảng thời gian lọc không hợp lý. 2. Không có dữ liệu trong khoảng chọn.
+System state in the event of an error	1. Hiển thị "Không có dữ liệu trong khoảng thời gian này". 2. Không tải file, ghi log lỗi.
+Actors	Chủ quán
+Trigger	Chủ quán chọn menu "Báo cáo doanh thu".
+Standard process	(1) Chọn loại báo cáo và khoảng thời gian (2) Hệ thống tổng hợp dữ liệu từ bảng Đơn hàng (3) Tính toán và hiển thị bảng số liệu/biểu đồ (4) Cho phép xem chi tiết và xuất file
+Alternative processes	(1') Không có dữ liệu → Gợi ý mở rộng khoảng thời gian (4') Xuất file lỗi → Thử lại → Báo lỗi nếu vẫn thất bại
+
+2.1.2 Phân rã UseCase Quản lý bán hàng
+Hình 2.2 Sơ đồ UseCase Quản lý bán hàng
+Bảng 2.4 Đặc tả UseCase Lập đơn hàng
+Name	Lập đơn hàng
+Short description	Nhân viên thu ngân chọn món theo yêu cầu của khách, điều chỉnh số lượng và xác nhận chốt đơn.
+Precondition	1. Nhân viên đã đăng nhập thành công. 2. Thực đơn có ít nhất một món đang kinh doanh.
+Postcondition	1. Đơn hàng được tạo với trạng thái "Chờ thanh toán". 2. Tổng tiền được tính chính xác theo danh sách món đã chọn.
+Error situations	1. Không chọn được món nào (đơn trống). 2. Món vừa bị ẩn/ngừng bán khi đang lập đơn.
+System state in the event of an error	1. Chặn chốt đơn, hiển thị cảnh báo "Đơn hàng không có món nào". 2. Tự động loại món không còn kinh doanh khỏi đơn, thông báo cho nhân viên.
+Actors	Nhân viên thu ngân
+Trigger	Khách hàng gọi món, nhân viên bắt đầu tạo đơn mới trên máy POS.
+Standard process	(1) Nhân viên chọn "Tạo đơn mới" (2) Hệ thống hiển thị thực đơn phân theo danh mục (3) Nhân viên chọn từng món, điều chỉnh số lượng (4) Với mỗi món, hệ thống tự động tính thành tiền và cộng vào tổng (5) Nhân viên xem lại đơn và chọn "Chốt đơn" (6) Hệ thống lưu đơn, kích hoạt UC Thanh toán (<<include>>)
+Alternative processes	(3') Thêm tùy chọn đặc biệt → Kích hoạt UC Tùy chọn thêm (<<extend>>) (5') Nhân viên xóa/sửa món trước khi chốt → Hệ thống cập nhật lại tổng tiền
+
+Bảng 2.5 Đặc tả UseCase Tùy chọn thêm
+Name	Tùy chọn thêm
+Short description	Cho phép nhân viên thêm các tùy chỉnh đặc biệt vào món (topping, mức đường, mức đá) khi khách có yêu cầu riêng.
+Precondition	1. Đang trong quá trình lập đơn hàng. 2. Món được chọn hỗ trợ tùy chọn thêm.
+Postcondition	1. Tùy chọn được ghi nhận vào dòng chi tiết món tương ứng. 2. Phí tùy chọn (nếu có) được cộng vào thành tiền của món.
+Error situations	1. Tùy chọn không hợp lệ hoặc không áp dụng cho món đang chọn.
+System state in the event of an error	1. Không lưu tùy chọn không hợp lệ, hiển thị cảnh báo.
+Actors	Nhân viên thu ngân
+Trigger	Được kích hoạt từ UC Lập đơn hàng khi khách có yêu cầu tùy chỉnh (quan hệ <<extend>>).
+Standard process	(1) Nhân viên chọn món và nhấn "Tùy chọn thêm" (2) Hệ thống hiển thị danh sách tùy chọn khả dụng (topping, đường, đá) (3) Nhân viên chọn các tùy chỉnh theo yêu cầu khách (4) Hệ thống tính phí tùy chọn và cộng vào thành tiền món (5) Xác nhận, quay về màn hình lập đơn
+Alternative processes	(3') Khách không có tùy chọn thêm → Bỏ qua, tiếp tục lập đơn bình thường
+
+Bảng 2.6 Đặc tả UseCase Thanh toán
+Name	Thanh toán
+Short description	Xử lý bước thanh toán bắt buộc sau khi đơn hàng được chốt, ghi nhận doanh thu và kích hoạt hoàn tất đơn.
+Precondition	1. Đơn hàng đã được chốt với trạng thái "Chờ thanh toán". 2. Tổng tiền đã được tính chính xác.
+Postcondition	1. Đơn hàng chuyển trạng thái "Đã thanh toán". 2. Doanh thu được ghi nhận vào hệ thống. 3. UC In hóa đơn và UC Gửi lệnh pha chế được kích hoạt (<<include>>).
+Error situations	1. Giao dịch thanh toán điện tử thất bại. 2. Nhân viên hủy thanh toán giữa chừng.
+System state in the event of an error	1. Đơn hàng giữ trạng thái "Chờ thanh toán", chờ thử lại. 2. Không ghi nhận doanh thu, không gửi lệnh pha chế.
+Actors	Nhân viên thu ngân
+Trigger	Được kích hoạt bởi UC Lập đơn hàng sau khi chốt đơn (quan hệ <<include>>).
+Standard process	(1) Hệ thống hiển thị tổng tiền cần thanh toán (2) Nhân viên chọn phương thức thanh toán (3a) Tiền mặt → Kích hoạt UC Thanh toán tiền mặt (Generalization) (3b) Điện tử → Kích hoạt UC Thanh toán điện tử (Generalization) (4) Thanh toán thành công → Ghi nhận doanh thu (5) Hệ thống kích hoạt UC In hóa đơn (<<include>>) (6) Hệ thống kích hoạt UC Gửi lệnh pha chế (<<include>>)
+Alternative processes	(2') Nhân viên hủy → Giữ đơn "Chờ thanh toán", quay về màn hình đơn hàng (4') Thanh toán thất bại → Hiển thị lỗi, cho phép thử lại hoặc đổi phương thức
+
+Bảng 2.7 Đặc tả UseCase Thanh toán tiền mặt
+Name	Thanh toán tiền mặt
+Short description	Xử lý giao dịch tiền mặt tại quầy, tính số tiền thừa và xác nhận thu tiền.
+Precondition	1. Đơn hàng đang ở bước thanh toán. 2. Nhân viên đã chọn phương thức "Tiền mặt".
+Postcondition	1. Giao dịch được ghi nhận với phương thức "Tiền mặt". 2. Số tiền thu và tiền thừa được lưu vào bản ghi đơn hàng.
+Error situations	1. Số tiền khách đưa nhỏ hơn tổng tiền cần thanh toán.
+System state in the event of an error	1. Chặn xác nhận, hiển thị "Số tiền không đủ", yêu cầu nhập lại.
+Actors	Nhân viên thu ngân
+Trigger	Nhân viên chọn "Tiền mặt" trong màn hình thanh toán.
+Standard process	(1) Hệ thống hiển thị ô nhập số tiền khách đưa (2) Nhân viên nhập số tiền nhận từ khách (3) Hệ thống tính và hiển thị số tiền thừa cần trả lại (4) Nhân viên xác nhận "Đã thu tiền" (5) Hệ thống ghi nhận giao dịch và chuyển về UC Thanh toán để hoàn tất
+Alternative processes	(2') Số tiền < tổng đơn → Hiển thị lỗi, yêu cầu nhập lại (4') Nhân viên hủy → Quay về màn hình chọn phương thức
+
+Bảng 2.8 Đặc tả UseCase Thanh toán điện tử
+Name	Thanh toán điện tử
+Short description	Xử lý giao dịch qua cổng thanh toán trung gian (Ngân hàng/Ví điện tử) bằng QR hoặc cà thẻ.
+Precondition	1. Đơn hàng đang ở bước thanh toán. 2. Nhân viên đã chọn phương thức "Điện tử". 3. Kết nối Hệ thống Ngân hàng đang hoạt động.
+Postcondition	1. Mã giao dịch và thời điểm thanh toán được lưu vào đơn hàng. 2. Trạng thái thanh toán cập nhật "Thành công".
+Error situations	1. Cổng thanh toán bảo trì hoặc không phản hồi. 2. Khách hủy giao dịch hoặc hết thời gian chờ. 3. Số dư không đủ.
+System state in the event of an error	1. Đơn hàng giữ trạng thái "Chờ thanh toán". 2. Cho phép nhân viên thử lại hoặc đổi phương thức tiền mặt.
+Actors	Nhân viên thu ngân, Hệ thống Ngân hàng/Ví điện tử
+Trigger	Nhân viên chọn "Thanh toán điện tử" trong màn hình thanh toán.
+Standard process	(1) Hệ thống tạo yêu cầu thanh toán và hiển thị mã QR tương ứng tổng tiền (2) Khách quét mã QR hoặc cà thẻ qua thiết bị (3) Hệ thống Ngân hàng xử lý giao dịch và trả kết quả về (4) Hệ thống ghi nhận mã giao dịch, cập nhật trạng thái "Đã thanh toán" (5) Chuyển về UC Thanh toán để hoàn tất đơn
+Alternative processes	(3') Hết thời gian → Báo hết hạn, cho phép tạo lại QR (3'') Thất bại → Hiển thị lỗi từ cổng thanh toán, đề xuất thử lại hoặc dùng tiền mặt
+
+2.1.3 Phân rã UseCase Hoàn tất đơn hàng
+Hình 2.3 Sơ đồ UseCase Hoàn tất đơn hàng
+Bảng 2.9 Đặc tả UseCase In hóa đơn
+Name	In hóa đơn
+Short description	Hệ thống tự động in hóa đơn tại máy in quầy ngay sau khi thanh toán thành công.
+Precondition	1. Thanh toán đã hoàn tất thành công. 2. Máy in đang kết nối và hoạt động bình thường.
+Postcondition	1. Hóa đơn được in với đầy đủ thông tin: món, giá, tổng tiền, phương thức TT, thời gian. 2. Bản ghi in được lưu vào hệ thống.
+Error situations	1. Máy in mất kết nối hoặc hết giấy. 2. Lỗi giao tiếp với máy in.
+System state in the event of an error	1. Hiển thị cảnh báo "Máy in lỗi", cho phép thử lại. 2. Đơn hàng vẫn được ghi nhận thành công dù in lỗi.
+Actors	Hệ thống (tự động)
+Trigger	Được kích hoạt bởi UC Thanh toán sau khi giao dịch thành công (quan hệ <<include>>).
+Standard process	(1) Hệ thống tổng hợp thông tin đơn hàng cần in (2) Gửi lệnh in đến máy in tại quầy (3) Máy in xuất hóa đơn (4) Hệ thống ghi nhận thời gian in thành công
+Alternative processes	(2') Máy in lỗi → Hiển thị cảnh báo, cho phép in lại hoặc bỏ qua
+
+Bảng 2.10 Đặc tả UseCase Gửi lệnh pha chế
+Name	Gửi lệnh pha chế
+Short description	Hệ thống tự động truyền thông tin đơn hàng đến màn hình hiển thị tại khu vực pha chế sau thanh toán thành công.
+Precondition	1. Thanh toán đã hoàn tất thành công. 2. Màn hình bộ phận pha chế đang kết nối.
+Postcondition	1. Lệnh pha chế xuất hiện trên màn hình khu vực pha chế với số thứ tự, danh sách món và tùy chọn đặc biệt. 2. Bộ phận pha chế có thể bắt đầu chế biến.
+Error situations	1. Mất kết nối đến màn hình pha chế. 2. Lỗi truyền dữ liệu.
+System state in the event of an error	1. Hệ thống lưu lệnh pha chế vào hàng đợi và tự động gửi lại khi kết nối phục hồi. 2. Hiển thị cảnh báo cho nhân viên để thông báo thủ công nếu cần.
+Actors	Hệ thống (tự động), Bộ phận pha chế (nhận thông tin)
+Trigger	Được kích hoạt bởi UC Thanh toán sau khi giao dịch thành công (quan hệ <<include>>).
+Standard process	(1) Hệ thống tổng hợp thông tin lệnh pha chế (số thứ tự đơn, danh sách món, tùy chọn) (2) Truyền dữ liệu đến màn hình khu vực pha chế (3) Màn hình hiển thị lệnh pha chế theo thứ tự (4) Bộ phận pha chế thực hiện chế biến và đánh dấu hoàn thành
+Alternative processes	(2') Mất kết nối → Lưu hàng đợi, tự động gửi lại khi phục hồi (4') Nhân viên pha chế đánh dấu hoàn thành → Hệ thống cập nhật trạng thái đơn
+
+2.1.4 Phân rã UseCase Quản lý thực đơn
+Hình 2.4 Sơ đồ UseCase Quản lý thực đơn
+Bảng 2.11 Đặc tả UseCase Quản lý thực đơn
+Name	Quản lý thực đơn
+Short description	Quản lý toàn diện danh mục món đồ uống, bao gồm: Thêm mới, Xem danh sách, Cập nhật thông tin, Ẩn/Hiển thị món.
+Precondition	1. Chủ quán đã đăng nhập và có quyền quản lý thực đơn.
+Postcondition	1. Thông tin thực đơn được cập nhật chính xác. 2. Giao diện lập đơn của nhân viên phản ánh thực đơn mới ngay lập tức.
+Error situations	1. Giá bán ≤ 0 hoặc tên món để trống. 2. Trùng tên món trong cùng danh mục.
+System state in the event of an error	1. Không lưu thay đổi, hiển thị thông báo lỗi chi tiết. 2. Giữ nguyên dữ liệu cũ.
+Actors	Chủ quán
+Trigger	Chủ quán cần thêm món mới, thay đổi giá hoặc ẩn món hết nguyên liệu.
+Standard process	(1) Chủ quán chọn chức năng "Quản lý thực đơn" (2) Hệ thống hiển thị danh sách món phân theo danh mục (3) Chủ quán chọn thao tác:     3a) Thêm mới: Nhập tên, giá, danh mục, ảnh → Kiểm tra → Lưu     3b) Cập nhật: Chọn món → Sửa thông tin → Kiểm tra → Lưu     3c) Ẩn/Hiển thị: Chọn món → Đổi trạng thái kinh doanh (4) Thông báo thành công, làm mới giao diện
+Alternative processes	(3a') Trùng tên món → Báo lỗi "Tên món đã tồn tại trong danh mục" (3c') Ẩn món đang có trong đơn chờ pha chế → Cảnh báo, cho phép xác nhận hoặc hủy
+
+2.2 Sơ đồ ClassDiagram
+Hình 2.5 Sơ đồ lớp hệ thống quản lý bán hàng tại quán café
+
+LỚP (CLASS)	THUỘC TÍNH CHÍNH	PHƯƠNG THỨC CHÍNH
+NguoiDung	maNguoiDung, tenDangNhap, matKhau, hoTen, soDienThoai, vaiTro, trangThai	dangNhap(), dangXuat(), doiMatKhau(), capNhatThongTin()
+DonHang	maDon, thoiGianTao, tongTien, trangThai (cho_tt/da_tt/huy), maNhanVien	taoDon(), chotDon(), huyDon(), tinhTong()
+ChiTietDon	maChiTiet, maDon, maMon, soLuong, donGia, thanhTien, tuyChonThem	themMon(), xoaMon(), capNhatSoLuong(), tinhThanhTien()
+ThucDon	maMon, tenMon, moTa, giaBan, danhMuc, anhMinhHoa, trangThai (dang_ban/ngung_ban)	themMon(), capNhatGia(), anMon(), hienMon()
+ThanhToan	maThanhToan, maDon, phuongThuc (tien_mat/dien_tu), trangThai, maGiaoDich, thoiDiem, soTienNhan, tienThua	thanhToanTienMat(), thanhToanDienTu(), xacNhan(), huy()
+LenhPhaChe	maLenh, maDon, soThuTu, danhSachMon, trangThai (cho/dang_lam/hoan_tat), thoiGianGui	guiLenh(), danhDauHoanTat(), huy()
+HoaDon	maHoaDon, maDon, thoiGianIn, noiDung, trangThaiIn	inHoaDon(), thulaiIn()
+
+2.3 Sơ đồ Sequence
+2.3.1 Sơ đồ Sequence Đăng nhập
+Bảng 2.12 Sơ đồ Sequence Đăng nhập
+
+Bước	Tác nhân → Đối tượng	Mô tả
+1	Người dùng → LoginUI	Nhập username và password, nhấn Đăng nhập
+2	LoginUI → AuthService	Gửi yêu cầu xác thực (username, password)
+3	AuthService → UserDB	Truy vấn tài khoản theo username
+4	UserDB → AuthService	Trả về thông tin tài khoản (hash MK, vai trò, trạng thái)
+5	AuthService → AuthService	So sánh hash(password nhập) với hash lưu trữ
+6	AuthService → SessionManager	Tạo session, gán quyền theo vai trò
+7	SessionManager → LoginUI	Trả kết quả thành công + token
+8	LoginUI → Người dùng	Chuyển hướng giao diện chính phù hợp vai trò
+
+2.3.2 Sơ đồ Sequence Lập đơn hàng
+Hình 2.6 Sơ đồ Sequence Lập đơn hàng
+
+Bước	Tác nhân → Đối tượng	Mô tả
+1	Nhân viên → POS_UI	Chọn "Tạo đơn mới"
+2	POS_UI → MenuService	Tải danh sách món đang kinh doanh từ CSDL
+3	Nhân viên → POS_UI	Chọn món, số lượng; thêm tùy chọn nếu có
+4	POS_UI → OrderService	Thêm dòng chi tiết vào đơn hàng, tính thành tiền
+5	OrderService → POS_UI	Cập nhật tổng tiền đơn hàng hiển thị real-time
+6	Nhân viên → POS_UI	Xem lại đơn và nhấn "Chốt đơn"
+7	POS_UI → OrderService	Lưu đơn hàng với trạng thái "Chờ thanh toán"
+8	OrderService → POS_UI	Chuyển sang màn hình UC Thanh toán
+
+2.3.3 Sơ đồ Sequence Thanh toán
+Hình 2.7 Sơ đồ Sequence Thanh toán
+
+Bước	Tác nhân → Đối tượng	Mô tả
+1	POS_UI → Nhân viên	Hiển thị tổng tiền và giao diện chọn phương thức
+2	Nhân viên → POS_UI	Chọn phương thức (Tiền mặt hoặc Điện tử)
+3a	POS_UI → CashService	[Tiền mặt] Nhân viên nhập số tiền nhận → Tính tiền thừa
+3b	POS_UI → PaymentGateway	[Điện tử] Tạo QR, chờ phản hồi từ Hệ thống Ngân hàng
+4	PaymentService → OrderService	Xác nhận thanh toán thành công, lưu mã giao dịch
+5	OrderService → RevenueDB	Ghi nhận doanh thu vào CSDL
+6	OrderService → PrintService	Kích hoạt UC In hóa đơn (<<include>>)
+7	OrderService → KitchenService	Kích hoạt UC Gửi lệnh pha chế (<<include>>)
+
+2.3.4 Sơ đồ Sequence Gửi lệnh pha chế
+Hình 2.8 Sơ đồ Sequence Gửi lệnh pha chế
+
+Bước	Tác nhân → Đối tượng	Mô tả
+1	OrderService → KitchenService	Gửi thông tin đơn hàng cần pha chế
+2	KitchenService → KitchenDisplay	Truyền dữ liệu đến màn hình khu vực pha chế
+3	KitchenDisplay → Bộ phận pha chế	Hiển thị số thứ tự, danh sách món và tùy chọn đặc biệt
+4	Bộ phận pha chế → KitchenDisplay	Thực hiện pha chế, đánh dấu "Đang thực hiện"
+5	Bộ phận pha chế → KitchenDisplay	Đánh dấu "Hoàn tất" sau khi pha chế xong
+6	KitchenDisplay → OrderService	Cập nhật trạng thái lệnh pha chế vào CSDL
+
+2.3.5 Sơ đồ Sequence Xem báo cáo doanh thu
+Hình 2.9 Sơ đồ Sequence Xem báo cáo doanh thu
+
+Bước	Tác nhân → Đối tượng	Mô tả
+1	Chủ quán → ReportUI	Chọn menu "Báo cáo doanh thu", chọn khoảng thời gian
+2	ReportUI → ReportService	Gửi yêu cầu tổng hợp dữ liệu
+3	ReportService → OrderDB	Truy vấn đơn hàng đã thanh toán theo khoảng thời gian
+4	OrderDB → ReportService	Trả về tập dữ liệu giao dịch
+5	ReportService → ReportService	Tính tổng doanh thu, số đơn, món bán chạy
+6	ReportService → ReportUI	Trả kết quả đã tổng hợp
+7	ReportUI → Chủ quán	Hiển thị bảng số liệu và biểu đồ trực quan
+8	Chủ quán → ReportUI	(Tùy chọn) Nhấn xuất file → Tải file báo cáo về
+
+2.3.6 Sơ đồ Sequence Quản lý thực đơn
+Hình 2.10 Sơ đồ Sequence Quản lý thực đơn
+
+Bước	Tác nhân → Đối tượng	Mô tả
+1	Chủ quán → MenuUI	Chọn chức năng "Quản lý thực đơn"
+2	MenuUI → MenuService	Tải danh sách toàn bộ món đồ uống
+3	Chủ quán → MenuUI	Chọn thao tác (Thêm mới / Cập nhật / Ẩn món)
+4	MenuUI → MenuService	Gửi dữ liệu thao tác để xử lý
+5	MenuService → MenuDB	Kiểm tra hợp lệ và cập nhật CSDL
+6	MenuDB → MenuService	Xác nhận lưu thành công
+7	MenuService → POS_UI	Đồng bộ thực đơn mới đến giao diện nhân viên
+8	MenuUI → Chủ quán	Thông báo thành công, làm mới danh sách
+
+2.3.7 Sơ đồ Sequence Quản lý thông tin cá nhân
+Hình 2.11 Sơ đồ Sequence Quản lý thông tin cá nhân
+
+Bước	Tác nhân → Đối tượng	Mô tả
+1	Người dùng → ProfileUI	Chọn menu "Thông tin cá nhân"
+2	ProfileUI → UserService	Tải thông tin cá nhân hiện tại
+3	Người dùng → ProfileUI	Chỉnh sửa thông tin (họ tên, SĐT, email)
+4	ProfileUI → UserService	Gửi dữ liệu mới để kiểm tra và lưu
+5	UserService → UserDB	Kiểm tra hợp lệ và cập nhật vào CSDL
+6	UserDB → UserService	Xác nhận lưu thành công
+7	UserService → ProfileUI	Trả kết quả, làm mới giao diện
+

@@ -1,0 +1,650 @@
+1
+Trong UML, ký tự nào được quy định để biểu diễn phạm vi bảo vệ (protected) cho các thuộc tính và phương thức?
+
+✓ Đúng
+A.
+Ký tự dấu gạch ngang (`-`) đặt ở vị trí trước tên của thuộc tính.
+B.
+Ký tự dấu thăng (`#`) đặt ở vị trí trước tên của thuộc tính hoặc hàm.
+Đáp án đúng
+C.
+Ký tự dấu cộng (`+`) đặt ở vị trí trước tên của thuộc tính hoặc hàm.
+D.
+Ký tự dấu gạch chéo (`/`) đặt ở vị trí trước tên của thuộc tính dẫn xuất.
+2
+Ý nghĩa cốt lõi của phạm vi truy cập bảo vệ (protected) trong thiết kế lớp đối tượng là gì?
+
+✓ Đúng
+A.
+Chỉ cho phép các hàm hệ thống của hệ điều hành truy cập để tối ưu hóa bộ nhớ đệm.
+B.
+Cho phép tất cả các lớp khác ngoài hệ thống gọi trực tiếp mà không cần điều kiện.
+C.
+Chỉ cho phép các phương thức bên trong lớp đó và các lớp con kế thừa từ nó truy cập.
+Đáp án đúng
+D.
+Ngăn chặn tuyệt đối không cho bất kỳ đối tượng nào chỉnh sửa dữ liệu thuộc tính đó.
+3
+Ký hiệu nào sau đây dùng để biểu diễn phạm vi truy cập riêng tư (private) của một thuộc tính trong sơ đồ lớp?
+
+✓ Đúng
+A.
+Ký tự dấu gạch ngang (`-`).
+Đáp án đúng
+B.
+Ký tự dấu hỏi chấm (`?`).
+C.
+Ký tự dấu ngã (`~`).
+D.
+Ký tự dấu sao (`*`).
+4
+Khi thuộc tính của một lớp được khai báo ở phạm vi private, những thành phần nào có quyền truy cập trực tiếp?
+
+✓ Đúng
+A.
+Chỉ các lớp nằm trong cùng một gói (Package) dữ liệu với lớp chứa thuộc tính đó.
+B.
+Toàn bộ các lớp con có mối quan hệ tổng quát hóa (Kế thừa) với lớp chứa thuộc tính.
+C.
+Mọi đối tượng thực thể tham gia tương tác trong sơ đồ tuần tự hệ thống thông tin.
+D.
+Chỉ các phương thức được định nghĩa bên trong bản thân lớp chứa thuộc tính đó.
+Đáp án đúng
+5
+Ký hiệu dấu cộng (`+`) trước một phương thức trong Class Diagram dùng để biểu diễn phạm vi truy cập nào?
+
+✓ Đúng
+A.
+Phạm vi đóng gói nội bộ (Package).
+B.
+Phạm vi riêng tư giới hạn (Private).
+C.
+Phạm vi công khai rộng rãi (Public).
+Đáp án đúng
+D.
+Phạm vi thừa kế bảo vệ (Protected).
+6
+Khi thiết kế một hệ thống hướng đối tượng, tại sao các phương thức dịch vụ chính của lớp thường được để ở phạm vi public?
+
+— Bỏ qua
+A.
+Để cho phép các đối tượng bên ngoài hệ thống tương tác và gọi thực thi các chức năng cần thiết.
+Đáp án đúng
+B.
+Để hệ thống tự động lưu trữ các giá trị tính toán vào cơ sở dữ liệu quan hệ mà không cần khóa.
+C.
+Nhằm mục đích che giấu toàn bộ các thuật toán xử lý logic phức tạp khỏi tầm nhìn của lập trình viên.
+D.
+Để bắt buộc các lớp con phải ghi đè (Override) lại thuật toán xử lý dữ liệu khi cài đặt code.
+7
+Nếu một lập trình viên nhìn thấy ký hiệu `#tinhLuong()` trong sơ đồ lớp, họ phải hiểu phương thức này có đặc điểm gì?
+
+— Bỏ qua
+A.
+Đây là phương thức dẫn xuất và kết quả trả về được tính toán bằng các công thức toán học logic phức tạp.
+B.
+Đây là hàm công khai giúp khách hàng có thể gọi trực tiếp từ giao diện đồ họa bên ngoài phần mềm.
+C.
+Đây là hàm riêng tư tuyệt đối và không một lớp nào khác được phép tái sử dụng lại mã nguồn của nó.
+D.
+Đây là hàm bảo vệ và các lớp kế thừa từ lớp này có thể gọi trực tiếp hoặc định nghĩa lại hành vi.
+Đáp án đúng
+8
+Tại sao trong nguyên lý thiết kế hướng đối tượng (OOA/OOD) lại cần có phạm vi truy cập protected?
+
+— Bỏ qua
+A.
+Giúp mã nguồn phần mềm tự động biên dịch nhanh hơn do bỏ qua các bước kiểm tra quyền hạn hệ thống.
+B.
+Hỗ trợ cơ chế kế thừa, cho phép mở rộng tính năng ở lớp con mà vẫn bảo vệ được dữ liệu từ bên ngoài.
+Đáp án đúng
+C.
+Ngăn chặn người dùng cuối không được phép thực hiện các thao tác xóa dữ liệu trên màn hình chức năng.
+D.
+Định nghĩa cấu hình phần cứng tối thiểu cho hệ thống máy chủ trước khi đưa ứng dụng vào vận hành.
+9
+Khi một thuộc tính được đánh dấu bằng ký hiệu công khai `+`, rủi ro lớn nhất về mặt thiết kế kiến trúc là gì?
+
+— Bỏ qua
+A.
+Hệ thống sẽ tự động từ chối cấp phát bộ nhớ cho đối tượng khi tiến hành khởi tạo chương trình chạy.
+B.
+Các ngôn ngữ lập trình phổ biến hiện nay không thể hỗ trợ biên dịch các thuộc tính có ký hiệu này.
+C.
+Phá vỡ tính đóng gói của đối tượng, khiến dữ liệu dễ bị thay đổi tùy tiện từ các tác nhân bên ngoài.
+Đáp án đúng
+D.
+Bắt buộc lập trình viên phải viết thêm rất nhiều câu lệnh điều kiện toán học logic phức tạp để dò lỗi.
+10
+Ký hiệu hiển thị dấu gạch ngang (`-`) giúp hiện thực hóa nguyên lý cốt lõi nào trong lập trình hướng đối tượng?
+
+— Bỏ qua
+A.
+Nguyên lý che giấu thông tin và đóng gói dữ liệu (Information Hiding and Encapsulation).
+Đáp án đúng
+B.
+Nguyên lý kế thừa đa hình cấu trúc giữa các phân hệ phần mềm độc lập (Polymorphism).
+C.
+Nguyên lý trừu tượng hóa dòng dữ liệu giữa các phòng ban trong một tổ chức doanh nghiệp.
+D.
+Nguyên lý tối ưu hóa tốc độ truy vấn thông tin trên hệ quản trị cơ sở dữ liệu quan hệ lớn.
+11
+Sơ đồ nào trong UML trực quan hóa mối quan hệ cấu trúc giữa các thực thể đối tượng cụ thể tại một thời điểm xác định?
+
+— Bỏ qua
+A.
+Use Case Diagram (Sơ đồ hoạt vụ).
+B.
+Object Diagram (Sơ đồ đối tượng).
+Đáp án đúng
+C.
+Sequence Diagram (Sơ đồ tuần tự).
+D.
+State Machine Diagram (Sơ đồ trạng thái).
+12
+Đặc điểm nổi bật nhất của Sơ đồ đối tượng (Object Diagram) so với sơ đồ lớp là gì?
+
+— Bỏ qua
+A.
+Các ô hiển thị phương thức bắt buộc phải chứa các đoạn mã nguồn lập trình thực tế của hàm xử lý.
+B.
+Nó thể hiện khía cạnh động và trình tự thời gian trao đổi thông điệp của các luồng công việc phức tạp.
+C.
+Nó chứa các giá trị dữ liệu thực tế (Slot Values) của các thuộc tính tại một thời điểm chạy cụ thể.
+Đáp án đúng
+D.
+Nó bắt buộc phải sử dụng các làn bơi để phân chia trách nhiệm xử lý giữa các thiết bị phần cứng.
+13
+Trên một sơ đồ lớp tiêu chuẩn, làm thế nào để người đọc nhận biết chính xác tên của một Lớp (Class)?
+
+— Bỏ qua
+A.
+Nhìn vào chuỗi ký tự viết hoa toàn bộ đặt ở ô dưới cùng của hình chữ nhật biểu diễn lớp đối tượng.
+B.
+Nhìn vào từ khóa đặt trong dấu ngoặc nhọn ở bên phải của đường mũi tên kế thừa cấu trúc hệ thống.
+C.
+Nhìn vào phần text nằm ở ô trên cùng (vùng trên cùng) của hình chữ nhật ba thành phần biểu diễn lớp.
+Đáp án đúng
+D.
+Nhìn vào cụm từ bắt đầu bằng một động từ mạnh đặt ở trung tâm của đường kết hợp liên kết dữ liệu.
+14
+Ví dụ nào sau đây thể hiện cách viết tên lớp chuẩn mực và chính xác nhất theo quy ước thiết kế hệ thống?
+
+— Bỏ qua
+A.
+`+ MaKhachHang: String`
+B.
+`tinhTongTienDonHang()`
+C.
+`KhachHangNuocNgoai`
+Đáp án đúng
+D.
+`<<import>> HeThongBanHang`
+15
+Cách nhân diện tên một phương thức (Operation) của một lớp trên sơ đồ Class Diagram là gì?
+
+— Bỏ qua
+A.
+Là chuỗi ký tự được gạch chân toàn bộ và đặt ở vùng giữa của hình chữ nhật biểu diễn cấu trúc lớp.
+B.
+Là chuỗi ký tự nằm ở vùng dưới cùng của hình chữ nhật biểu diễn lớp và luôn đi kèm cặp dấu ngoặc đơn `()`.
+Đáp án đúng
+C.
+Là cụm từ bắt đầu bằng dấu gạch chéo `/` và nằm ở vùng trên cùng của hình chữ nhật cấu trúc đối tượng.
+D.
+Là đoạn văn bản nằm ở ngoài biên hệ thống để mô tả hành động tương tác của người điều hành phần mềm.
+16
+Một phương thức trong sơ đồ lớp được khai báo đầy đủ có thể chứa các thông tin nào sau đây?
+
+— Bỏ qua
+A.
+Phạm vi truy cập, tên phương thức, danh sách tham số đầu vào kèm kiểu dữ liệu và kiểu trả về của hàm.
+Đáp án đúng
+B.
+Địa chỉ vùng nhớ đệm, số lượng dòng code thực thi kịch bản lỗi và danh sách tài khoản người dùng cuối.
+C.
+Tên của bảng dữ liệu quan hệ, danh sách các khóa chính khóa ngoại và các chỉ mục tối ưu tốc độ truy vấn.
+D.
+Tên của làn bơi, kịch bản kiểm thử tự động hệ thống nâng cao và các giao thức mạng không dây vật lý.
+17
+Để mô tả đầy đủ các loại phạm vi truy cập của thuộc tính trong sơ đồ lớp, ta cần sử dụng các nhóm ký hiệu nào?
+
+— Bỏ qua
+A.
+Các ký hiệu toán học logic bao gồm: `$`, `&`, `*`, `%` đặt ngay trước các biến thành viên dữ liệu.
+B.
+Các ký hiệu dấu ngoặc đóng mở bao gồm: `[ ]`, `{ }`, `( )` để bao bọc các kiểu dữ liệu tương ứng.
+C.
+Các ký hiệu hiển thị bao gồm: `+` (Public), `-` (Private), `#` (Protected), và `~` (Package nội bộ).
+Đáp án đúng
+D.
+Các từ khóa lập trình hướng đối tượng bao gồm: `static`, `final`, `abstract` viết hoa toàn bộ hệ thống.
+18
+Ý nghĩa của phạm vi truy cập Package (`~`) trong sơ đồ lớp UML được định nghĩa như thế nào?
+
+— Bỏ qua
+A.
+Thuộc tính đó chỉ có thể được truy cập bởi các thiết bị phần cứng nằm trong cùng một phòng ban vật lý.
+B.
+Thuộc tính hoặc phương thức đó có thể được truy cập bởi bất kỳ lớp nào nằm trong cùng một gói logic.
+Đáp án đúng
+C.
+Ngăn chặn hoàn toàn không cho các lớp con kế thừa được phép gọi hoặc tái sử dụng lại thuật toán của hàm.
+D.
+Bắt buộc thuộc tính phải được mã hóa bảo mật end-to-end trước khi truyền tải qua môi trường Internet.
+19
+Khi đặt tên cho một Lớp (Class) trong UML, quy tắc viết chữ nào thường được khuyến nghị sử dụng?
+
+— Bỏ qua
+A.
+Viết hoa chữ cái đầu tiên của mỗi từ và sử dụng danh từ hoặc cụm danh từ (quy tắc PascalCase).
+Đáp án đúng
+B.
+Viết thường toàn bộ tất cả các chữ cái và dùng dấu gạch dưới để nối giữa các từ độc lập (snake_case).
+C.
+Viết thường chữ cái đầu tiên của từ đầu và viết hoa các chữ đầu của từ tiếp theo (camelCase).
+D.
+Viết hoa toàn bộ tất cả các ký tự và đặt tên theo mã định danh viết tắt của phòng ban doanh nghiệp.
+20
+Tại sao tên lớp trong sơ đồ UML không nên đặt bằng các động từ (ví dụ: `ThanhToan`, `DangNhap`)?
+
+— Bỏ qua
+A.
+Vì các hệ quản trị cơ sở dữ liệu quan hệ hiện nay không cho phép tạo bảng bằng các từ chỉ hành động.
+B.
+Vì các ngôn ngữ lập trình hướng đối tượng sẽ báo lỗi cú pháp ngay lập tức khi tiến hành khởi tạo lớp.
+C.
+Vì lớp đại diện cho một nhóm các thực thể (vật, người, khái niệm), nên danh từ phản ánh đúng bản chất hơn.
+Đáp án đúng
+D.
+Nhằm giúp khách hàng dễ dàng đọc hiểu sơ đồ thiết kế kỹ thuật nâng cao mà không cần chuyên gia giải thích.
+21
+Sơ đồ lớp (Class Diagram) thuộc khung nhìn nào trong kiến trúc cấu trúc hệ thống "4+1 View"?
+
+— Bỏ qua
+A.
+Process View (Khung nhìn tiến trình) nhằm quản lý việc chạy đa luồng dữ liệu song song của hệ thống máy chủ.
+B.
+Deployment View (Khung nhìn triển khai) nhằm mô hình hóa mạng lưới kết nối cáp vật lý và máy trạm.
+C.
+Logical View (Khung nhìn logic) nhằm mô tả cấu trúc dữ liệu trừu tượng và các mối quan hệ tĩnh của phần mềm.
+Đáp án đúng
+D.
+Implementation View (Khung nhìn thực thi) nhằm tổ chức các file mã nguồn thành các thư mục quản lý.
+22
+Tại sao Class Diagram lại là thành phần cốt lõi cấu thành nên Khung nhìn logic (Logical View)?
+
+— Bỏ qua
+A.
+Vì nó cung cấp cái nhìn toàn diện về mặt cấu trúc, định hình các khái niệm và mô hình dữ liệu của hệ thống.
+Đáp án đúng
+B.
+Vì nó cho biết chính xác trình tự thời gian xử lý các thông điệp của một ca sử dụng chức năng cụ thể.
+C.
+Vì nó giúp đội ngũ quản lý dự án theo dõi sát sao tiến độ viết code hằng ngày của từng lập trình viên.
+D.
+Vì nó tự động tối ưu hóa dung lượng lưu trữ của các tệp tin hình ảnh hiển thị trên giao diện đồ họa.
+23
+Trong một hệ thống quản lý bán hàng thực tế, tên lớp nào sau đây phản ánh đúng và chuẩn quy cách UML?
+
+— Bỏ qua
+A.
+`kiemTraSoLuongHangTonKho()`
+B.
+`+ GiaBanLe: Double`
+C.
+`DonHangChiTiet`
+Đáp án đúng
+D.
+`InHoaDonGiaTriGiaTang`
+24
+Tên phương thức (Operation/Method) trong sơ đồ lớp thường sử dụng loại từ nào và tuân theo quy tắc gì?
+
+— Bỏ qua
+A.
+Sử dụng tính từ chỉ trạng thái dữ liệu và viết hoa toàn bộ tất cả các ký tự trong cụm từ định danh lớp.
+B.
+Sử dụng động từ hoặc cụm động từ, viết thường chữ đầu và viết hoa chữ cái đầu của từ tiếp theo (camelCase).
+Đáp án đúng
+C.
+Sử dụng danh từ riêng chỉ người điều hành hệ thống và đặt bên trong cặp dấu ngoặc kép của các thẻ đặc tả.
+D.
+Sử dụng các ký hiệu toán học kết hợp với số thứ tự tự sinh của công cụ thiết kế sơ đồ trực quan mạng.
+25
+Tại sao tên phương thức lại cần bắt đầu bằng một động từ (ví dụ: `calculateTotal()`, `updateStatus()`)?
+
+— Bỏ qua
+A.
+Để phân biệt hoàn toàn với các câu lệnh truy vấn dữ liệu thô của hệ quản trị cơ sở dữ liệu quan hệ lớn.
+B.
+Vì phương thức đại diện cho các thuộc tính tĩnh lưu giữ các giá trị số học cố định trong bộ nhớ đệm máy tính.
+C.
+Vì phương thức đại diện cho một hành vi, một hành động xử lý hoặc một dịch vụ mà đối tượng thực hiện.
+Đáp án đúng
+D.
+Giúp cho đội ngũ kiểm thử phần mềm tự động sinh ra các kịch bản dò lỗi mã nguồn mà không cần viết code.
+26
+Sơ đồ lớp (Class Diagram) tiêu chuẩn trong UML được cấu thành từ những thành phần cơ bản nào?
+
+— Bỏ qua
+A.
+Các lớp đối tượng (Classes), các giao diện (Interfaces) và các mối quan hệ (Relationships) giữa chúng.
+Đáp án đúng
+B.
+Các làn bơi (Swimlanes), các nút quyết định (Decision Nodes) và các luồng đối tượng dữ liệu kỹ thuật.
+C.
+Các đường đời (Lifelines), các thanh kích hoạt (Activation Bars) và các thông điệp đồng bộ phản hồi hàm.
+D.
+Các hộp trạng thái (States), các điều kiện bảo vệ (Guard Conditions) và các sự kiện kích hoạt chuyển đổi.
+27
+Vai trò chính của Lớp (Class) trong việc mô hình hóa hệ thống phần mềm hướng đối tượng là gì?
+
+— Bỏ qua
+A.
+Là một thực thể dữ liệu duy nhất tồn tại độc lập trong bộ nhớ máy tính và biến mất ngay khi hàm kết thúc.
+B.
+Định nghĩa các quy tắc kết nối cáp quang mạng vật lý giữa trung tâm máy chủ và các thiết bị ngoại vi ngoài.
+C.
+Đóng vai trò là một khuôn mẫu (Blueprint) để định nghĩa cấu trúc dữ liệu và hành vi chung cho các đối tượng.
+Đáp án đúng
+D.
+Theo dõi sát sao tiến trình di chuyển của luồng kiểm soát qua các phòng ban chức năng của một công ty.
+28
+Khái niệm "Sơ đồ lớp đối tượng" (đôi khi gọi chung Class/Object Diagram) hỗ trợ gì cho kỹ sư hệ thống ở giai đoạn thiết kế?
+
+— Bỏ qua
+A.
+Cung cấp cả mô hình trừu tượng (Lớp) lẫn ví dụ thực tế (Đối tượng) để kiểm chứng tính đúng đắn của thiết kế.
+Đáp án đúng
+B.
+Tự động chuyển đổi các khối hình chữ nhật thành các bảng dữ liệu có sẵn các chỉ mục tối ưu hóa tốc độ.
+C.
+Thay thế hoàn toàn các văn bản đặc tả yêu cầu chức năng thu thập được từ phía đối tác khách hàng ban đầu.
+D.
+Đo lường chính xác thời gian phản hồi của hệ thống khi có hàng triệu tài khoản người dùng truy cập cùng lúc.
+29
+Khái niệm Ràng buộc (Constraint) trong sơ đồ lớp UML dùng để làm gì?
+
+— Bỏ qua
+A.
+Quy định thời gian tối đa mà lập trình viên phải hoàn thành việc viết mã nguồn cho một phương thức cụ thể.
+B.
+Giới hạn số lượng biểu đồ tối đa được phép vẽ bên trong một tệp tin dự án của công cụ thiết kế trực quan.
+C.
+Đặc tả các quy tắc, điều kiện logic hoặc giới hạn mà các phần tử trong mô hình bắt buộc phải tuân thủ.
+Đáp án đúng
+D.
+Bắt buộc khách hàng phải thanh toán đầy đủ chi phí bản quyền phần mềm trước khi tiến hành cài đặt hệ thống.
+30
+Các ràng buộc trong sơ đồ lớp UML có thể được biểu diễn trực quan bằng hình thức nào sau đây?
+
+— Bỏ qua
+A.
+Đặt văn bản mô tả quy tắc logic bên trong cặp dấu ngoặc nhọn `{ }` gán cạnh phần tử tương ứng trên sơ đồ.
+Đáp án đúng
+B.
+Vẽ một đường mũi tên nét đứt có chữ kèm theo hướng thẳng về phía tác nhân chính ở ngoài ranh giới.
+C.
+Chèn thêm một hình oval chức năng có chứa các biểu thức toán học logic vào giữa mối quan hệ liên kết dữ liệu.
+D.
+Tô màu đỏ đậm cho toàn bộ hình chữ nhật biểu diễn lớp đối tượng có chứa các điều kiện bảo mật phức tạp.
+31
+Cụm từ viết tắt OCL trong đặc tả hệ thống UML có tên đầy đủ tiếng Anh là gì?
+
+— Bỏ qua
+A.
+Operation Control Language.
+B.
+Output Constraint Logic.
+C.
+Object Constraint Language.
+Đáp án đúng
+D.
+Optimal Class Library.
+32
+Ngôn ngữ OCL đóng vai trò gì trong việc mô tả các ràng buộc đối tượng hệ thống?
+
+— Bỏ qua
+A.
+Là một ngôn ngữ lập trình mới dùng để thay thế Java hoặc C# khi viết mã nguồn cho các chức năng phần mềm.
+B.
+Là ngôn ngữ dùng để cấu hình các thông số bảo mật cho hệ thống tường lửa và hệ điều hành của máy chủ dịch vụ.
+C.
+Cung cấp một ngôn ngữ chuẩn hóa chính thức, không mơ hồ để viết các biểu thức ràng buộc logic cho phần tử UML.
+Đáp án đúng
+D.
+Dùng để thiết kế giao diện đồ họa người dùng bằng cách định nghĩa tọa độ hiển thị của các nút bấm màn hình.
+33
+Tại sao người ta cần dùng ngôn ngữ OCL thay vì dùng ngôn ngữ tự nhiên (như tiếng Việt) để mô tả ràng buộc?
+
+— Bỏ qua
+A.
+Vì ngôn ngữ tự nhiên thường mơ hồ, đa nghĩa, dễ dẫn đến hiểu sai lệch khi chuyển đổi sơ đồ thành mã nguồn.
+Đáp án đúng
+B.
+Vì ngôn ngữ OCL có khả năng tự động thực thi trực tiếp trên phần cứng máy tính mà không cần biên dịch chương trình.
+C.
+Vì khách hàng chỉ đồng ý phê duyệt các tài liệu thiết kế kỹ thuật nếu chúng được viết bằng ngôn ngữ chuẩn OCL.
+D.
+Để giảm thiểu dung lượng lưu trữ của các tệp tin đặc tả văn bản khi lưu trữ trên các nền tảng đám mây lớn.
+34
+Biểu thức ràng buộc viết bằng OCL (Object Constraint Language) có đặc điểm quan trọng nào sau đây?
+
+— Bỏ qua
+A.
+Nó có khả năng làm thay đổi trạng thái và giá trị thuộc tính dữ liệu của đối tượng ngay khi kiểm tra xong.
+B.
+Nó bắt buộc phải chứa các câu lệnh rẽ nhánh và vòng lặp lồng nhau phức tạp của các ngôn ngữ lập trình web.
+C.
+Là ngôn ngữ thuần túy biểu thức định giá (Pure Expression), chỉ kiểm tra điều kiện (Đúng/Sai) chứ không làm thay đổi mô hình.
+Đáp án đúng
+D.
+Nó chỉ được phép viết bằng các ký hiệu toán học số học nguyên thủy và không chứa bất kỳ từ ngữ tiếng Anh nào.
+35
+Trong UML Class Diagram, nếu đối tượng của lớp A tham chiếu (hoặc có kết nối) đến đối tượng của lớp B, mối quan hệ này gọi là gì?
+
+— Bỏ qua
+A.
+Realization (Hiện thực hóa giao diện).
+B.
+Dependency (Phụ thuộc tạm thời).
+C.
+Association (Mối quan hệ kết hợp).
+Đáp án đúng
+D.
+Generalization (Tổng quát hóa kế thừa).
+36
+Mối quan hệ kết hợp (Association) giữa hai lớp trong sơ đồ Class Diagram được thể hiện bằng đường vẽ nào?
+
+— Bỏ qua
+A.
+Một đường thẳng nét liền nối giữa hai lớp, có thể có tên mối quan hệ và bản số (Multiplicity) ở hai đầu.
+Đáp án đúng
+B.
+Một đường nét đứt có mũi tên hở hướng từ lớp tham chiếu sang vị trí của lớp được tham chiếu trong hệ thống.
+C.
+Một đường thẳng nét liền có đầu mũi tên hình tam giác rỗng hướng thẳng về phía lớp đóng vai trò làm cha.
+D.
+Một đường thẳng nét đứt có chữ kèm theo đặt bên trong cặp dấu ngoặc kép của cơ chế mở rộng hệ thống.
+37
+Khái niệm "Bản số" (Multiplicity / Tính đa ngộ) trong mối quan hệ giữa các lớp dùng để chỉ ra điều gì?
+
+— Bỏ qua
+A.
+Tổng số lượng phương thức tối đa mà một lớp đối tượng được phép khai báo bên trong cấu trúc ba thành phần.
+B.
+Tốc độ truyền tải dữ liệu tối thiểu giữa các phân hệ phần cứng máy chủ khi chạy các kịch bản chức năng.
+C.
+Số lượng thực thể đối tượng của lớp này có thể liên kết trực tiếp với một thực thể đối tượng của lớp kia.
+Đáp án đúng
+D.
+Số lượng lập trình viên tối đa được phép tham gia chỉnh sửa mã nguồn của lớp dữ liệu trong một ngày làm việc.
+38
+Ký hiệu bản số `0..*` đặt ở một đầu của mối quan hệ kết hợp trong Class Diagram có ý nghĩa chính xác là gì?
+
+— Bỏ qua
+A.
+Một đối tượng ở đầu bên kia có thể liên kết với không có (0) hoặc nhiều (tùy ý) đối tượng ở đầu có ký hiệu này.
+Đáp án đúng
+B.
+Một đối tượng ở đầu bên kia bắt buộc phải liên kết chính xác với một đối tượng duy nhất ở đầu có ký hiệu này.
+C.
+Hệ thống sẽ tự động xóa bỏ mối quan hệ liên kết dữ liệu nếu số lượng đối tượng thực tế vượt quá giới hạn cho phép.
+D.
+Thuộc tính liên kết dữ liệu đó là thuộc tính dẫn xuất và giá trị của nó luôn bằng không trong mọi kịch bản chạy.
+39
+Ký hiệu bản số `1..1` (hoặc viết gọn là `1`) trong sơ đồ lớp mang ý nghĩa ràng buộc dữ liệu như thế nào?
+
+— Bỏ qua
+A.
+Mối quan hệ đó là tùy chọn và đối tượng có thể liên kết với bao nhiêu thực thể khác ngoài hệ thống cũng được.
+B.
+Đối tượng ở đầu bên kia có thể liên kết với một chuỗi các mảng dữ liệu có độ dài thay đổi theo thời gian thực.
+C.
+Bắt buộc phải có một và chỉ một đối tượng duy nhất tham gia vào mối quan hệ liên kết tại thời điểm kiểm tra.
+Đáp án đúng
+D.
+Hàm xử lý logic của phương thức liên kết bắt buộc phải được thực thi chính xác một lần khi khởi động máy.
+40
+Bản số nào sau đây biểu diễn quy tắc: "Một phòng ban có thể có từ 1 đến nhiều nhân viên làm việc"?
+
+— Bỏ qua
+A.
+`0..1`
+B.
+`1..1`
+C.
+`1..*`
+Đáp án đúng
+D.
+`*..*`
+41
+Trong các loại liên kết của Class Diagram, điểm khác biệt lớn nhất giữa Association thông thường và Aggregation là gì?
+
+— Bỏ qua
+A.
+Association dùng cho các lớp giao diện người dùng, Aggregation chỉ dùng cho các lớp lưu trữ cơ sở dữ liệu quan hệ.
+B.
+Association là mối quan hệ kết hợp ngang hàng, Aggregation thể hiện quan hệ "Toàn thể - Bộ phận" (Whole-Part) lỏng lẻo.
+Đáp án đúng
+C.
+Association bắt buộc phải có chiều mũi tên kế thừa hình tam giác rỗng, Aggregation sử dụng mũi tên hình thoi đặc.
+D.
+Association có tính chất ràng buộc sinh tử mạnh mẽ, Aggregation cho phép các lớp con tự do thay đổi cấu trúc mã nguồn.
+42
+Mối quan hệ Aggregation (Kết tập) được ký hiệu như thế nào trên các công cụ thiết kế sơ đồ như draw.io?
+
+— Bỏ qua
+A.
+Đường thẳng nét liền có đầu mũi tên hình thoi đặc đặt ở phía lớp đóng vai trò là thực thể toàn thể (cha).
+B.
+Đường thẳng nét liền có đầu mũi tên hình thoi rỗng đặt ở phía lớp đóng vai trò là thực thể toàn thể (cha).
+Đáp án đúng
+C.
+Đường thẳng nét đứt có đầu mũi tên hở hướng thẳng về phía lớp đóng vai trò là thành phần bộ phận con.
+D.
+Đường thẳng nét liền có đầu mũi tên hình tam giác rỗng hướng thẳng về phía lớp đóng vai trò là thực thể cha.
+43
+Trong Class Diagram, mối quan hệ Composition (Thành phần / Cấu thành) mang đặc điểm cốt lõi nào sau đây?
+
+— Bỏ qua
+A.
+Là mối quan hệ kết hợp tạm thời và đối tượng con có thể tự do tách rời để tham gia vào một lớp cha hoàn toàn mới.
+B.
+Là quan hệ phụ thuộc lẫn nhau về mặt thời gian và hệ thống sẽ tự động kích hoạt hàm xử lý lỗi khi mất kết nối mạng.
+C.
+Là quan hệ sở hữu mạnh, có ràng buộc sinh tử; nếu thực thể toàn thể bị hủy thì các thành phần con cũng bị hủy theo.
+Đáp án đúng
+D.
+Là mối quan hệ kế thừa đa hình giúp lớp con tự động có được toàn bộ các phương thức public của lớp cha hệ thống.
+44
+Mối quan hệ Composition (Thành phần) được ký hiệu như thế nào trên công cụ draw.io?
+
+— Bỏ qua
+A.
+Đường thẳng nét liền có đầu mũi tên hình thoi đặc đặt ở phía lớp đóng vai trò là thực thể toàn thể (sở hữu).
+Đáp án đúng
+B.
+Đường thẳng nét liền có đầu mũi tên hình thoi rỗng đặt ở phía lớp đóng vai trò là thực thể toàn thể (sở hữu).
+C.
+Đường thẳng nét đứt có đầu mũi tên hình tam giác rỗng hướng về phía lớp đóng vai trò là thành phần bị sở hữu.
+D.
+Đường thẳng nét liền không có bất kỳ đầu mũi tên nào và đi kèm chữ hiển thị ở trung tâm đường nối dữ liệu.
+45
+Ràng buộc `{readOnly}` đi kèm một thuộc tính trong sơ đồ lớp UML mang ý nghĩa quản lý dữ liệu gì?
+
+— Bỏ qua
+A.
+Lập trình viên không được phép xem cấu trúc của thuộc tính đó mà chỉ có thể gọi thông qua các hàm có sẵn hệ thống.
+B.
+Giá trị của thuộc tính chỉ được thiết lập một lần khi khởi tạo đối tượng và không được phép sửa đổi sau đó (Hằng số).
+Đáp án đúng
+C.
+Thuộc tính dữ liệu đó sẽ tự động bị xóa bỏ khỏi bộ nhớ đệm của máy tính ngay sau khi người dùng đọc xong thông tin.
+D.
+Chỉ những tài khoản người dùng có quyền quản trị tối cao mới được phép chỉnh sửa giá trị dữ liệu của thuộc tính này.
+46
+Ràng buộc `{unique}` đặt cạnh một thuộc tính có kiểu dữ liệu danh sách (Tập hợp) trong Class Diagram nghĩa là gì?
+
+— Bỏ qua
+A.
+Đảm bảo rằng tất cả các phần tử chứa trong tập hợp đó phải khác nhau, không được phép có sự trùng lặp giá trị.
+Đáp án đúng
+B.
+Thuộc tính đó là duy nhất trong toàn bộ hệ thống và không một lớp nào khác được phép khai báo tên trùng như vậy.
+C.
+Hệ thống sẽ tự động mã hóa giá trị của thuộc tính thành một chuỗi ký tự ngẫu nhiên có độ dài cố định bền vững.
+D.
+Bắt buộc lập trình viên phải sử dụng hệ quản trị cơ sở dữ liệu quan hệ lớn để lưu trữ thông tin thuộc tính này.
+47
+Thuộc tính dẫn xuất (Derived Attribute) trong Class Diagram được ký hiệu bằng cách đặt ký tự nào trước tên thuộc tính?
+
+— Bỏ qua
+A.
+Ký tự dấu đô la (`$`).
+B.
+Ký tự dấu gạch dưới (`_`).
+C.
+Ký tự dấu gạch chéo (`/`).
+Đáp án đúng
+D.
+Ký tự dấu và (`&`).
+48
+Bản chất của một Thuộc tính dẫn xuất (Derived Attribute) trong mô hình dữ liệu hệ thống là gì?
+
+— Bỏ qua
+A.
+Là thuộc tính bắt buộc phải được bảo mật tuyệt đối và chỉ có các hàm hệ điều hành máy tính mới được đọc dữ liệu.
+B.
+Là thuộc tính lưu trữ dữ liệu thô được nhập trực tiếp từ bàn phím của người dùng khi tương tác trên màn hình phần mềm.
+C.
+Là thuộc tính không lưu trữ trực tiếp dữ liệu gốc, giá trị của nó được tính toán logic từ các thuộc tính khác của lớp.
+Đáp án đúng
+D.
+Là thuộc tính tự động thay đổi kiểu dữ liệu liên tục theo thời gian thực khi chương trình đang thực thi mã nguồn.
+49
+Công thức toán học logic thể hiện giá trị của một thuộc tính dẫn xuất thường được đặt trong ký hiệu ràng buộc nào?
+
+— Bỏ qua
+A.
+Được đặt trong dấu ngoặc nhọn `{ }` gán ngay phía sau khai báo thuộc tính hoặc đặt ở phần ghi chú của lớp đối tượng.
+Đáp án đúng
+B.
+Được viết trực tiếp vào bên trong ô hình oval biểu diễn chức năng của sơ đồ trường hợp sử dụng hệ thống thông tin.
+C.
+Được đặt trong dấu ngoặc kép dạng các thẻ mở rộng của cơ chế thiết kế kiến trúc phân hệ phần mềm độc lập.
+D.
+Được gạch chân toàn bộ cụm công thức và đặt ở ô trên cùng ngay cạnh vị trí đặt tên của lớp trừu tượng hệ thống.
+50
+Khi chuyển đổi mối quan hệ Composition (Thành phần) từ Class Diagram xuống các bảng trong cơ sở dữ liệu quan hệ (RDBMS), quy tắc ràng buộc nào bắt buộc phải được thiết lập để đảm bảo tính sinh tử?
+
+— Bỏ qua
+A.
+Thiết lập ràng buộc kiểm tra dữ liệu đầu vào không được phép chứa các khoảng trắng giữa các chữ cái định danh bảng.
+B.
+Thiết lập khóa ngoại ở bảng con nối với khóa chính bảng cha và cấu hình hành động xóa tự động là `ON DELETE RESTRICT`.
+C.
+Thiết lập khóa ngoại ở bảng con nối với khóa chính bảng cha và cấu hình hành động xóa tự động là `ON DELETE CASCADE`.
+Đáp án đúng
+D.
+Tạo thêm một bảng trung gian độc lập chứa hai khóa chính của hai bảng dữ liệu và cấu hình chỉ mục tối ưu hiệu năng.

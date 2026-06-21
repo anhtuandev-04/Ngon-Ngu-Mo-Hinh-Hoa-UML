@@ -1,0 +1,650 @@
+1
+Trong UML Class Diagram, bản số (Multiplicity) mô tả mối quan hệ giữa các đối tượng có thể xuất hiện dưới những dạng phổ biến nào?
+
+✓ Đúng
+A.
+Các ký hiệu hàm toán học logic như căn bậc hai, dấu tích phân hoặc các biến mảng động.
+B.
+Các địa chỉ phân bổ bộ nhớ vật lý dạng chuỗi ký tự hexa của hệ điều hành máy tính trung tâm.
+C.
+Các giá trị số cụ thể, một khoảng giá trị xác định hoặc một số lượng bất kỳ ký hiệu bằng dấu sao.
+Đáp án đúng
+D.
+Các tệp tin cấu hình đuôi mở rộng dùng để định nghĩa các thuộc tính dẫn xuất trong cơ sở dữ liệu.
+2
+Bản số liên kết nào sau đây thể hiện quy tắc: "Một tài khoản khách hàng có thể đăng ký tối đa 3 thẻ ngân hàng khác nhau"?
+
+✓ Đúng
+A.
+`1..*`
+B.
+`0..*`
+C.
+`0..3`
+Đáp án đúng
+D.
+`1..3`
+3
+Ý nghĩa của ký hiệu bản số chỉ duy nhất một dấu sao (`*`) đặt ở đầu mối quan hệ trong sơ đồ lớp được hiểu là gì?
+
+✓ Đúng
+A.
+Đại diện cho số lượng đối tượng tham gia liên kết là tùy ý, tương đương với khoảng giá trị từ 0 đến vô số.
+Đáp án đúng
+B.
+Đại diện cho mối quan hệ bắt buộc phải có ít nhất một đối tượng thực thể tham gia vào hệ thống bán hàng.
+C.
+Hệ thống sẽ tự động báo lỗi cú pháp mã nguồn ngay khi chương trình khởi tạo các đối tượng liên kết dữ liệu.
+D.
+Thuộc tính liên kết đó là thuộc tính riêng tư tuyệt đối và không một lớp con nào được quyền xem thông tin.
+4
+Trong UML, các giá trị bản số liên kết như `0..1`, `1..1`, `1..*`, `*` có vai trò quan trọng như thế nào khi phân tích hệ thống?
+
+✓ Đúng
+A.
+Giúp lập trình viên tính toán chính xác tổng số dòng code cần viết cho các phương thức của một lớp trừu tượng.
+B.
+Định cấu hình các thông số băng thông và tốc độ truyền tải thông tin mạng giữa máy trạm và máy chủ dịch vụ.
+C.
+Ràng buộc các quy tắc nghiệp vụ thực tế của doanh nghiệp trực tiếp lên kiến trúc dữ liệu tĩnh của phần mềm.
+Đáp án đúng
+D.
+Tự động sinh ra các kịch bản kiểm thử lỗi giao diện người dùng mà không cần nhân viên kiểm thử can thiệp.
+5
+Bản số liên kết nào dưới đây thể hiện mối quan hệ bắt buộc một chiều nghiêm ngặt (ví dụ: một cuốn sách phải thuộc về ít nhất một danh mục)?
+
+✓ Đúng
+A.
+`0..1`
+B.
+`0..*`
+C.
+`1..*`
+Đáp án đúng
+D.
+`*..*`
+6
+Khi phân tích sơ đồ lớp UML, loại liên kết nào thể hiện mối quan hệ phụ thuộc tạm thời giữa hai lớp (lớp này sử dụng lớp kia làm tham số đầu vào)?
+
+— Bỏ qua
+A.
+Dependency (Mối quan hệ phụ thuộc).
+Đáp án đúng
+B.
+Association (Mối quan hệ kết hợp).
+C.
+Aggregation (Mối quan hệ kết tập).
+D.
+Composition (Mối quan hệ thành phần).
+7
+Ví dụ nào sau đây phản ánh chính xác nhất về mối quan hệ kết hợp ngang hàng (Association) trong thực tế thiết kế?
+
+— Bỏ qua
+A.
+Mối quan hệ giữa lớp `HoaDon` và lớp `ChiTietHoaDon` vì khi xóa hóa đơn thì chi tiết hóa đơn cũng bị hủy theo.
+B.
+Mối quan hệ giữa lớp `HinhTron` và lớp `HinhHoc` vì hình tròn là một trường hợp cụ thể kế thừa từ hình học.
+C.
+Mối quan hệ giữa lớp `BacSi` và lớp `BenhNhan` vì họ liên kết để khám chữa bệnh nhưng tồn tại độc lập nhau.
+Đáp án đúng
+D.
+Mối quan hệ giữa lớp `MayTinh` và lớp `CuaSoTrinhDuyet` vì cửa sổ trình duyệt không thể chạy nếu thiếu máy tính.
+8
+Trong các ràng buộc OCL (Object Constraint Language), dạng ràng buộc nào dùng để định nghĩa điều kiện luôn luôn đúng trong suốt vòng đời của đối tượng?
+
+— Bỏ qua
+A.
+Precondition (Điều kiện kiểm tra trước khi thực hiện phương thức xử lý dữ liệu).
+B.
+Postcondition (Điều kiện kiểm tra sau khi phương thức kết thúc thành công kịch bản).
+C.
+Invariant (Điều kiện bất biến, ký hiệu bằng từ khóa `inv` trong biểu thức logic).
+Đáp án đúng
+D.
+Definition (Định nghĩa thêm các thuộc tính dẫn xuất bằng công thức toán học).
+9
+Ràng buộc dạng `Precondition` viết bằng ngôn ngữ OCL được áp dụng như thế nào trong mô hình lớp UML?
+
+— Bỏ qua
+A.
+Gắn liền với một phương thức cụ thể để kiểm tra tính hợp lệ của dữ liệu đầu vào trước khi chạy hàm.
+Đáp án đúng
+B.
+Khai báo trực tiếp ở vùng trên cùng của hình chữ nhật biểu diễn lớp để đặt tên cho các thực thể tĩnh.
+C.
+Đóng vai trò cấu hình hệ thống tường lửa bảo mật nhằm ngăn chặn các truy cập trái phép từ internet ngoài.
+D.
+Sử dụng để tính toán tổng giá trị của các thuộc tính dẫn xuất bằng các biểu thức toán học logic lồng nhau.
+10
+Mối quan hệ nào trong UML biểu diễn một ràng buộc mạnh mẽ, trong đó một lớp con bắt buộc phải có lớp cha mới có thể tồn tại?
+
+— Bỏ qua
+A.
+Aggregation (Mối quan hệ kết tập rỗng).
+B.
+Generalization (Mối quan hệ kế thừa tam giác).
+C.
+Composition (Mối quan hệ cấu thành đặc).
+Đáp án đúng
+D.
+Realization (Mối quan hệ hiện thực hóa giao diện).
+11
+Hãy chỉ ra sự khác biệt cốt lõi về mặt tồn tại dữ liệu giữa hai mối quan hệ Kết tập (Aggregation) và Cấu thành (Composition).
+
+— Bỏ qua
+A.
+Kết tập bắt buộc các lớp con phải viết chung một tệp tin mã nguồn, cấu thành cho phép tách thành các thư mục độc lập.
+B.
+Kết tập dùng mũi tên hình thoi màu đen đậm, cấu thành sử dụng mũi tên hình thoi rỗng đặt ở vị trí lớp cha sở hữu.
+C.
+Kết tập cho phép thực thể bộ phận tồn tại độc lập khi thực thể toàn thể bị xóa, cấu thành hủy toàn bộ thực thể con.
+Đáp án đúng
+D.
+Kết tập chỉ áp dụng cho các thiết bị phần cứng vật lý, cấu thành chỉ dùng cho các thực thể phần mềm trừu tượng lớn.
+12
+Thuật ngữ "Sinh tuyến" (Lifeline / Đường đời) trong sơ đồ tuần tự (Sequence Diagram) được ký hiệu bằng nét vẽ nào?
+
+— Bỏ qua
+A.
+Một đường thẳng đứng nét đứt kéo dài từ hộp tên đối tượng xuống phía dưới sơ đồ.
+Đáp án đúng
+B.
+Một đường thẳng nằm ngang nét liền kết nối giữa hai tác nhân tham gia tương tác hệ thống.
+C.
+Một hình chữ nhật bo góc có chứa các ký hiệu điều khiển vòng lặp ở góc trên bên trái sơ đồ.
+D.
+Một mũi tên nét liền đầu hở hướng từ trên xuống dưới biểu diễn luồng di chuyển dữ liệu thô.
+13
+Ý nghĩa quan trọng nhất của Sinh tuyến (Lifeline) trong sơ đồ tuần tự UML là gì?
+
+— Bỏ qua
+A.
+Đo lường chính xác dung lượng bộ nhớ đệm tiêu thụ của đối tượng khi thực thi mã nguồn chương trình bán hàng.
+B.
+Xác định tổng số lượng phương thức public mà đối tượng đó sở hữu bên trong cấu trúc của sơ đồ lớp tĩnh.
+C.
+Biểu diễn sự tồn tại của một đối tượng thực thể theo trục thời gian trong suốt kịch bản tương tác hệ thống.
+Đáp án đúng
+D.
+Phân chia quyền hạn chỉnh sửa cấu trúc thiết kế kỹ thuật giữa các thành viên trong nhóm phát triển dự án.
+14
+Ký hiệu nào sau đây biểu diễn một Đối tượng (Object) cụ thể trong sơ đồ tương tác hệ thông UML?
+
+— Bỏ qua
+A.
+Một hình oval có gạch chân toàn bộ nội dung text đặt ở ngoài biên hệ thống.
+B.
+Một hình thoi rỗng nối với một đường thẳng nét liền hướng vào ranh giới phần mềm.
+C.
+Một hình chữ nhật chứa chuỗi văn bản theo cấu trúc `tênĐốiTượng : tênLớp` được gạch chân.
+Đáp án đúng
+D.
+Một hình hộp bo góc có chứa các làn bơi dọc để phân chia trách nhiệm xử lý các hàm.
+15
+Vai trò của việc đưa các đối tượng cụ thể vào sơ đồ tuần tự (Sequence Diagram) nhằm mục đích gì?
+
+— Bỏ qua
+A.
+Minh họa chi tiết cách thức các thực thể trao đổi thông điệp để thực hiện một ca sử dụng chức năng nghiệp vụ.
+Đáp án đúng
+B.
+Thiết kế cấu trúc các bảng và thiết lập các khóa chính khóa ngoại phục vụ cho hệ quản trị cơ sở dữ liệu lớn.
+C.
+Định nghĩa danh sách toàn bộ các biến thành viên cùng kiểu dữ liệu nguyên thủy lưu trữ bền vững trong máy tính.
+D.
+Giúp nhà quản lý dự án theo dõi tiến độ viết code hằng ngày của các lập trình viên tham gia xây dựng phần mềm.
+16
+Điểm khác biệt lớn nhất về mặt ứng dụng giữa Sơ đồ lớp (Class Diagram) và Sơ đồ hoạt động (Activity Diagram) là gì?
+
+— Bỏ qua
+A.
+Sơ đồ lớp dùng cho giai đoạn kiểm thử phần mềm, sơ đồ hoạt động chỉ dùng để bàn giao sản phẩm cho khách hàng cuối.
+B.
+Sơ đồ lớp mô tả khía cạnh động của quy trình nghiệp vụ, sơ đồ hoạt động mô tả cấu trúc dữ liệu tĩnh của phần mềm.
+C.
+Sơ đồ lớp mô tả cấu trúc tĩnh trừu tượng của các thực thể, sơ đồ hoạt động mô tả dòng chảy logic của các tiến trình.
+Đáp án đúng
+D.
+Sơ đồ lớp bắt buộc phải vẽ bằng nét đứt kèm theo chữ, sơ đồ hoạt động sử dụng toàn bộ các đường thẳng nét liền.
+17
+Ví dụ nào sau đây thể hiện trường hợp ứng dụng hiệu quả nhất của Sơ đồ hoạt động (Activity Diagram)?
+
+— Bỏ qua
+A.
+Mô hình hóa quy trình các bước duyệt đơn hàng trực tuyến trải qua nhiều phòng ban kiểm tra của doanh nghiệp.
+Đáp án đúng
+B.
+Khai báo danh sách các kiểu dữ liệu nguyên thủy cho thuộc tính của một lớp đối tượng trong phân hệ lưu trữ.
+C.
+Trực quan hóa cấu hình phần cứng của hệ thống máy chủ và mạng internet không dây vật lý của công ty đối tác.
+D.
+Theo dõi chuỗi thời gian gửi và nhận các thông điệp đồng bộ giữa giao diện người dùng và cơ sở dữ liệu lớn.
+18
+Ứng dụng cốt lõi của nhóm Sơ đồ tương tác (Interaction Diagrams) trong thiết kế kiến trúc phần mềm là gì?
+
+— Bỏ qua
+A.
+Phân chia các chức năng của hệ thống phần mềm theo quyền hạn truy cập của từng nhóm tài khoản người dùng cuối.
+B.
+Giúp nén các tệp tin thiết kế kỹ thuật nâng cao thành một tệp duy nhất để thuận tiện cho việc chuyển giao công nghệ.
+C.
+Đặc tả khía cạnh động của hệ thống bằng cách chỉ rõ các thông điệp được truyền đi giữa các thực thể cấu thành.
+Đáp án đúng
+D.
+Xây dựng sơ đồ thực thể mối quan hệ phục vụ cho việc tạo lập các bảng lưu trữ trong hệ quản trị quan hệ.
+19
+Lợi ích lớn nhất khi một kiến trúc sư sử dụng sơ đồ tương tác để thiết kế hệ thống thông tin là gì?
+
+— Bỏ qua
+A.
+Giúp làm rõ trách nhiệm gọi hàm và kiểm tra xem sơ đồ lớp đã cung cấp đủ các phương thức cần thiết chưa.
+Đáp án đúng
+B.
+Tự động tối ưu hóa hiệu năng thực thi của mã nguồn và giảm thiểu dung lượng bộ nhớ tiêu thụ của máy chủ.
+C.
+Thay thế hoàn toàn việc viết mã lệnh bằng các ngôn ngữ lập trình hướng đối tượng khi xây dựng phần mềm.
+D.
+Đo lường chính xác các rủi ro bảo mật mạng có thể xảy ra khi triển khai ứng dụng lên môi trường internet.
+20
+Trong sơ đồ tuần tự, các thông điệp (Messages) trao đổi giữa các sinh tuyến đại diện cho điều gì?
+
+— Bỏ qua
+A.
+Các trường thông tin dữ liệu được lưu trữ cố định bên trong các bảng của hệ quản trị cơ sở dữ liệu quan hệ.
+B.
+Các lời gọi phương thức (hàm) hoặc các tín hiệu giao tiếp giữa các đối tượng trong quá trình thực thi hệ thống.
+Đáp án đúng
+C.
+Các kịch bản kiểm thử lỗi phần mềm do nhân viên kiểm thử thiết kế để dò tìm các lỗi cú pháp lập trình.
+D.
+Các thiết bị ngoại vi vật lý tự động gửi tín hiệu số liệu về cho hệ thống máy tính theo thời gian thực tế.
+21
+Ký hiệu của Thông điệp đồng bộ (Synchronous Message) trong sơ đồ tuần tự UML được quy định như thế nào?
+
+— Bỏ qua
+A.
+Một đường mũi tên nét liền có đầu mũi tên hình tam giác đặc hướng về phía sinh tuyến nhận thông điệp.
+Đáp án đúng
+B.
+Một đường mũi tên nét đứt có đầu mũi tên hở hướng quay trở lại vị trí của sinh tuyến gửi thông điệp ban đầu.
+C.
+Một đường thẳng nằm ngang nét đứt không có đầu mũi tên kèm theo chữ hiển thị ở trung tâm của đường nối.
+D.
+Một đường nét liền có đầu mũi tên hình thoi rỗng đặt ở vị trí giao nhau của hai đường sinh tuyến đối tượng.
+22
+Cách thức hoạt động của một Thông điệp đồng bộ (Synchronous Message) trong kịch bản hệ thống là gì?
+
+— Bỏ qua
+A.
+Đối tượng gửi thông điệp đi và tiếp tục thực hiện ngay các công việc khác mà không cần quan tâm đến kết quả trả về.
+B.
+Hệ thống tự động ngắt kết nối mạng internet ngay lập tức nếu đối tượng nhận không phản hồi thông tin trong một giây.
+C.
+Đối tượng gửi sẽ tạm dừng hoạt động để chờ đối tượng nhận xử lý xong và phản hồi kết quả về thì mới chạy tiếp.
+Đáp án đúng
+D.
+Phương thức của đối tượng nhận sẽ tự động bị xóa bỏ khỏi bộ nhớ đệm của máy tính ngay sau khi nhận được tín hiệu.
+23
+Thông điệp bất đồng bộ (Asynchronous Message) được biểu diễn bằng ký hiệu nào sau đây trong Sequence Diagram?
+
+— Bỏ qua
+A.
+Một đường mũi tên nét đứt có đầu mũi tên hình tam giác đặc hướng về phía sinh tuyến nhận thông điệp hệ thống.
+B.
+Một đường mũi tên nét liền có đầu mũi tên hở (mũi tên tạo bởi hai nét xiên ngắn) hướng sang sinh tuyến nhận.
+Đáp án đúng
+C.
+Một hình chữ nhật nhỏ nằm đè lên đường sinh tuyến của đối tượng và chứa văn bản mô tả thuật toán xử lý.
+D.
+Một đường thẳng nằm ngang nét liền có hình thoi màu đen đậm đặt tại vị trí bắt đầu của lời gọi phương thức.
+24
+Điểm khác biệt cốt lõi trong cách vận hành của Thông điệp bất đồng bộ so với Thông điệp đồng bộ là gì?
+
+— Bỏ qua
+A.
+Đối tượng gửi thông điệp đi và tiếp tục thực hiện công việc của mình ngay lập tức mà không cần chờ phản hồi.
+Đáp án đúng
+B.
+Đối tượng gửi bắt buộc phải dừng toàn bộ hệ thống máy chủ để chờ tín hiệu xác nhận an toàn từ phía người dùng.
+C.
+Đối tượng nhận phương thức sẽ tự động nhân bản cấu trúc dữ liệu của mình thành nhiều phiên bản độc lập nhau.
+D.
+Nó chỉ được phép áp dụng giữa các tác nhân là con người và không thể áp dụng giữa các thành phần phần mềm.
+25
+Ký hiệu dấu gạch chéo chữ X (`X`) đặt ở điểm cuối của một đường sinh tuyến (Lifeline) dùng để biểu diễn điều gì?
+
+— Bỏ qua
+A.
+Đối tượng đó đã xảy ra lỗi cú pháp lập trình nghiêm trọng và cần phải tiến hành viết lại toàn bộ mã nguồn.
+B.
+Đối tượng đó có quyền hạn cao nhất và được phép xóa bỏ lịch sử giao dịch của tất cả các tài khoản khác.
+C.
+Sự hủy đối tượng (Destruction Occurrence), biểu thị vùng nhớ cấp phát cho đối tượng đã chính thức được giải phóng.
+Đáp án đúng
+D.
+Điểm kết nối mạng giữa thiết bị máy trạm của khách hàng và hệ thống máy chủ dữ liệu bị ngắt quãng hoàn toàn.
+26
+Tại sao việc mô hình hóa hành vi hủy đối tượng (Destruction) lại quan trọng trong thiết kế hệ thống thời gian thực?
+
+— Bỏ qua
+A.
+Giúp kiểm soát chu trình sống, quản lý tối ưu tài nguyên bộ nhớ đệm và tránh hiện tượng rò rỉ bộ nhớ (Memory Leak).
+Đáp án đúng
+B.
+Tự động tạo ra các câu lệnh xóa bảng dữ liệu thô trong hệ quản trị cơ sở dữ liệu quan hệ khi kết thúc chương trình.
+C.
+Ngăn chặn người dùng cuối không được phép bấm nút tắt ứng dụng khi chưa hoàn thành việc nhập liệu thông tin cá nhân.
+D.
+Giúp giảm thiểu số lượng lập trình viên tham gia vào dự án phát triển phần mềm nhằm tối ưu hóa chi phí cho công ty.
+27
+Khi một đối tượng khởi tạo một đối tượng khác trong sơ đồ tuần tự, mũi tên thông điệp tạo mới (Create Message) sẽ hướng thẳng vào vị trí nào?
+
+— Bỏ qua
+A.
+Hướng thẳng vào vị trí thanh kích hoạt (Activation Bar) đang chạy ở phần cuối cùng của đường sinh tuyến đối tượng cha.
+B.
+Hướng thẳng vào vị trí ký hiệu dấu chữ X gạch chéo đặt ở điểm đầu của đường sinh tuyến đối tượng được tạo mới hệ thống.
+C.
+Hướng thẳng vào chính giữa hộp hình chữ nhật hiển thị tên của đối tượng được tạo mới (hộp tên đối tượng dịch chuyển xuống).
+Đáp án đúng
+D.
+Hướng thẳng vào một khối hình thoi đặc đặt trên đường ranh giới phân chia phạm vi giới hạn của phân hệ chức năng.
+28
+Để mô tả tổng quan các loại sơ đồ UML khác nhau trong một tài liệu kiến trúc, việc phân chia thành sơ đồ cấu trúc và sơ đồ hành vi nhằm mục đích gì?
+
+— Bỏ qua
+A.
+Giúp hệ thống máy tính tự động lựa chọn ngôn ngữ lập trình phù hợp nhất để biên dịch sơ đồ thành mã nguồn ứng dụng.
+B.
+Phân tách rõ ràng giữa việc thiết kế bộ khung dữ liệu tĩnh và việc thiết kế luồng xử lý động của phần mềm phần mềm.
+Đáp án đúng
+C.
+Giới hạn số lượng biểu đồ tối đa được phép xuất bản ra các tài liệu đặc tả bằng văn bản giấy phục vụ cho dự án.
+D.
+Bắt buộc đội ngũ phát triển phải xây dựng giao diện người dùng trước khi tiến hành thiết kế cơ sở dữ liệu quan hệ.
+29
+Trong sơ đồ tuần tự, một mũi tên nét đứt có đầu hở hướng từ phải sang trái thường đại diện cho loại thông điệp nào?
+
+— Bỏ qua
+A.
+Synchronous Message (Thông điệp đồng bộ lời gọi hàm chức năng).
+B.
+Asynchronous Message (Thông điệp bất đồng bộ xử lý luồng song song).
+C.
+Reply / Return Message (Thông điệp phản hồi kết quả trả về của hàm).
+Đáp án đúng
+D.
+Create Message (Thông điệp khởi tạo một thực thể đối tượng hoàn toàn mới).
+30
+Trong sơ đồ tuần tự UML 2.x, một khung hình chữ nhật lớn bao quanh các thông điệp có chữ "loop" ở góc trên bên trái biểu diễn điều gì?
+
+— Bỏ qua
+A.
+Khung kết hợp biểu diễn cấu trúc lặp (Combined Fragment loop), các thông điệp bên trong sẽ lặp lại theo điều kiện.
+Đáp án đúng
+B.
+Khung cấu hình bảo mật hệ thống mạng, các thông điệp bên trong bắt buộc phải được mã hóa hằng ngày tự động.
+C.
+Khung xử lý các ngoại lệ kịch bản lỗi phần cứng khi máy chủ bị mất kết nối hoàn toàn dữ liệu với internet ngoài.
+D.
+Khung định nghĩa các thuộc tính dẫn xuất bằng các biểu thức công thức toán học logic lồng nhau phức tạp hệ thống.
+31
+Điều kiện dừng của một vòng lặp trong khung "loop" của sơ đồ tuần tự thường được đặt ở vị trí nào?
+
+— Bỏ qua
+A.
+Viết trực tiếp vào bên trong ô hiển thị tên phương thức của lớp đối tượng trong sơ đồ lớp tĩnh trừu tượng.
+B.
+Đặt ngay phía trước tên của tác nhân chính ở ngoài đường biên ranh giới giới hạn phạm vi của phần mềm phần mềm.
+C.
+Đặt bên trong dấu ngoặc vuông `[ ]` gán ngay cạnh từ khóa từ khóa của khung kết hợp điều khiển tương tác hệ thống.
+Đáp án đúng
+D.
+Gạch chân toàn bộ cụm điều kiện và đặt ở ô dưới cùng của hộp ba thành phần biểu diễn lớp cấu trúc đối tượng.
+32
+Theo nội dung bài giảng của ThS. Đặng Mạnh Huy, toán tử "assert" (Bắt buộc) trong sơ đồ tuần tự dùng để chỉ định điều gì?
+
+— Bỏ qua
+A.
+Đặc tả rằng chuỗi tương tác bên trong là bắt buộc phải xảy ra chính xác, bất kỳ sự sai lệch nào cũng không được phép.
+Đáp án đúng
+B.
+Định nghĩa các quy trình tương tác không hợp lệ và các tình huống dưới hình thức này tuyệt đối cấm xảy ra khi chạy.
+C.
+Bỏ qua các thông điệp không liên quan được mô hình hóa vì lý do kỹ thuật hoặc tính hoàn chỉnh của cú pháp thiết kế.
+D.
+Xác định duy nhất một thông điệp đặc biệt có liên quan và tự động coi các thông điệp khác là không có giá trị thực tế.
+33
+Khi thiết kế hệ thống, toán tử "assert" yêu cầu điều gì đối với quá trình triển khai cài đặt mã nguồn (Implementation)?
+
+— Bỏ qua
+A.
+Đòi hỏi lập trình viên phải sử dụng các thuật toán mã hóa dữ liệu đầu cuối để bảo vệ thông tin cá nhân khách hàng.
+B.
+Bắt buộc phải loại bỏ hoàn toàn các lớp đối tượng có mối quan hệ sở hữu sinh tử kết tập lỏng lẻo ra khỏi hệ thống.
+C.
+Đòi hỏi một sự ánh xạ chuẩn xác (True Mapping) trong thực tế mã nguồn, không được phép thay đổi kịch bản tương tác.
+Đáp án đúng
+D.
+Tự động sinh ra giao diện đồ họa thay thế khi người dùng không muốn sử dụng màn hình mặc định của phần mềm hệ thống.
+34
+Toán tử "neg" (Negative) trong sơ đồ tuần tự nâng cao mang ý nghĩa cốt lõi nào sau đây?
+
+— Bỏ qua
+A.
+Biểu diễn một kịch bản lý tưởng nhất khi mọi bước xử lý đều diễn ra suôn sẻ và người dùng đạt được mục tiêu bán hàng.
+B.
+Minh họa một quy trình tương tác không hợp lệ (Invalid), các tình huống hình thức này không được phép xảy ra tại runtime.
+Đáp án đúng
+C.
+Cho phép thực hiện song song các thông điệp xử lý dữ liệu đầu vào mà không cần quan tâm đến thứ tự trục thời gian.
+D.
+Định nghĩa các điều kiện bảo vệ nghiêm ngặt đối với thuộc tính dẫn xuất của lớp đối tượng trong sơ đồ cấu trúc tĩnh.
+35
+Mục đích chính của việc kiến trúc sư đưa toán tử "neg" vào sơ đồ tương tác hệ thống là gì?
+
+— Bỏ qua
+A.
+Chỉ ra rõ ràng các lỗi phổ biến hoặc ánh xạ các quy trình có liên quan nhưng không chính xác để đội ngũ lập trình tránh.
+Đáp án đúng
+B.
+Giúp nén dung lượng các tệp tin thiết kế kỹ thuật nâng cao để dễ dàng lưu trữ trên các nền tảng điện toán đám mây.
+C.
+Tính toán tổng số lượng kịch bản kiểm thử tối đa phục vụ cho nhân viên kiểm thử phần mềm thiết kế các test case lỗi.
+D.
+Định hình cấu trúc các bảng dữ liệu quan hệ và tối ưu hóa tốc độ thực thi của các câu lệnh truy vấn thông tin lớn.
+36
+Số lượng vùng chọn (Operand) tối đa được phép khai báo bên trong các toán tử "assert" và "neg" là bao nhiêu?
+
+— Bỏ qua
+A.
+Không giới hạn số lượng operand lồng nhau bên trong cấu trúc điều khiển của khung tương tác hệ thống thông tin.
+B.
+Có tối thiểu hai operand trở lên để hệ thống thực hiện việc so sánh tính đúng đắn của các lời gọi hàm chức năng.
+C.
+Chính xác duy nhất một Operand (1 Operand) chứa kịch bản bắt buộc hoặc kịch bản không hợp lệ tương ứng hệ thống.
+Đáp án đúng
+D.
+Số lượng operand bằng đúng số lượng sinh tuyến của các lớp đối tượng tham gia trao đổi thông điệp đồng bộ.
+37
+Hãy phân biệt ý nghĩa hoạt động của hai toán tử "alt" (Alternative) và "opt" (Optional) trong sơ đồ tuần tự.
+
+— Bỏ qua
+A.
+Khung alt dùng giữa hai tác nhân con người, khung opt chỉ được dùng giữa các thành phần phần mềm hệ thống máy tính.
+B.
+Khung alt hướng mũi tên về phía sinh tuyến của lớp giao diện, khung opt hướng mũi tên về phía lớp cơ sở dữ liệu lớn.
+C.
+Khung alt dùng cho kịch bản rẽ nhánh loại trừ nhau (Nếu-Thì-Ngược lại), khung opt dùng cho kịch bản tùy chọn (Có thể có hoặc không).
+Đáp án đúng
+D.
+Khung alt bắt buộc phải có các làn bơi dọc phân chia trách nhiệm, khung opt sử dụng toàn bộ các nút quyết định hình thoi.
+38
+Khung kết hợp có chứa từ khóa "ref" (Reference) trong sơ đồ tuần tự được sử dụng nhằm mục đích gì?
+
+— Bỏ qua
+A.
+Cho phép viện dẫn hoặc tái sử dụng lại một kịch bản tương tác đã được định nghĩa chi tiết ở một sơ đồ tuần tự khác.
+Đáp án đúng
+B.
+Khai báo một hằng số dữ liệu tĩnh không thể thay đổi giá trị trong suốt vòng đời sống của lớp đối tượng hệ thống.
+C.
+Thiết lập mối quan hệ kế thừa cấu trúc đa hình giữa một lớp đóng vai trò làm cha và các lớp thành phần bộ phận con.
+D.
+Tự động kiểm tra các lỗi cú pháp mã nguồn của các câu lệnh điều kiện toán học phức tạp khi chương trình thực thi.
+39
+Trong sơ đồ hoạt động (Activity Diagram), ký hiệu một Hình tròn đặc (hoặc hình tròn đen) đại diện cho thành phần nào?
+
+— Bỏ qua
+A.
+Activity Final Node (Nút kết thúc toàn bộ hoạt động của tiến trình hệ thống).
+B.
+Initial Node (Nút khởi đầu, điểm bắt đầu dòng chảy logic của sơ đồ hoạt động).
+Đáp án đúng
+C.
+Decision Node (Nút quyết định rẽ nhánh luồng công việc dựa trên điều kiện bảo vệ).
+D.
+Merge Node (Nút hợp nhất các luồng dữ liệu song song về một dòng kiểm soát duy nhất).
+40
+Ký hiệu một tâm tròn màu đen được bao bọc bởi một đường tròn mảnh bên ngoài trong Activity Diagram dùng để biểu diễn điều gì?
+
+— Bỏ qua
+A.
+Nút kết thúc hoạt động (Activity Final Node), kết thúc toàn bộ các luồng di chuyển kiểm soát của sơ đồ.
+Đáp án đúng
+B.
+Nút kết thúc luồng (Flow Final Node), chỉ kết thúc một luồng di chuyển đơn lẻ và không làm dừng các luồng song song khác.
+C.
+Nút phân nhánh song song (Fork Node), chia một dòng kiểm soát ban đầu thành nhiều dòng chạy cùng một thời điểm.
+D.
+Nút gọi một sơ đồ hoạt động khác độc lập lồng nhau để tối ưu hóa tính mô-đun của tài liệu thiết kế kỹ thuật.
+41
+Ký hiệu Hình thoi trong sơ đồ hoạt động (Activity Diagram) được sử dụng để thể hiện loại sự kiện điều phối nào?
+
+— Bỏ qua
+A.
+Phân chia một dòng kiểm soát ban đầu thành các luồng chạy song song đồng thời cùng một khoảng thời gian.
+B.
+Đóng gói các hành động xử lý dữ liệu thô vào trong các gói logic để thuận tiện cho việc quản lý mã nguồn dự án.
+C.
+Biểu diễn điểm quyết định rẽ nhánh (Decision Node) hoặc điểm hợp nhất các luồng điều khiển (Merge Node).
+Đáp án đúng
+D.
+Khai báo các điều kiện tiền điều kiện và hậu điều kiện đối với một ca sử dụng chức năng nghiệp vụ của doanh nghiệp.
+42
+Khi hình thoi đóng vai trò là Nút quyết định (Decision Node), quy cách vẽ các luồng đi ra (Outgoing Edges) là gì?
+
+— Bỏ qua
+A.
+Mỗi luồng đi ra phải đi kèm một điều kiện bảo vệ đặt trong dấu ngoặc vuông `[ ]` và các điều kiện phải loại trừ nhau.
+Đáp án đúng
+B.
+Tất cả các luồng đi ra bắt buộc phải hướng mũi tên về phía tác nhân chính nằm ở ngoài ranh giới giới hạn hệ thống.
+C.
+Các đường vẽ ra phải là đường nét đứt có chữ kèm theo hướng thẳng vào các khối oval biểu diễn trường hợp sử dụng.
+D.
+Chỉ cho phép duy nhất một đường vẽ đi ra và đường này bắt buộc phải kết nối trực tiếp với nút kết thúc hoạt động.
+43
+Trong sơ đồ hoạt động, ký hiệu Hình chữ nhật bo tròn 4 góc (hoặc hình oval dẹt dài) đại diện cho thành phần nào?
+
+— Bỏ qua
+A.
+Khai báo tên lớp đối tượng và danh sách toàn bộ các thuộc tính dữ liệu tĩnh lưu trữ trong bộ nhớ đệm máy tính.
+B.
+Thiết bị phần cứng vật lý có năng lực tính toán xử lý thông tin chuyển giao giữa các phòng ban công ty.
+C.
+Hành động (Action) hoặc Hoạt động (Activity), đại diện cho một bước xử lý, một công việc cụ thể trong quy trình.
+Đáp án đúng
+D.
+Biểu thức toán học logic dùng để tính toán giá trị của thuộc tính dẫn xuất trong kiến trúc lưu trữ dữ liệu lớn.
+44
+Điểm khác biệt lớn nhất về mặt định nghĩa giữa một "Hành động" (Action) và một "Hoạt động" (Activity) là gì?
+
+— Bỏ qua
+A.
+Action là bước xử lý nguyên tử không thể phân rã nhỏ hơn, Activity là một tiến trình có thể chứa nhiều Action bên trong.
+Đáp án đúng
+B.
+Action bắt buộc phải vẽ bằng màu đỏ đậm hiển thị lỗi, Activity sử dụng các đường nét đứt để biểu diễn cấu trúc dữ liệu.
+C.
+Action chỉ dùng cho giai đoạn cài đặt mã nguồn ứng dụng, Activity chỉ áp dụng cho tài liệu đặc tả thu thập yêu cầu.
+D.
+Action yêu cầu phải có sự tương tác trực tiếp của người điều hành phần mềm, Activity hoàn toàn chạy tự động trên máy chủ.
+45
+Khi nào ký hiệu "Nút quyết định" (Decision Node) được cấu hình áp dụng trong sơ đồ hoạt động của phần mềm?
+
+— Bỏ qua
+A.
+Khi hệ thống máy tính cần kích hoạt đồng thời hàng loạt các chức năng song song tại cùng một thời điểm chạy chương trình.
+B.
+Khi lập trình viên muốn gộp toàn bộ mã lệnh xử lý logic của các phân hệ vào một tệp tin duy nhất để dễ tìm kiếm lỗi.
+C.
+Khi dòng chảy của quy trình nghiệp vụ xuất hiện các lựa chọn rẽ nhánh phụ thuộc vào kết quả kiểm tra điều kiện dữ liệu.
+Đáp án đúng
+D.
+Khi cần giải phóng toàn bộ tài nguyên bộ nhớ đệm đã cấp phát cho các đối tượng thực thể tham gia trao đổi thông điệp.
+46
+Một thanh ngang (hoặc dọc) màu đen đậm nhận một luồng vào và chia thành nhiều luồng ra trong Activity Diagram gọi là gì?
+
+— Bỏ qua
+A.
+Fork Node (Nút phân nhánh song song).
+Đáp án đúng
+B.
+Join Node (Nút đồng bộ hóa luồng dữ liệu).
+C.
+Merge Node (Nút hợp nhất dòng kiểm soát).
+D.
+Decision Node (Nút quyết định điều kiện).
+47
+Cơ chế hoạt động của thanh đồng bộ hóa luồng (Join Node - nhận nhiều luồng vào và cho ra một luồng duy nhất) là gì?
+
+— Bỏ qua
+A.
+Luồng đi ra sẽ được kích hoạt ngay lập tức khi có bất kỳ một luồng đầu vào nào di chuyển tới vị trí thanh ngang.
+B.
+Hệ thống sẽ tự động xóa bỏ các luồng dữ liệu đầu vào chạy chậm hơn giới hạn thời gian định cấu hình của máy chủ.
+C.
+Bắt buộc tất cả các luồng đầu vào phải thực hiện xong và cùng đi tới vị trí thanh ngang thì luồng đi ra mới được chạy.
+Đáp án đúng
+D.
+Tự động chuyển đổi các luồng kiểm soát đầu vào thành các câu lệnh truy vấn thông tin của hệ quản trị quan hệ lớn.
+48
+Trong sơ đồ hoạt động, ký hiệu một hình chữ nhật thông thường (không bo góc) đại diện cho thành phần nào?
+
+— Bỏ qua
+A.
+Điểm khởi đầu dòng chảy logic của quy trình nghiệp vụ doanh nghiệp.
+B.
+Khung quản lý việc đóng gói các trường hợp sử dụng vào các gói thư mục.
+C.
+Object Node (Nút đối tượng), biểu diễn dữ liệu hoặc thực thể đối tượng bị thay đổi trạng thái qua các bước.
+Đáp án đúng
+D.
+Làn bơi dọc dùng để phân chia trách nhiệm xử lý giữa các phòng ban tổ chức.
+49
+Hãy phân biệt sự khác nhau về bản chất hiển thị giữa "Nút gọi một sơ đồ hoạt động khác" (Call Behavior Action) và "Nút đối tượng" (Object Node).
+
+— Bỏ qua
+A.
+Nút gọi sơ đồ khác dùng hình thoi rỗng nối với đường thẳng, nút đối tượng sử dụng toàn bộ đường thẳng nét đứt kèm chữ.
+B.
+Nút gọi sơ đồ khác biểu diễn cấu trúc tĩnh trừu tượng của lớp dữ liệu, nút đối tượng mô tả chu kỳ sống của các biến.
+C.
+Nút gọi sơ đồ khác biểu diễn một chương trình con lồng nhau (có ký hiệu hình ba chạc ở góc), nút đối tượng chứa dữ liệu thực thể.
+Đáp án đúng
+D.
+Nút gọi sơ đồ khác hướng đầu mũi tên về phía tác nhân phụ ngoài biên, nút đối tượng hướng mũi tên vào ranh giới phần mềm.
+50
+Việc ứng dụng Làn bơi (Swimlane) trong sơ đồ hoạt động mang lại lợi ích lớn nhất nào cho việc phân tích nghiệp vụ?
+
+— Bỏ qua
+A.
+Giúp tăng tốc độ xử lý câu lệnh của các ngôn ngữ lập trình hướng đối tượng khi tiến hành thực thi chương trình chạy.
+B.
+Tự động mã hóa bảo mật toàn bộ thông tin truyền tải giữa thiết bị máy trạm người dùng và trung tâm máy chủ dữ liệu.
+C.
+Phân định rõ ràng trách nhiệm thực hiện các hành động thuộc về vai trò, phòng ban hoặc phân hệ phần mềm cụ thể nào.
+Đáp án đúng
+D.
+Tính toán chính xác tổng chi phí tài chính và thời gian cần thiết để hoàn thành việc xây dựng toàn bộ dự án phần mềm.
